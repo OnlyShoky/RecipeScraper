@@ -1,0 +1,208 @@
+{
+    "recipes": [
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "all-purpose flour",
+                                "nutrition": null
+                            },
+                            "quantity": 2.5,
+                            "unit": "cups",
+                            "notes": "300g, plus more for rolling"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "granulated sugar",
+                                "nutrition": null
+                            },
+                            "quantity": 4.0,
+                            "unit": "tbs",
+                            "notes": "36g"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "sea salt",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "tsp",
+                            "notes": "3g"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "unsalted butter",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "cup",
+                            "notes": "225g,  chilled"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "ice water",
+                                "nutrition": null
+                            },
+                            "quantity": 4.0,
+                            "unit": "tbs",
+                            "notes": "60mL"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "egg",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "whole",
+                            "notes": "for the egg wash"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "cream",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "tbsp",
+                            "notes": "for the egg wash"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "eggs",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "whole",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "egg yolks",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "whole",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "kosher salt",
+                                "nutrition": null
+                            },
+                            "quantity": 0.25,
+                            "unit": "tsp",
+                            "notes": "2g"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "corn starch",
+                                "nutrition": null
+                            },
+                            "quantity": 0.25,
+                            "unit": "cup",
+                            "notes": "40g"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "granulated sugar",
+                                "nutrition": null
+                            },
+                            "quantity": 1.25,
+                            "unit": "cups",
+                            "notes": "250g"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "milk",
+                                "nutrition": null
+                            },
+                            "quantity": 3.0,
+                            "unit": "cups",
+                            "notes": "720mL"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "vanilla bean",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "whole",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "butter",
+                                "nutrition": null
+                            },
+                            "quantity": 4.0,
+                            "unit": "tbsp",
+                            "notes": "57g, unsalted"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "heavy whipping cream",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "cups",
+                            "notes": "480mL"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "confectioners sugar",
+                                "nutrition": null
+                            },
+                            "quantity": 0.25,
+                            "unit": "cup",
+                            "notes": "50g"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "vanilla extract",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "tsp",
+                            "notes": "10mL"
+                        }
+                    ],
+                    "course": {
+                        "id": 1,
+                        "name": "Dessert",
+                        "type": "Course"
+                    },
+                    "cuisine": {
+                        "id": 1,
+                        "name": "American",
+                        "type": "Cuisine"
+                    },
+                    "prep_time": "00:20:00",
+                    "cook_time": "00:35:00",
+                    "cool_time": null,
+                    "total_time": "00:55:00",
+                    "created": "2025-01-07T15:00:31Z",
+                    "modified": "2025-01-07T15:00:31Z",
+                    "title": "Cream Pie",
+                    "description": "This delicious vanilla cream pie is rich, silky, and indulgent yet so light and dreamy. Creamy vanilla custard topped with lots of whipped cream fills a flakey butter crust made from scratch.",
+                    "status": 1,
+                    "activate_date": "2025-01-07T15:00:31Z",
+                    "deactivate_date": null,
+                    "image": "media/card/Cream-Pie-recipe-330x330.jpg",
+                    "servings": 10,
+                    "difficulty": "Easy",
+                    "instructions": "1. Preheat the oven to 425 degrees.\n2. In a food processor, combine flour, sugar and salt. Whiz together. Grate in chilled butter and drizzle in ice cold water. Mix using a fork.\n3. Roll into a ball. Wrap in plastic and refrigerate for 30 minutes.\n4. With a rolling pin, on a well-floured surface, flatten out into a circle at least 2 inches larger than the pie pan, rolling from the center to the edge, turning and flouring the dough so it doesn't stick to the board. Roll the dough onto your rolling pin.\n5. Unroll the dough into the pie pan without stretching. Press into pie pan.\n6. With a small sharp paring knife, cut the dough 1 inch larger around than the pan. Fold the edge under and crimp the edge with either your fingers or the tines of a fork.\n7. Add a round of parchment paper frilled on the edge onto the crust. Now press tin foil onto the paper, pushing it against the edge of the crust. This will keep your pie crust propped up during baking.\n8. Bake at 425 degrees for 15 minutes.\n9. Take out the tin foil and brush crust with an egg wash, Made with an egg mixed well with a tablespoon of cream. Dock the pie crust.\n10. Add foil around the sides. Bake another 10 minutes at 425F then reduce temperature to 375 degrees and bake until the center is golden, about 15-20 minutes.\n11. Slice vanilla bean down the middle and scrape beans out. Pour milk into a pot, add vanilla beans and place over medium heat, stirring so the beans mix into the milk. Remove from hear just before it comes to a boil and let stand for 10-15 minutes.\n12. Whisk together the two eggs and two egg yolks in a medium bowl then set aside.\n13. Add sugar, cornstarch, and salt to a medium pot. Whisk to combine then pour in milk through a strainer and whisk again to distribute all the dry ingredients. You don't want clumps!\n14. Place on medium high heat and whisk continuously until thickened. About 5 minutes or so.\n15. Once mixture has thickened reduce heat to medium and continue stirring. Cook an additional 6 minutes. then remove from heat.\n16. Time to temper the eggs! Slowly drizzle in a cup of the hot milk mixture to the eggs while whisking vigorously. Add the egg mixture to the pot while whisking and return to medium-high heat for 2 minutes of whisking over heat.\n17. Transfer to a large bowl, add vanilla and butter and stir until butter is all melted.\n18. Cover surface with plastic and chill to bring down to room temperature.\n19. Add heavy cream, sugar and vanilla to a stand mixer. Whip on high until you reach soft peaks.   I recommend making the whipped cream just before serving but you can do this in advance and chill the whole pie.\n20. Pour or spoon the filling into the baked pie shell consistency will depend on how much you chilled the filling.  Smooth out, cover and refrigerate at least 4 hours.\n21. Add the whipped cream to the top of the pie before serving. This step can be done right after the filling is added but covering the whipped cream in the fridge will mar the surface.",
+                    "author": "John Kanell",
+                    "source": "Preppy Kitchen",
+                    "rating": {
+                        "average": "5",
+                        "count": "42"
+                    },
+                    "video_url": null
+                }
+            }
+        }
+    ]
+}
