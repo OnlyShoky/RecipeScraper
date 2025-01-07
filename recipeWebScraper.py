@@ -138,9 +138,22 @@ def extract_instructions(soup):
     instructions_container = soup.find('div', class_='wprm-recipe-instructions-container')
     instructions = []
     
-    if instructions_container:
-        instruction_items = instructions_container.find_all('li', class_='wprm-recipe-instruction')
-        instructions = [f"{i+1}. {item.text.strip()}" for i, item in enumerate(instruction_items)]
+    groups_instructions = instructions_container.find_all('div', class_='wprm-recipe-instruction-group')
+
+    for group in groups_instructions:
+        groupname = group.find('h4', class_='wprm-recipe-group-name')
+        instructions_group = group.find_all('ul', class_='wprm-recipe-instructions')
+        
+        if groupname :
+            instructions.append(f"GroupName : {groupname.text}")
+            for instruction in instructions_group:
+                instruction_items = instruction.find_all('li', class_='wprm-recipe-instruction')
+                # instructions = [f"{i+1}. {item.text.strip()}" for i, item in enumerate(instruction_items)]
+                instructions.extend([f"{i+1}. {item.text.strip()}" for i, item in enumerate(instruction_items)])
+        else :
+            if instructions_container:
+                instruction_items = instructions_container.find_all('li', class_='wprm-recipe-instruction')
+                instructions = [f"{i+1}. {item.text.strip()}" for i, item in enumerate(instruction_items)]
     
     return "\n".join(instructions)
 
