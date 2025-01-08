@@ -43,7 +43,7 @@ def convert_fraction_text(quantity_text):
     return Fraction(quantity_text)
 
 # Function to download the image and save it locally
-def save_image(image,save_path = 'media/card/'):
+def save_image(image,save_path = '/recipe_images/card/'):
     
     # Extract image URL
     image_url = image.find('img')['src']
@@ -221,7 +221,7 @@ def scrape_recipe(url,dataScraped = None):
                         "title": soup.find('h2', class_='wprm-recipe-name').text.strip(),
                         "difficulty": None,
                         "image_card": save_image(soup.find('div', class_='wprm-recipe-image')) ,
-                        "image" : save_image(soup.find('div', class_='featured-image-class'), save_path='media/featured/') ,
+                        "image" : save_image(soup.find('div', class_='featured-image-class'), save_path='/recipe_images/featured/') ,
                         "course": {
                             "id": -1,
                             "name": soup.find('span', class_='wprm-recipe-course').text.strip() if soup.find('span', class_='wprm-recipe-course') else None,
