@@ -71,18 +71,15 @@ def save_image(image,save_path = '/recipe_images/card/'):
             print("No match found")
 
         if jpg_name:
-            save_path = os.path.join(save_path, jpg_name)
+            save_path = 'media' + os.path.join(save_path, jpg_name)
         # Ensure the directory exists
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
-        
-
-
         
         # Save the image
         with open(save_path, 'wb') as f:
             for chunk in response.iter_content(1024):
                 f.write(chunk)
-        return save_path
+        return save_path.removeprefix('media')
     except requests.exceptions.RequestException as e:
         print(f"Error downloading image: {e}")
         return None
