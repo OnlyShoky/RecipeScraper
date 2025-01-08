@@ -4,96 +4,191 @@
             "data": {
                 "type": "RecipeDetailAPIView",
                 "id": -1,
+                "title": "Cute Cupcakes",
                 "attributes": {
+                    "difficulty": null,
+                    "image-card": "media/card/Shag-cupcakes-recipe-330x330.jpg",
+                    "image": "media/featured/Shag-Cupcakes-Feature.jpg",
+                    "course": {
+                        "id": -1,
+                        "name": "Dessert",
+                        "type": "Course"
+                    },
+                    "cuisine": {
+                        "id": -1,
+                        "name": "American",
+                        "type": "Cuisine"
+                    },
+                    "prep_time": "00:15:00",
+                    "cook_time": "00:20:00",
+                    "cool_time": null,
+                    "total_time": "00:35:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Charming, and cheerful cupcakes that are perfect for any celebration! Inside they're perfect, moist vanilla cake and on top a shaggy mop of vanilla buttercream!",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 18,
                     "ingredients": [
                         {
                             "ingredient": {
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": 2.5,
-                            "unit": "cups",
-                            "groupName": "For the Pie Crust",
-                            "notes": "300g, plus more for rolling"
+                            "quantity": "1 2/3",
+                            "unit": "cup",
+                            "groupName": "For the Cupcakes:",
+                            "notes": "213g"
                         },
                         {
                             "ingredient": {
                                 "name": "granulated sugar",
                                 "nutrition": null
                             },
-                            "quantity": 4.0,
-                            "unit": "tbs",
-                            "groupName": "For the Pie Crust",
-                            "notes": "36g"
+                            "quantity": "1",
+                            "unit": "cups",
+                            "groupName": "For the Cupcakes:",
+                            "notes": "200g"
                         },
                         {
                             "ingredient": {
-                                "name": "sea salt",
+                                "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": 0.5,
+                            "quantity": "1/4",
                             "unit": "tsp",
-                            "groupName": "For the Pie Crust",
-                            "notes": "3g"
+                            "groupName": "For the Cupcakes:",
+                            "notes": "heaping"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "baking powder",
+                                "nutrition": null
+                            },
+                            "quantity": "1",
+                            "unit": "tsp",
+                            "groupName": "For the Cupcakes:",
+                            "notes": "heaping"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "kosher salt",
+                                "nutrition": null
+                            },
+                            "quantity": "1/4",
+                            "unit": "tsp",
+                            "groupName": "For the Cupcakes:",
+                            "notes": null
                         },
                         {
                             "ingredient": {
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
+                            "quantity": "3/4",
                             "unit": "cup",
-                            "groupName": "For the Pie Crust",
-                            "notes": "225g,  chilled"
+                            "groupName": "For the Cupcakes:",
+                            "notes": "190g, room temperature"
                         },
                         {
                             "ingredient": {
-                                "name": "ice water",
+                                "name": "egg whites",
                                 "nutrition": null
                             },
-                            "quantity": 4.0,
-                            "unit": "tbs",
-                            "groupName": "For the Pie Crust",
-                            "notes": "60mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "egg",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
+                            "quantity": "3",
                             "unit": "whole",
-                            "groupName": "For the Pie Crust",
-                            "notes": "for the egg wash"
+                            "groupName": "For the Cupcakes:",
+                            "notes": "room temperature"
                         },
                         {
                             "ingredient": {
-                                "name": "cream",
+                                "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Pie Crust",
-                            "notes": "for the egg wash"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "eggs",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "whole",
-                            "groupName": "For the Filling",
+                            "quantity": "1",
+                            "unit": "tsp",
+                            "groupName": "For the Cupcakes:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "egg yolks",
+                                "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": 2.0,
-                            "unit": "whole",
-                            "groupName": "For the Filling",
+                            "quantity": "1/2",
+                            "unit": "cup",
+                            "groupName": "For the Cupcakes:",
+                            "notes": "120ml, room temperature"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "whole milk",
+                                "nutrition": null
+                            },
+                            "quantity": "1/2",
+                            "unit": "cup",
+                            "groupName": "For the Cupcakes:",
+                            "notes": "120ml, warm"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Lemon zest",
+                                "nutrition": null
+                            },
+                            "quantity": "2",
+                            "unit": "tbsp",
+                            "groupName": "For the Cupcakes:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Lemon juice",
+                                "nutrition": null
+                            },
+                            "quantity": "1",
+                            "unit": "tbsp",
+                            "groupName": "For the Cupcakes:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "confectioners sugar",
+                                "nutrition": null
+                            },
+                            "quantity": "2",
+                            "unit": "lb",
+                            "groupName": "For the Vanilla Buttercream:",
+                            "notes": "900g, sifted"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "unsalted butter",
+                                "nutrition": null
+                            },
+                            "quantity": "1",
+                            "unit": "lb",
+                            "groupName": "For the Vanilla Buttercream:",
+                            "notes": "450g, room temperature"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "vanilla extract",
+                                "nutrition": null
+                            },
+                            "quantity": "1",
+                            "unit": "tsp",
+                            "groupName": "For the Vanilla Buttercream:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "heavy cream",
+                                "nutrition": null
+                            },
+                            "quantity": "1",
+                            "unit": "tbsp",
+                            "groupName": "For the Vanilla Buttercream:",
                             "notes": null
                         },
                         {
@@ -101,124 +196,249 @@
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "For the Filling",
-                            "notes": "2g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "corn starch",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "cup",
-                            "groupName": "For the Filling",
-                            "notes": "40g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "granulated sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 1.25,
-                            "unit": "cups",
-                            "groupName": "For the Filling",
-                            "notes": "250g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "milk",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "cups",
-                            "groupName": "For the Filling",
-                            "notes": "720mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla bean",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "whole",
-                            "groupName": "For the Filling",
+                            "quantity": "1",
+                            "unit": "pinch",
+                            "groupName": "For the Vanilla Buttercream:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "butter",
+                                "name": "whole milk",
                                 "nutrition": null
                             },
-                            "quantity": 4.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Filling",
-                            "notes": "57g, unsalted"
+                            "quantity": "1",
+                            "unit": "tsp",
+                            "groupName": "For the Vanilla Buttercream:",
+                            "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "heavy whipping cream",
+                                "name": "rose water",
                                 "nutrition": null
                             },
-                            "quantity": 2.0,
+                            "quantity": "1",
+                            "unit": "tsp",
+                            "groupName": "For the Vanilla Buttercream:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Food coloring",
+                                "nutrition": null
+                            },
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "For the Vanilla Buttercream:",
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "GroupName : INSTRUCTIONS\nGroupName : For the Cupcakes:\n1. Preheat oven to 350 degrees F. Place cupcake papers in a cupcake pan. Zest a lemon.\n2. In a large bowl, sift the dry ingredients together until incorporated. Including the sugar.\n3. In another bowl, whisk together the wet ingredients and lemon zest until combined. (The batter may be clumpy! Do not worry!)\n4. Add the wet ingredients to the dry ingredients. Mix until combined.\n5. Distribute the batter evenly into cupcake papers.\n6. Bake for 15-20 minutes or until golden and springy to the touch.\nGroupName : For the Buttercream:\n1. In a stand mixer fitted with a paddle attachment, cream the room temperature butter. Add in the confectioners sugar in two batches. Add salt, milk, cream, rose water and vanilla. Mix until fluffy.\n2. Transfer to separate bowls.\n3. Add food coloring to each batch.\n4. Transfer to a piping bags fitted with grass tips.\n5. Pipe the shaggy buttercream on each cupcake.",
+                    "author": "John Kanell",
+                    "source": "Preppy Kitchen",
+                    "rating": {
+                        "average": "5",
+                        "count": "6"
+                    },
+                    "video_url": "https://www.youtube.com/embed/OERYW30ymOg",
+                    "Nutrition": {
+                        "Serving": "1 g",
+                        "Calories": "324 kcal",
+                        "Carbohydrates": "52 g",
+                        "Protein": "3 g",
+                        "Fat": "23 g",
+                        "Saturated Fat": "14 g",
+                        "Cholesterol": "80 mg",
+                        "Sodium": "210 mg",
+                        "Sugar": "34 g"
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "title": "Valentine's Day Sugar Cookies",
+                "attributes": {
+                    "difficulty": null,
+                    "image-card": "media/card/Hearts-fb-330x330.jpg",
+                    "image": "media/featured/Heart-c-ookies-feature.jpg",
+                    "course": {
+                        "id": -1,
+                        "name": "Dessert",
+                        "type": "Course"
+                    },
+                    "cuisine": {
+                        "id": -1,
+                        "name": "American",
+                        "type": "Cuisine"
+                    },
+                    "prep_time": "00:25:00",
+                    "cook_time": "00:11:00",
+                    "cool_time": null,
+                    "total_time": "00:36:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "These delicious sugar cookies with easy but beautiful royal icing decorations on top are perfect for Valentine's Day!",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 6,
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "softened butter",
+                                "nutrition": null
+                            },
+                            "quantity": "1 1/2",
                             "unit": "cups",
-                            "groupName": "For the Whipped Cream Topping",
-                            "notes": "480mL"
+                            "groupName": "For the Cookies:",
+                            "notes": "unsalted"
                         },
                         {
                             "ingredient": {
-                                "name": "confectioners sugar",
+                                "name": "white sugar",
                                 "nutrition": null
                             },
-                            "quantity": 0.25,
-                            "unit": "cup",
-                            "groupName": "For the Whipped Cream Topping",
-                            "notes": "50g"
+                            "quantity": "2",
+                            "unit": "cups",
+                            "groupName": "For the Cookies:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "eggs",
+                                "nutrition": null
+                            },
+                            "quantity": "4",
+                            "unit": "whole",
+                            "groupName": "For the Cookies:",
+                            "notes": null
                         },
                         {
                             "ingredient": {
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": 2.0,
+                            "quantity": "1",
                             "unit": "tsp",
-                            "groupName": "For the Whipped Cream Topping",
-                            "notes": "10mL"
+                            "groupName": "For the Cookies:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "all-purpose flour",
+                                "nutrition": null
+                            },
+                            "quantity": "5",
+                            "unit": "cups",
+                            "groupName": "For the Cookies:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "corn starch",
+                                "nutrition": null
+                            },
+                            "quantity": "1/2",
+                            "unit": "cup",
+                            "groupName": "For the Cookies:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "salt",
+                                "nutrition": null
+                            },
+                            "quantity": "1",
+                            "unit": "tsp",
+                            "groupName": "For the Cookies:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "baking powder",
+                                "nutrition": null
+                            },
+                            "quantity": "1",
+                            "unit": "tsp",
+                            "groupName": "For the Cookies:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "egg whites",
+                                "nutrition": null
+                            },
+                            "quantity": "2",
+                            "unit": "whole",
+                            "groupName": "For the Icing:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "confectioner's sugar",
+                                "nutrition": null
+                            },
+                            "quantity": "1",
+                            "unit": "lb",
+                            "groupName": "For the Icing:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "cream of tartar",
+                                "nutrition": null
+                            },
+                            "quantity": "1/4",
+                            "unit": "tsp",
+                            "groupName": "For the Icing:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "water",
+                                "nutrition": null
+                            },
+                            "quantity": "2-4",
+                            "unit": "tsp",
+                            "groupName": "For the Icing:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Food coloring",
+                                "nutrition": null
+                            },
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "For the Icing:",
+                            "notes": null
                         }
                     ],
-                    "course": {
-                        "id": 1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": 1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
-                    "prep_time": "00:20:00",
-                    "cook_time": "00:35:00",
-                    "cool_time": null,
-                    "total_time": "00:55:00",
-                    "created": "2025-01-07T16:00:29Z",
-                    "modified": "2025-01-07T16:00:29Z",
-                    "title": "Cream Pie",
-                    "description": "This delicious vanilla cream pie is rich, silky, and indulgent yet so light and dreamy. Creamy vanilla custard topped with lots of whipped cream fills a flakey butter crust made from scratch.",
-                    "status": 1,
-                    "activate_date": "2025-01-07T16:00:29Z",
-                    "deactivate_date": null,
-                    "image": "media/card/Cream-Pie-recipe-330x330.jpg",
-                    "servings": 10,
-                    "difficulty": "Easy",
-                    "instructions": "GroupName : INSTRUCTIONS\nGroupName : For the Pie Crust\n1. Preheat the oven to 425 degrees.\n2. In a food processor, combine flour, sugar and salt. Whiz together. Grate in chilled butter and drizzle in ice cold water. Mix using a fork.\n3. Roll into a ball. Wrap in plastic and refrigerate for 30 minutes.\n4. With a rolling pin, on a well-floured surface, flatten out into a circle at least 2 inches larger than the pie pan, rolling from the center to the edge, turning and flouring the dough so it doesn't stick to the board. Roll the dough onto your rolling pin.\n5. Unroll the dough into the pie pan without stretching. Press into pie pan.\n6. With a small sharp paring knife, cut the dough 1 inch larger around than the pan. Fold the edge under and crimp the edge with either your fingers or the tines of a fork.\n7. Add a round of parchment paper frilled on the edge onto the crust. Now press tin foil onto the paper, pushing it against the edge of the crust. This will keep your pie crust propped up during baking.\n8. Bake at 425 degrees for 15 minutes.\n9. Take out the tin foil and brush crust with an egg wash, Made with an egg mixed well with a tablespoon of cream. Dock the pie crust.\n10. Add foil around the sides. Bake another 10 minutes at 425F then reduce temperature to 375 degrees and bake until the center is golden, about 15-20 minutes.\nGroupName : For the Filling\n1. Slice vanilla bean down the middle and scrape beans out. Pour milk into a pot, add vanilla beans and place over medium heat, stirring so the beans mix into the milk. Remove from hear just before it comes to a boil and let stand for 10-15 minutes.\n2. Whisk together the two eggs and two egg yolks in a medium bowl then set aside.\n3. Add sugar, cornstarch, and salt to a medium pot. Whisk to combine then pour in milk through a strainer and whisk again to distribute all the dry ingredients. You don't want clumps!\n4. Place on medium high heat and whisk continuously until thickened. About 5 minutes or so.\n5. Once mixture has thickened reduce heat to medium and continue stirring. Cook an additional 6 minutes. then remove from heat.\n6. Time to temper the eggs! Slowly drizzle in a cup of the hot milk mixture to the eggs while whisking vigorously. Add the egg mixture to the pot while whisking and return to medium-high heat for 2 minutes of whisking over heat.\n7. Transfer to a large bowl, add vanilla and butter and stir until butter is all melted.\n8. Cover surface with plastic and chill to bring down to room temperature.\nGroupName :  For the Whipped Cream Topping:\n1. Add heavy cream, sugar and vanilla to a stand mixer. Whip on high until you reach soft peaks.   I recommend making the whipped cream just before serving but you can do this in advance and chill the whole pie.\nGroupName : For the Assembly\n1. Pour or spoon the filling into the baked pie shell consistency will depend on how much you chilled the filling.  Smooth out, cover and refrigerate at least 4 hours.\n2. Add the whipped cream to the top of the pie before serving. This step can be done right after the filling is added but covering the whipped cream in the fridge will mar the surface.",
+                    "instructions": "1. Sift the flour, corn starch, salt, and baking powder in a large bowl. Whisk to combine and set aside. Beat the butter and sugar until it is light and fluffy, then add the eggs one at a time.\n2. Stir the flour in, making sure to add in several batches. Once combined cover with plastic and chill in the refrigerator for at least two hours.\n3. Roll out the cold dough in small batches, It warms up quickly! You can roll out between two sheets of plastic wrap if you’re worried about the dough getting too sticky to release.\n4. Cut into heart shapes with a cookie cutter. If you do not have any heart-shaped cookie cutters just cut one out of paper and trace around it with a pin or small knife. Lay on a baking sheet lined with parchment paper. Bake at 375F for 5 minutes, rotate the tray and bake additional 3-6 minutes depending on the size, thickness and desired crisp.\n5. Allow time to cool on a rack while you whip up some royal icing.\n6. Sift the powdered sugar into a bowl. In a separate bowl beat the egg whites and add the cream of tartar once they become frothy.\n7. Add the sugar in 3-4 batches and mix at low speed.\n8. Once combined, separate into batches and add the water until desired flooding consistency is reached to some of the batches. Stir in the food coloring.",
                     "author": "John Kanell",
                     "source": "Preppy Kitchen",
                     "rating": {
-                        "average": "5",
-                        "count": "42"
+                        "average": "4.96",
+                        "count": "69"
                     },
-                    "video_url": null
+                    "video_url": null,
+                    "Nutrition": {
+                        "Serving": "1 cookie",
+                        "Calories": "132 kcal",
+                        "Carbohydrates": "16 g",
+                        "Protein": "1 g",
+                        "Fat": "5 g",
+                        "Saturated Fat": "11 g",
+                        "Monounsaturated Fat": "2 g",
+                        "Cholesterol": "3 mg",
+                        "Sodium": "82 mg",
+                        "Potassium": "38 mg",
+                        "Sugar": "9 g",
+                        "Calcium": "10 mg",
+                        "Iron": "0.4 mg"
+                    }
                 }
             }
         }
