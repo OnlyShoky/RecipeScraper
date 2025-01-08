@@ -36,7 +36,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "1 2/3",
+                            "quantity": 1.6666666666666667,
                             "unit": "cup",
                             "groupName": "For the Cupcakes:",
                             "notes": "213g"
@@ -46,7 +46,7 @@
                                 "name": "granulated sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cups",
                             "groupName": "For the Cupcakes:",
                             "notes": "200g"
@@ -56,7 +56,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes:",
                             "notes": "heaping"
@@ -66,7 +66,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes:",
                             "notes": "heaping"
@@ -76,7 +76,7 @@
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes:",
                             "notes": null
@@ -86,7 +86,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Cupcakes:",
                             "notes": "190g, room temperature"
@@ -96,7 +96,7 @@
                                 "name": "egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "For the Cupcakes:",
                             "notes": "room temperature"
@@ -106,7 +106,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes:",
                             "notes": null
@@ -116,7 +116,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cupcakes:",
                             "notes": "120ml, room temperature"
@@ -126,7 +126,7 @@
                                 "name": "whole milk",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cupcakes:",
                             "notes": "120ml, warm"
@@ -136,7 +136,7 @@
                                 "name": "Lemon zest",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tbsp",
                             "groupName": "For the Cupcakes:",
                             "notes": null
@@ -146,7 +146,7 @@
                                 "name": "Lemon juice",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Cupcakes:",
                             "notes": null
@@ -156,7 +156,7 @@
                                 "name": "confectioners sugar",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "lb",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": "900g, sifted"
@@ -166,7 +166,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "lb",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": "450g, room temperature"
@@ -176,7 +176,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": null
@@ -186,7 +186,7 @@
                                 "name": "heavy cream",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": null
@@ -196,7 +196,7 @@
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "pinch",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": null
@@ -206,7 +206,7 @@
                                 "name": "whole milk",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": null
@@ -216,7 +216,7 @@
                                 "name": "rose water",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": null
@@ -290,7 +290,7 @@
                                 "name": "softened butter",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cups",
                             "groupName": "For the Cookies:",
                             "notes": "unsalted"
@@ -300,7 +300,7 @@
                                 "name": "white sugar",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "cups",
                             "groupName": "For the Cookies:",
                             "notes": null
@@ -310,7 +310,7 @@
                                 "name": "eggs",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "whole",
                             "groupName": "For the Cookies:",
                             "notes": null
@@ -320,7 +320,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cookies:",
                             "notes": null
@@ -330,7 +330,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "5",
+                            "quantity": 5.0,
                             "unit": "cups",
                             "groupName": "For the Cookies:",
                             "notes": null
@@ -340,7 +340,7 @@
                                 "name": "corn starch",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cookies:",
                             "notes": null
@@ -350,7 +350,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cookies:",
                             "notes": null
@@ -360,7 +360,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cookies:",
                             "notes": null
@@ -370,7 +370,7 @@
                                 "name": "egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "whole",
                             "groupName": "For the Icing:",
                             "notes": null
@@ -380,7 +380,7 @@
                                 "name": "confectioner's sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "lb",
                             "groupName": "For the Icing:",
                             "notes": null
@@ -390,7 +390,7 @@
                                 "name": "cream of tartar",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Icing:",
                             "notes": null
@@ -400,7 +400,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "2-4",
+                            "quantity": 3.0,
                             "unit": "tsp",
                             "groupName": "For the Icing:",
                             "notes": null
@@ -478,7 +478,7 @@
                                 "name": "confectioners sugar",
                                 "nutrition": null
                             },
-                            "quantity": "80",
+                            "quantity": 80.0,
                             "unit": "g",
                             "groupName": "Vanilla Tart Shell:",
                             "notes": null
@@ -488,7 +488,7 @@
                                 "name": "Large Egg Yolks",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "Vanilla Tart Shell:",
                             "notes": null
@@ -498,7 +498,7 @@
                                 "name": "vanilla extract 2.5mL",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "tsp",
                             "groupName": "Vanilla Tart Shell:",
                             "notes": null
@@ -508,7 +508,7 @@
                                 "name": "plain flour 225g",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "lb",
                             "groupName": "Vanilla Tart Shell:",
                             "notes": null
@@ -518,7 +518,7 @@
                                 "name": "unsalted butter 113g",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "Vanilla Tart Shell:",
                             "notes": "cold & cubed"
@@ -528,7 +528,7 @@
                                 "name": "salt 1g",
                                 "nutrition": null
                             },
-                            "quantity": "¼",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "Vanilla Tart Shell:",
                             "notes": null
@@ -538,7 +538,7 @@
                                 "name": "confectioners sugar",
                                 "nutrition": null
                             },
-                            "quantity": "80",
+                            "quantity": 80.0,
                             "unit": "g",
                             "groupName": "Chocolate Tart Shell:",
                             "notes": null
@@ -548,7 +548,7 @@
                                 "name": "Large Egg Yolks",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "Chocolate Tart Shell:",
                             "notes": null
@@ -558,7 +558,7 @@
                                 "name": "vanilla extract 2.5mL",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "tsp",
                             "groupName": "Chocolate Tart Shell:",
                             "notes": null
@@ -568,7 +568,7 @@
                                 "name": "plain flour 215g",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "lb",
                             "groupName": "Chocolate Tart Shell:",
                             "notes": null
@@ -578,7 +578,7 @@
                                 "name": "unsalted butter 113g",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "Chocolate Tart Shell:",
                             "notes": "cold & cubed"
@@ -588,7 +588,7 @@
                                 "name": "cocoa powder",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tbsp",
                             "groupName": "Chocolate Tart Shell:",
                             "notes": null
@@ -598,7 +598,7 @@
                                 "name": "salt 1g",
                                 "nutrition": null
                             },
-                            "quantity": "¼",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "Chocolate Tart Shell:",
                             "notes": null
@@ -608,7 +608,7 @@
                                 "name": "semisweet chocolate chips 200g",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "Chocolate Ganache:",
                             "notes": null
@@ -618,7 +618,7 @@
                                 "name": "Heavy cream 110g",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "Chocolate Ganache:",
                             "notes": "heated"
@@ -628,7 +628,7 @@
                                 "name": "egg whites at room temperature",
                                 "nutrition": null
                             },
-                            "quantity": "5",
+                            "quantity": 5.0,
                             "unit": "whole",
                             "groupName": "Swiss Meringue Buttercream:",
                             "notes": null
@@ -638,7 +638,7 @@
                                 "name": "unsalted butter 452g",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "cups",
                             "groupName": "Swiss Meringue Buttercream:",
                             "notes": "room temperature"
@@ -648,7 +648,7 @@
                                 "name": "granulated sugar 300g",
                                 "nutrition": null
                             },
-                            "quantity": "1 ½",
+                            "quantity": 1.5,
                             "unit": "cups",
                             "groupName": "Swiss Meringue Buttercream:",
                             "notes": null
@@ -658,7 +658,7 @@
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "pinch",
                             "groupName": "Swiss Meringue Buttercream:",
                             "notes": null
@@ -668,7 +668,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "Swiss Meringue Buttercream:",
                             "notes": "5mL"
@@ -678,7 +678,7 @@
                                 "name": "semi-sweet chocolate",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "Swiss Meringue Buttercream:",
                             "notes": null
@@ -698,7 +698,7 @@
                                 "name": "cocoa powder",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tbsp",
                             "groupName": "Ridged Top:",
                             "notes": "for assembly"
@@ -766,7 +766,7 @@
                                 "name": "egg whites at room temperature",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "whole",
                             "groupName": null,
                             "notes": null
@@ -776,7 +776,7 @@
                                 "name": "unsalted butter 452g",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "cups",
                             "groupName": null,
                             "notes": "at room temperature"
@@ -786,7 +786,7 @@
                                 "name": "granulated sugar 300g",
                                 "nutrition": null
                             },
-                            "quantity": "1 ½",
+                            "quantity": 1.5,
                             "unit": "cups",
                             "groupName": null,
                             "notes": null
@@ -796,7 +796,7 @@
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "pinch",
                             "groupName": null,
                             "notes": null
@@ -806,7 +806,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tsp",
                             "groupName": null,
                             "notes": null
@@ -872,7 +872,7 @@
                                 "name": "whole milk",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "cups",
                             "groupName": "Filling:",
                             "notes": null
@@ -882,7 +882,7 @@
                                 "name": "vanilla bean, split lengthwise",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "whole",
                             "groupName": "Filling:",
                             "notes": "(or 1 TBS vanilla paste and i TBS vanilla extract)"
@@ -892,7 +892,7 @@
                                 "name": "egg yolks",
                                 "nutrition": null
                             },
-                            "quantity": "6",
+                            "quantity": 6.0,
                             "unit": "whole",
                             "groupName": "Filling:",
                             "notes": null
@@ -902,7 +902,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "2/3",
+                            "quantity": 0.6666666666666666,
                             "unit": "cup",
                             "groupName": "Filling:",
                             "notes": null
@@ -912,7 +912,7 @@
                                 "name": "cornstarch",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "Filling:",
                             "notes": null
@@ -922,7 +922,7 @@
                                 "name": "cold unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "TBS",
                             "groupName": "Filling:",
                             "notes": null
@@ -932,7 +932,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "Pastry:",
                             "notes": null
@@ -942,7 +942,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "8",
+                            "quantity": 8.0,
                             "unit": "TBS",
                             "groupName": "Pastry:",
                             "notes": "(1 stick)"
@@ -952,7 +952,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "tsp",
                             "groupName": "Pastry:",
                             "notes": null
@@ -962,7 +962,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "tsps",
                             "groupName": "Pastry:",
                             "notes": null
@@ -972,7 +972,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "Pastry:",
                             "notes": null
@@ -982,7 +982,7 @@
                                 "name": "egg, plus 1 extra if needed",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "Pastry:",
                             "notes": "(I used four)"
@@ -992,7 +992,7 @@
                                 "name": "egg",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "whole",
                             "groupName": "Egg Wash:",
                             "notes": null
@@ -1002,7 +1002,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "tsp",
                             "groupName": "Egg Wash:",
                             "notes": null
@@ -1012,7 +1012,7 @@
                                 "name": "heavy cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "Chocolate Glaze:",
                             "notes": null
@@ -1022,7 +1022,7 @@
                                 "name": "semi-sweet chocolate",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "Chocolate Glaze:",
                             "notes": "coarsely chopped"
@@ -1032,7 +1032,7 @@
                                 "name": "heavy cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "White Chocolate Glaze:",
                             "notes": null
@@ -1042,7 +1042,7 @@
                                 "name": "white chocolate",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "White Chocolate Glaze:",
                             "notes": "coarsely chopped"
@@ -1110,7 +1110,7 @@
                                 "name": "large egg yolks",
                                 "nutrition": null
                             },
-                            "quantity": "3 ",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "For the Crust:",
                             "notes": null
@@ -1120,7 +1120,7 @@
                                 "name": "heavy cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/4 ",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Crust:",
                             "notes": null
@@ -1130,7 +1130,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "2 ",
+                            "quantity": 2.0,
                             "unit": "cup",
                             "groupName": "For the Crust:",
                             "notes": null
@@ -1140,7 +1140,7 @@
                                 "name": "almond flour",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Crust:",
                             "notes": null
@@ -1150,7 +1150,7 @@
                                 "name": "2 sticks chilled unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1 ",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Crust:",
                             "notes": "cut into 1/2-inch cubes"
@@ -1160,7 +1160,7 @@
                                 "name": "plus 3 tablespoons sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1/4 ",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Crust:",
                             "notes": null
@@ -1170,7 +1170,7 @@
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/4 ",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Crust:",
                             "notes": null
@@ -1180,7 +1180,7 @@
                                 "name": "bittersweet chocolate",
                                 "nutrition": null
                             },
-                            "quantity": "8",
+                            "quantity": 8.0,
                             "unit": "oz",
                             "groupName": "For the Filling:",
                             "notes": "finely chopped"
@@ -1190,7 +1190,7 @@
                                 "name": "semisweet chocolate",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "oz",
                             "groupName": "For the Filling:",
                             "notes": "finely chopped"
@@ -1200,7 +1200,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "tbs",
                             "groupName": "For the Filling:",
                             "notes": "1/2 stick, cut into small pieces"
@@ -1210,7 +1210,7 @@
                                 "name": "heavy cream",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Filling:",
                             "notes": null
@@ -1220,7 +1220,7 @@
                                 "name": "granulated sugar",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tbs",
                             "groupName": "For the Filling:",
                             "notes": null
@@ -1230,7 +1230,7 @@
                                 "name": "fine salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Filling:",
                             "notes": null
@@ -1240,7 +1240,7 @@
                                 "name": "espresso powder",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tbs",
                             "groupName": "For the Filling:",
                             "notes": null
@@ -1250,7 +1250,7 @@
                                 "name": "16-ounce package powdered sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "whole",
                             "groupName": "For the Topping:",
                             "notes": null
@@ -1260,7 +1260,7 @@
                                 "name": "milk",
                                 "nutrition": null
                             },
-                            "quantity": "1/6",
+                            "quantity": 0.16666666666666666,
                             "unit": "cup",
                             "groupName": "For the Topping:",
                             "notes": null
@@ -1270,7 +1270,7 @@
                                 "name": "bourbon",
                                 "nutrition": null
                             },
-                            "quantity": "1/6",
+                            "quantity": 0.16666666666666666,
                             "unit": "cup",
                             "groupName": "For the Topping:",
                             "notes": null
@@ -1280,7 +1280,7 @@
                                 "name": "butter",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Topping:",
                             "notes": "softened"
@@ -1350,7 +1350,7 @@
                                 "name": "butter",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "cups",
                             "groupName": "For the Buttercream:",
                             "notes": "unsalted 454g"
@@ -1360,7 +1360,7 @@
                                 "name": "confectioners sugar",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "lb",
                             "groupName": "For the Buttercream:",
                             "notes": "907g"
@@ -1370,7 +1370,7 @@
                                 "name": "cocoa powder",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tbsp",
                             "groupName": "For the Buttercream:",
                             "notes": null
@@ -1380,7 +1380,7 @@
                                 "name": "espresso powder",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Buttercream:",
                             "notes": null
@@ -1390,7 +1390,7 @@
                                 "name": "vanilla",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Buttercream:",
                             "notes": "15mL"
@@ -1400,7 +1400,7 @@
                                 "name": "heavy cream",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tbsp",
                             "groupName": "For the Buttercream:",
                             "notes": "45mL"
@@ -1410,7 +1410,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "tsp",
                             "groupName": "For the Buttercream:",
                             "notes": null
@@ -1479,7 +1479,7 @@
                                 "name": "whole milk",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "cups",
                             "groupName": "Custard:",
                             "notes": null
@@ -1489,7 +1489,7 @@
                                 "name": "vanilla bean",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "whole",
                             "groupName": "Custard:",
                             "notes": "split lengthwise"
@@ -1499,7 +1499,7 @@
                                 "name": "egg yolks",
                                 "nutrition": null
                             },
-                            "quantity": "6",
+                            "quantity": 6.0,
                             "unit": "whole",
                             "groupName": "Custard:",
                             "notes": null
@@ -1509,7 +1509,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "2/3",
+                            "quantity": 0.6666666666666666,
                             "unit": "cup",
                             "groupName": "Custard:",
                             "notes": null
@@ -1519,7 +1519,7 @@
                                 "name": "cornstarch",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "Custard:",
                             "notes": null
@@ -1529,7 +1529,7 @@
                                 "name": "cold unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbs",
                             "groupName": "Custard:",
                             "notes": null
@@ -1539,7 +1539,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "2 1/2",
+                            "quantity": 2.5,
                             "unit": "cups",
                             "groupName": "Pastry:",
                             "notes": "300g"
@@ -1549,7 +1549,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tbsp",
                             "groupName": "Pastry:",
                             "notes": "ice cold 45mL"
@@ -1559,7 +1559,7 @@
                                 "name": "vodka",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tbsp",
                             "groupName": "Pastry:",
                             "notes": null
@@ -1569,7 +1569,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "Pastry:",
                             "notes": "cold, cubed 226g"
@@ -1579,7 +1579,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "Pastry:",
                             "notes": null
@@ -1589,7 +1589,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "Pastry:",
                             "notes": "50g"
@@ -1599,7 +1599,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "Raspberry Sauce:",
                             "notes": null
@@ -1609,7 +1609,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "Raspberry Sauce:",
                             "notes": null
@@ -1619,7 +1619,7 @@
                                 "name": "raspberries",
                                 "nutrition": null
                             },
-                            "quantity": "6",
+                            "quantity": 6.0,
                             "unit": "oz",
                             "groupName": "Raspberry Sauce:",
                             "notes": null
@@ -1629,7 +1629,7 @@
                                 "name": "lemon juice",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tbsp",
                             "groupName": "Raspberry Sauce:",
                             "notes": null
@@ -1639,7 +1639,7 @@
                                 "name": "Confectioner's sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Assembly:",
                             "notes": "for dusting"
@@ -1649,7 +1649,7 @@
                                 "name": "raspberries",
                                 "nutrition": null
                             },
-                            "quantity": "72",
+                            "quantity": 72.0,
                             "unit": "whole",
                             "groupName": "For the Assembly:",
                             "notes": null
@@ -1718,7 +1718,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "1 3/4",
+                            "quantity": 1.75,
                             "unit": "cups",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "216g"
@@ -1728,7 +1728,7 @@
                                 "name": "granulated sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 3/4",
+                            "quantity": 1.75,
                             "unit": "cups",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "350g"
@@ -1738,7 +1738,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "170g"
@@ -1748,7 +1748,7 @@
                                 "name": "cocoa powder",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "75g, not dutch processed"
@@ -1758,7 +1758,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "4g"
@@ -1768,7 +1768,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tsp",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "12g"
@@ -1778,7 +1778,7 @@
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "6g"
@@ -1788,7 +1788,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "240g"
@@ -1798,7 +1798,7 @@
                                 "name": "vegetable oil",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "118mL"
@@ -1808,7 +1808,7 @@
                                 "name": "large eggs",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "whole",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "room temperature"
@@ -1818,7 +1818,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "5mL"
@@ -1828,7 +1828,7 @@
                                 "name": "coffee",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Chocolate Cake:",
                             "notes": "236mL, freshly brewed, strong"
@@ -1838,7 +1838,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "96g"
@@ -1848,7 +1848,7 @@
                                 "name": "granulated sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "100g"
@@ -1858,7 +1858,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "1g, heaping"
@@ -1868,7 +1868,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "tsp",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "2g"
@@ -1878,7 +1878,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "58g, room temperature"
@@ -1888,7 +1888,7 @@
                                 "name": "peanut butter",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "85g"
@@ -1898,7 +1898,7 @@
                                 "name": "egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "whole",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "room temperature"
@@ -1908,7 +1908,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tsp",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "10mL"
@@ -1918,7 +1918,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "60g, room temperature"
@@ -1928,7 +1928,7 @@
                                 "name": "whole milk",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Peanut Butter Swirls:",
                             "notes": "60mL, room temperature"
@@ -1948,7 +1948,7 @@
                                 "name": "confectioners sugar",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "cups",
                             "groupName": "For Peanut Butter Frosting:",
                             "notes": "440g"
@@ -1958,7 +1958,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For Peanut Butter Frosting:",
                             "notes": "115g, room temperature"
@@ -1968,7 +1968,7 @@
                                 "name": "peanut butter",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For Peanut Butter Frosting:",
                             "notes": "125g"
@@ -1978,7 +1978,7 @@
                                 "name": "heavy cream",
                                 "nutrition": null
                             },
-                            "quantity": "2-4",
+                            "quantity": 3.0,
                             "unit": "tbsp",
                             "groupName": "For Peanut Butter Frosting:",
                             "notes": "30-60mL"
@@ -1988,7 +1988,7 @@
                                 "name": "large egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "whole",
                             "groupName": "For the Italian Buttercream:",
                             "notes": "room temperature"
@@ -1998,7 +1998,7 @@
                                 "name": "granulated sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cups",
                             "groupName": "For the Italian Buttercream:",
                             "notes": "300g"
@@ -2008,7 +2008,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Italian Buttercream:",
                             "notes": "79mL"
@@ -2028,7 +2028,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "16",
+                            "quantity": 16.0,
                             "unit": "ounces",
                             "groupName": "For the Italian Buttercream:",
                             "notes": "454g, room temperature cut into 1-inch pieces"
@@ -2038,7 +2038,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Italian Buttercream:",
                             "notes": "5mL"
@@ -2048,7 +2048,7 @@
                                 "name": "dark chocolate",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Chocolate Ganache:",
                             "notes": "175g"
@@ -2058,7 +2058,7 @@
                                 "name": "heavy cream",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Chocolate Ganache:",
                             "notes": "236mL, or less if you want a firmer ganache and shorter drips"
@@ -2127,7 +2127,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "cups",
                             "groupName": "For the Cake:",
                             "notes": "360g"
@@ -2137,7 +2137,7 @@
                                 "name": "ground cinnamon",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": "4.6g"
@@ -2147,7 +2147,7 @@
                                 "name": "ginger",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": "0.9g"
@@ -2157,7 +2157,7 @@
                                 "name": "nutmeg",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": "1g"
@@ -2167,7 +2167,7 @@
                                 "name": "allspice",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": "1g"
@@ -2177,7 +2177,7 @@
                                 "name": "ground cloves",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "Pinch",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -2187,7 +2187,7 @@
                                 "name": "vanilla",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": "4.9mL"
@@ -2197,7 +2197,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": "4.6g"
@@ -2207,7 +2207,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": "6.3g"
@@ -2217,7 +2217,7 @@
                                 "name": "coconut oil",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": "118.2mL melted"
@@ -2227,7 +2227,7 @@
                                 "name": "vegetable oil",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": "59mL"
@@ -2237,7 +2237,7 @@
                                 "name": "plain yogurt",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": "59mL"
@@ -2247,7 +2247,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1.5",
+                            "quantity": 1.5,
                             "unit": "cups",
                             "groupName": "For the Cake:",
                             "notes": "192g"
@@ -2257,7 +2257,7 @@
                                 "name": "large eggs",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -2267,7 +2267,7 @@
                                 "name": "apples",
                                 "nutrition": null
                             },
-                            "quantity": "3 to 4",
+                            "quantity": 3.5,
                             "unit": "whole",
                             "groupName": "For the Cake:",
                             "notes": "about 2 cups cored and cut into 1/2-inch pieces (3 cups) I prefer honey crisp but many varieties are great."
@@ -2277,7 +2277,7 @@
                                 "name": "confectioner's sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "pound",
                             "groupName": "For the Buttercream:",
                             "notes": "453.5g"
@@ -2287,7 +2287,7 @@
                                 "name": "room temperature Butter",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Buttercream:",
                             "notes": "170g"
@@ -2297,7 +2297,7 @@
                                 "name": "cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Buttercream:",
                             "notes": "79mL"
@@ -2307,7 +2307,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tablespoon",
                             "groupName": "For the Buttercream:",
                             "notes": "14.7g"
@@ -2317,7 +2317,7 @@
                                 "name": "brown sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Caramel:",
                             "notes": "200g"
@@ -2327,7 +2327,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "5",
+                            "quantity": 5.0,
                             "unit": "tablespoons",
                             "groupName": "For the Caramel:",
                             "notes": "71g"
@@ -2337,7 +2337,7 @@
                                 "name": "cream or half and half",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Caramel:",
                             "notes": "118.2mL"
@@ -2347,7 +2347,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tablespoon",
                             "groupName": "For the Caramel:",
                             "notes": "14.7mL"
@@ -2357,7 +2357,7 @@
                                 "name": "of salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "Pinch",
                             "groupName": "For the Caramel:",
                             "notes": null
@@ -2429,7 +2429,7 @@
                                 "name": "cake flour",
                                 "nutrition": null
                             },
-                            "quantity": "1 3/4",
+                            "quantity": 1.75,
                             "unit": "cups",
                             "groupName": "For the Cake",
                             "notes": "210g"
@@ -2439,7 +2439,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cake",
                             "notes": "6g"
@@ -2449,7 +2449,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "tsp",
                             "groupName": "For the Cake",
                             "notes": "2g"
@@ -2459,7 +2459,7 @@
                                 "name": "butter",
                                 "nutrition": null
                             },
-                            "quantity": "13",
+                            "quantity": 13.0,
                             "unit": "tbsp",
                             "groupName": "For the Cake",
                             "notes": "185g"
@@ -2469,7 +2469,7 @@
                                 "name": "brown sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "100g"
@@ -2479,7 +2479,7 @@
                                 "name": "white sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "100g"
@@ -2489,7 +2489,7 @@
                                 "name": "coffee",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tbsp",
                             "groupName": "For the Cake",
                             "notes": "45mL"
@@ -2499,7 +2499,7 @@
                                 "name": "vanilla paste",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Cake",
                             "notes": "15mL"
@@ -2509,7 +2509,7 @@
                                 "name": "buttermilk",
                                 "nutrition": null
                             },
-                            "quantity": "2/3",
+                            "quantity": 0.6666666666666666,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "158mL"
@@ -2519,7 +2519,7 @@
                                 "name": "large eggs",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "whole",
                             "groupName": "For the Cake",
                             "notes": null
@@ -2529,7 +2529,7 @@
                                 "name": "egg yolks",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "whole",
                             "groupName": "For the Cake",
                             "notes": null
@@ -2539,7 +2539,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "118mL"
@@ -2549,7 +2549,7 @@
                                 "name": "cocoa",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "100g"
@@ -2559,7 +2559,7 @@
                                 "name": "semi-sweet chocolate chips",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "cups",
                             "groupName": "For the Ganache:",
                             "notes": "350g"
@@ -2569,7 +2569,7 @@
                                 "name": "cream",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cup",
                             "groupName": "For the Ganache:",
                             "notes": "355mL"
@@ -2579,7 +2579,7 @@
                                 "name": "walnuts",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Ganache:",
                             "notes": "125g, toasted"
@@ -2589,7 +2589,7 @@
                                 "name": "mini marshmallows",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cup",
                             "groupName": "For the Ganache:",
                             "notes": "75g"
@@ -2599,7 +2599,7 @@
                                 "name": "semi-sweet chocolate",
                                 "nutrition": null
                             },
-                            "quantity": "2/3",
+                            "quantity": 0.6666666666666666,
                             "unit": "cup",
                             "groupName": "For the Buttercream:",
                             "notes": "115g, melted and cooled"
@@ -2609,7 +2609,7 @@
                                 "name": "hazelnut chocolate melted and cooled",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Buttercream:",
                             "notes": "60g"
@@ -2619,7 +2619,7 @@
                                 "name": "cocoa",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Buttercream:",
                             "notes": "35g"
@@ -2629,7 +2629,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "lb",
                             "groupName": "For the Buttercream:",
                             "notes": "454g, room temp"
@@ -2639,7 +2639,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "cups",
                             "groupName": "For the Buttercream:",
                             "notes": "800g"
@@ -2649,7 +2649,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Buttercream:",
                             "notes": "1g, heaping"
@@ -2659,7 +2659,7 @@
                                 "name": "vanilla",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Buttercream:",
                             "notes": "5mL"
@@ -2729,7 +2729,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "1 2/3",
+                            "quantity": 1.6666666666666667,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "210g"
@@ -2739,7 +2739,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "200g"
@@ -2749,7 +2749,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Cake",
                             "notes": null
@@ -2759,7 +2759,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cake",
                             "notes": null
@@ -2769,7 +2769,7 @@
                                 "name": "unsalted butter room temperature",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "170g"
@@ -2779,7 +2779,7 @@
                                 "name": "egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "For the Cake",
                             "notes": "room temperature"
@@ -2789,7 +2789,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Cake",
                             "notes": "15ml"
@@ -2799,7 +2799,7 @@
                                 "name": "plain greek yogurt",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "120mL"
@@ -2809,7 +2809,7 @@
                                 "name": "whole milk",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "120mL"
@@ -2819,7 +2819,7 @@
                                 "name": "sticks salted butter",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "For the Buttercream:",
                             "notes": "room temp, 339g"
@@ -2829,7 +2829,7 @@
                                 "name": "powdered sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1.5",
+                            "quantity": 1.5,
                             "unit": "pounds",
                             "groupName": "For the Buttercream:",
                             "notes": "680g"
@@ -2839,7 +2839,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Buttercream:",
                             "notes": "15mL"
@@ -2849,7 +2849,7 @@
                                 "name": "white chocolate",
                                 "nutrition": null
                             },
-                            "quantity": "12",
+                            "quantity": 12.0,
                             "unit": "ounces",
                             "groupName": "For the Buttercream:",
                             "notes": "340g"
@@ -2859,7 +2859,7 @@
                                 "name": "cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Buttercream:",
                             "notes": "60mL"
@@ -2938,7 +2938,7 @@
                                 "name": "grapefruit juice",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Filling",
                             "notes": "236mL"
@@ -2948,7 +2948,7 @@
                                 "name": "champagne",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Filling",
                             "notes": "60mL"
@@ -2958,7 +2958,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tbsp",
                             "groupName": "For the Filling",
                             "notes": "18g"
@@ -2968,7 +2968,7 @@
                                 "name": "corn starch",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Filling",
                             "notes": "8g"
@@ -2978,7 +2978,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "2/3",
+                            "quantity": 0.6666666666666666,
                             "unit": "cup",
                             "groupName": "For the Filling",
                             "notes": "133g"
@@ -2988,7 +2988,7 @@
                                 "name": "egg yolks",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "large",
                             "groupName": "For the Filling",
                             "notes": null
@@ -2998,7 +2998,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tbsp",
                             "groupName": "For the Filling",
                             "notes": "30g, room temperature"
@@ -3008,7 +3008,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "2 1/4",
+                            "quantity": 2.25,
                             "unit": "cups",
                             "groupName": "For the Cake",
                             "notes": "270g"
@@ -3018,7 +3018,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "2 1/2",
+                            "quantity": 2.5,
                             "unit": "tsp",
                             "groupName": "For the Cake",
                             "notes": "10g"
@@ -3028,7 +3028,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cake",
                             "notes": "6g"
@@ -3038,7 +3038,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "75g, room temperature"
@@ -3048,7 +3048,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "81g"
@@ -3058,7 +3058,7 @@
                                 "name": "grapefruit zest",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "tbsp",
                             "groupName": "For the Cake",
                             "notes": "24g"
@@ -3068,7 +3068,7 @@
                                 "name": "grapefruit juice",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Cake",
                             "notes": "236mL"
@@ -3078,7 +3078,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cups",
                             "groupName": "For the Cake",
                             "notes": "300g"
@@ -3088,7 +3088,7 @@
                                 "name": "eggs",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "large",
                             "groupName": "For the Cake",
                             "notes": null
@@ -3098,7 +3098,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "pound",
                             "groupName": "For the Buttercream",
                             "notes": "room temperature"
@@ -3108,7 +3108,7 @@
                                 "name": "confectioners' sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "pound",
                             "groupName": "For the Buttercream",
                             "notes": null
@@ -3118,7 +3118,7 @@
                                 "name": "gragefruit juice",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tbsp",
                             "groupName": "For the Buttercream",
                             "notes": null
@@ -3128,7 +3128,7 @@
                                 "name": "champagne",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tbsp",
                             "groupName": "For the Buttercream",
                             "notes": null
@@ -3138,7 +3138,7 @@
                                 "name": "egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "large",
                             "groupName": "For the Italian Buttercream",
                             "notes": null
@@ -3148,7 +3148,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cup",
                             "groupName": "For the Italian Buttercream",
                             "notes": null
@@ -3158,7 +3158,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Italian Buttercream",
                             "notes": null
@@ -3168,7 +3168,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "pinch",
                             "groupName": "For the Italian Buttercream",
                             "notes": null
@@ -3178,7 +3178,7 @@
                                 "name": "cream of tartar",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Italian Buttercream",
                             "notes": null
@@ -3188,7 +3188,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "16",
+                            "quantity": 16.0,
                             "unit": "oz",
                             "groupName": "For the Italian Buttercream",
                             "notes": "room temperature cut in one inch cubes"
@@ -3258,7 +3258,7 @@
                                 "name": "all-purpose flour 213g",
                                 "nutrition": null
                             },
-                            "quantity": "1 2/3",
+                            "quantity": 1.6666666666666667,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -3268,7 +3268,7 @@
                                 "name": "sugar 228g",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -3278,7 +3278,7 @@
                                 "name": "baking soda 2g",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -3288,7 +3288,7 @@
                                 "name": "baking powder 4g",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -3298,7 +3298,7 @@
                                 "name": "unsalted butter 176g",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": "room temperature"
@@ -3308,7 +3308,7 @@
                                 "name": "egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -3318,7 +3318,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -3328,7 +3328,7 @@
                                 "name": "sour cream 133g",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -3338,7 +3338,7 @@
                                 "name": "whole milk 113g",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -3348,7 +3348,7 @@
                                 "name": "confectioners sugar 907g",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "lbs",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": null
@@ -3358,7 +3358,7 @@
                                 "name": "butter 456g",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "lb",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": "unsalted, room temperature"
@@ -3368,7 +3368,7 @@
                                 "name": "vanilla",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tsp",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": null
@@ -3378,7 +3378,7 @@
                                 "name": "milk",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": null
@@ -3388,7 +3388,7 @@
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Vanilla Buttercream:",
                             "notes": null
@@ -3408,7 +3408,7 @@
                                 "name": "coconut 40g",
                                 "nutrition": null
                             },
-                            "quantity": "½",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Assembly:",
                             "notes": "toasted, sweetened"
@@ -3418,7 +3418,7 @@
                                 "name": "cocoa powder nice quality",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tsp",
                             "groupName": "For the Assembly:",
                             "notes": null
@@ -3428,7 +3428,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "tsp",
                             "groupName": "For the Assembly:",
                             "notes": null
@@ -3438,7 +3438,7 @@
                                 "name": "chocolate eggs mini",
                                 "nutrition": null
                             },
-                            "quantity": "6",
+                            "quantity": 6.0,
                             "unit": "whole",
                             "groupName": "For the Assembly:",
                             "notes": null
@@ -3513,7 +3513,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/3",
+                            "quantity": 1.3333333333333333,
                             "unit": "cups",
                             "groupName": "For the cupcakes:",
                             "notes": "160g"
@@ -3523,7 +3523,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -3533,7 +3533,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tsp",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -3543,7 +3543,7 @@
                                 "name": "cocoa powder",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -3553,7 +3553,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/8",
+                            "quantity": 0.125,
                             "unit": "tsp",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -3563,7 +3563,7 @@
                                 "name": "butter",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tbsp",
                             "groupName": "For the cupcakes:",
                             "notes": "softened"
@@ -3573,7 +3573,7 @@
                                 "name": "white sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cups",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -3583,7 +3583,7 @@
                                 "name": "eggs",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "whole",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -3593,7 +3593,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "tsp",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -3603,7 +3603,7 @@
                                 "name": "milk",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -3613,7 +3613,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -3623,7 +3623,7 @@
                                 "name": "confectioner’s sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "lb",
                             "groupName": "For the Frosting:",
                             "notes": null
@@ -3633,7 +3633,7 @@
                                 "name": "salted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Frosting:",
                             "notes": "Room temp 226g"
@@ -3643,7 +3643,7 @@
                                 "name": "vanilla",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tsp",
                             "groupName": "For the Frosting:",
                             "notes": null
@@ -3653,7 +3653,7 @@
                                 "name": "cream",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tsp",
                             "groupName": "For the Frosting:",
                             "notes": null
@@ -3663,7 +3663,7 @@
                                 "name": "cherries",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "cups",
                             "groupName": "For the Cherries:",
                             "notes": "halved and pitted"
@@ -3673,7 +3673,7 @@
                                 "name": "powdered sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Cherries:",
                             "notes": null
@@ -3683,7 +3683,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cherries:",
                             "notes": null
@@ -3693,7 +3693,7 @@
                                 "name": "lemon juice",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Cherries:",
                             "notes": null
@@ -3763,7 +3763,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/3",
+                            "quantity": 1.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3773,7 +3773,7 @@
                                 "name": "unsweetened cocoa",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3783,7 +3783,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/8",
+                            "quantity": 0.125,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3793,7 +3793,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3803,7 +3803,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3813,7 +3813,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cup",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3823,7 +3823,7 @@
                                 "name": "(1 stick) unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "8",
+                            "quantity": 8.0,
                             "unit": "tbsp",
                             "groupName": "For the Cupcakes",
                             "notes": "room temperature"
@@ -3833,7 +3833,7 @@
                                 "name": "large eggs",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "whole",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3843,7 +3843,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3853,7 +3853,7 @@
                                 "name": "milk",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3863,7 +3863,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes",
                             "notes": null
@@ -3873,7 +3873,7 @@
                                 "name": "semisweet chocolate",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Chocolate Ganache",
                             "notes": "chopped finely"
@@ -3883,7 +3883,7 @@
                                 "name": "cream",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/4",
+                            "quantity": 1.25,
                             "unit": "cup",
                             "groupName": "For the Chocolate Ganache",
                             "notes": null
@@ -3893,7 +3893,7 @@
                                 "name": "raspberries",
                                 "nutrition": null
                             },
-                            "quantity": "6",
+                            "quantity": 6.0,
                             "unit": "oz",
                             "groupName": "For the Raspberry Reduction",
                             "notes": null
@@ -3903,7 +3903,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tbsp",
                             "groupName": "For the Raspberry Reduction",
                             "notes": null
@@ -3923,7 +3923,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tbsp",
                             "groupName": "For the Raspberry Reduction",
                             "notes": null
@@ -3933,7 +3933,7 @@
                                 "name": "large egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "whole",
                             "groupName": "For the Buttercream",
                             "notes": "room temperature"
@@ -3943,7 +3943,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cup",
                             "groupName": "For the Buttercream",
                             "notes": "divided"
@@ -3953,7 +3953,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Buttercream",
                             "notes": null
@@ -3963,7 +3963,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1/8",
+                            "quantity": 0.125,
                             "unit": "tsp",
                             "groupName": "For the Buttercream",
                             "notes": null
@@ -3973,7 +3973,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "16",
+                            "quantity": 16.0,
                             "unit": "oz",
                             "groupName": "For the Buttercream",
                             "notes": "room temperature"
@@ -4040,7 +4040,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "1 2/3",
+                            "quantity": 1.6666666666666667,
                             "unit": "cups",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -4050,7 +4050,7 @@
                                 "name": "cupsugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "whole",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -4060,7 +4060,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -4070,7 +4070,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -4080,7 +4080,7 @@
                                 "name": "salted butter room temperature",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -4090,7 +4090,7 @@
                                 "name": "eggs",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -4100,7 +4100,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tsps",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -4110,7 +4110,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -4120,7 +4120,7 @@
                                 "name": "milk",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cake:",
                             "notes": null
@@ -4130,7 +4130,7 @@
                                 "name": "unsalted butter room temperature",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "pound",
                             "groupName": "For the Buttercream",
                             "notes": null
@@ -4140,7 +4140,7 @@
                                 "name": "confectioners' sugar",
                                 "nutrition": null
                             },
-                            "quantity": "8",
+                            "quantity": 8.0,
                             "unit": "cups",
                             "groupName": "For the Buttercream",
                             "notes": null
@@ -4150,7 +4150,7 @@
                                 "name": "cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Buttercream",
                             "notes": null
@@ -4160,7 +4160,7 @@
                                 "name": "pink food coloring",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "drop",
                             "groupName": "For the Buttercream",
                             "notes": "a very small drop"
@@ -4229,7 +4229,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "1 2/3",
+                            "quantity": 1.6666666666666667,
                             "unit": "cups",
                             "groupName": "For the Cupcakes:",
                             "notes": "200g"
@@ -4239,7 +4239,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the Cupcakes:",
                             "notes": "200g"
@@ -4249,7 +4249,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes:",
                             "notes": null
@@ -4259,7 +4259,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes:",
                             "notes": null
@@ -4269,7 +4269,7 @@
                                 "name": "salted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cupcakes:",
                             "notes": "113g"
@@ -4279,7 +4279,7 @@
                                 "name": "smooth peanut butter",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "cup",
                             "groupName": "For the Cupcakes:",
                             "notes": "+ 1 TBS"
@@ -4289,7 +4289,7 @@
                                 "name": "egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "For the Cupcakes:",
                             "notes": null
@@ -4299,7 +4299,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "tsp",
                             "groupName": "For the Cupcakes:",
                             "notes": null
@@ -4309,7 +4309,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cupcakes:",
                             "notes": "(120ml)"
@@ -4319,7 +4319,7 @@
                                 "name": "milk",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Cupcakes:",
                             "notes": "(120ml)"
@@ -4329,7 +4329,7 @@
                                 "name": "egg whites",
                                 "nutrition": null
                             },
-                            "quantity": "4",
+                            "quantity": 4.0,
                             "unit": "whole",
                             "groupName": "For the Italian Buttercream:",
                             "notes": null
@@ -4339,7 +4339,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cups",
                             "groupName": "For the Italian Buttercream:",
                             "notes": "300g"
@@ -4349,7 +4349,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Italian Buttercream:",
                             "notes": "80mL"
@@ -4359,7 +4359,7 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "pinch",
                             "groupName": "For the Italian Buttercream:",
                             "notes": null
@@ -4369,7 +4369,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "cups",
                             "groupName": "For the Italian Buttercream:",
                             "notes": "room temperature, cut into 1-inch pieces 452g"
@@ -4379,7 +4379,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "tsp",
                             "groupName": "For the Italian Buttercream:",
                             "notes": "5mL, optional"
@@ -4389,7 +4389,7 @@
                                 "name": "raspberries",
                                 "nutrition": null
                             },
-                            "quantity": "6",
+                            "quantity": 6.0,
                             "unit": "ounces",
                             "groupName": "For the Raspberry Reduction:",
                             "notes": null
@@ -4399,7 +4399,7 @@
                                 "name": "sugar",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "TBS",
                             "groupName": "For the Raspberry Reduction:",
                             "notes": null
@@ -4409,7 +4409,7 @@
                                 "name": "lemon juice",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "tbs",
                             "groupName": "For the Raspberry Reduction:",
                             "notes": null
@@ -4419,7 +4419,7 @@
                                 "name": "water",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "TBS",
                             "groupName": "For the Raspberry Reduction:",
                             "notes": null
@@ -4489,7 +4489,7 @@
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/3",
+                            "quantity": 1.3333333333333333,
                             "unit": "cups",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4499,7 +4499,7 @@
                                 "name": "granulated sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1 1/2",
+                            "quantity": 1.5,
                             "unit": "cups",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4509,7 +4509,7 @@
                                 "name": "unsweetened cocoa powder",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4519,7 +4519,7 @@
                                 "name": "baking soda",
                                 "nutrition": null
                             },
-                            "quantity": "1/4",
+                            "quantity": 0.25,
                             "unit": "teaspoon",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4529,7 +4529,7 @@
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": "2",
+                            "quantity": 2.0,
                             "unit": "teaspoons",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4539,7 +4539,7 @@
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": "¼",
+                            "quantity": 0.25,
                             "unit": "teaspoon",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4549,7 +4549,7 @@
                                 "name": "vegetable oil",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4559,7 +4559,7 @@
                                 "name": "coffee",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "cup",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4569,7 +4569,7 @@
                                 "name": "eggs",
                                 "nutrition": null
                             },
-                            "quantity": "3",
+                            "quantity": 3.0,
                             "unit": "whole",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4579,7 +4579,7 @@
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "teaspoon",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4589,7 +4589,7 @@
                                 "name": "semi-sweet chocolate chips",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4599,7 +4599,7 @@
                                 "name": "sour cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4609,7 +4609,7 @@
                                 "name": "marshmallow fluff",
                                 "nutrition": null
                             },
-                            "quantity": "¾",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the cupcakes:",
                             "notes": null
@@ -4619,7 +4619,7 @@
                                 "name": "confectioners sugar",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "lb",
                             "groupName": "For the Frosting:",
                             "notes": null
@@ -4629,7 +4629,7 @@
                                 "name": "unsalted butter",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Frosting:",
                             "notes": "room temperature, 113g"
@@ -4639,7 +4639,7 @@
                                 "name": "vanilla",
                                 "nutrition": null
                             },
-                            "quantity": "1",
+                            "quantity": 1.0,
                             "unit": "teaspoon",
                             "groupName": "For the Frosting:",
                             "notes": null
@@ -4649,7 +4649,7 @@
                                 "name": "heavy cream",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Frosting:",
                             "notes": null
@@ -4659,7 +4659,7 @@
                                 "name": "semisweet chocolate chips",
                                 "nutrition": null
                             },
-                            "quantity": "3/4",
+                            "quantity": 0.75,
                             "unit": "cup",
                             "groupName": "For the Frosting:",
                             "notes": "Plus more for topping."
@@ -4669,7 +4669,7 @@
                                 "name": "mini marshmallows",
                                 "nutrition": null
                             },
-                            "quantity": "1/2",
+                            "quantity": 0.5,
                             "unit": "cup",
                             "groupName": "For the Assembly:",
                             "notes": null
@@ -4679,7 +4679,7 @@
                                 "name": "toasted almond slivers",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Assembly:",
                             "notes": "toasted"
@@ -4689,7 +4689,7 @@
                                 "name": "white chocolate chips.",
                                 "nutrition": null
                             },
-                            "quantity": "1/3",
+                            "quantity": 0.3333333333333333,
                             "unit": "cup",
                             "groupName": "For the Assembly:",
                             "notes": null
@@ -4699,7 +4699,7 @@
                                 "name": "mini chocolate chips",
                                 "nutrition": null
                             },
-                            "quantity": "⅓",
+                            "quantity": 0.33,
                             "unit": "cup",
                             "groupName": "For the Assembly:",
                             "notes": null

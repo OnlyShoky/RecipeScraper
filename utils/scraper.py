@@ -28,6 +28,12 @@ def convert_fraction_text(quantity_text):
         if number in fraction_map:
             quantity_text =  firstNumber + fraction_map[number]
     
+    #Treat examples like 1-2
+    division = 1
+    if '-' in quantity_text or 'to' in quantity_text :
+        quantity_text = quantity_text.replace('-',' ')
+        quantity_text = quantity_text.replace('to',' ')
+        division = 2
     
     #Treat fractions 
     quantity_list = quantity_text.split()
@@ -36,11 +42,10 @@ def convert_fraction_text(quantity_text):
         sum = 0
         for quantity in quantity_list:
             sum += Fraction(quantity)
+        sum = sum/division
         quantity_text = str(sum)  
-         
-    
-        
-    return Fraction(quantity_text)
+ 
+    return float(Fraction(quantity_text))
 
 # Function to download the image and save it locally
 def save_image(image,save_path = '/recipe_images/card/'):
@@ -112,26 +117,26 @@ def extract_ingredients(soup):
                 notes = item.find('span', class_='wprm-recipe-ingredient-notes')
 
                 # # Handle fractional quantities (like ½, ¼)
-                # if amount:
-                #     quantity_text = amount.text.strip()
-                #     try:
-                #         # Convert the fraction to a float if it's a valid fraction
-                #         quantity_text = convert_fraction_text(quantity_text)
-                #         quantity = float(Fraction(quantity_text))
+                if amount:
+                    quantity_text = amount.text.strip()
+                    try:
+                        # Convert the fraction to a float if it's a valid fraction
+                        quantity = convert_fraction_text(quantity_text)
+                        
 
-                #     except ValueError:
-                #         # If it's not a valid fraction (or not a number), keep it as None
-                #         print(f"it's not a valid fraction (or not a number), keep it as None")
-                #         quantity = None
-                # else:
-                #     quantity = None
+                    except ValueError:
+                        # If it's not a valid fraction (or not a number), keep it as None
+                        print(f"it's not a valid fraction (or not a number), keep it as None")
+                        quantity = None
+                else:
+                    quantity = None
 
                 ingredient_dict = {
                     "ingredient": {
                         "name": name.text.strip() if name else None,
                         "nutrition": None
                     },
-                    "quantity": amount.text if amount else None,
+                    "quantity": quantity,
                     "unit": unit.text.strip() if unit else "whole",
                     "groupName" : groupname.text if groupname else None,
                     "notes": notes.text.strip() if notes else None
