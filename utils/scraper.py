@@ -197,7 +197,16 @@ def extract_nutrition(soup):
         nutrition_dict[label] = f"{value} {unit}"
         
     return nutrition_dict    
-    
+
+def extract_tags(soup):
+    tags_list = []
+    tags_container = soup.find_all('meta', property='slick:category')
+    if tags_container:
+        for category in tags_container:
+            tag = category['content'].split(':')[0]
+            tags_list.append(tag)
+
+    return tags_list
 
 def scrape_recipe(url,dataScraped = None):
     try:
@@ -234,6 +243,7 @@ def scrape_recipe(url,dataScraped = None):
                             "name": soup.find('span', class_='wprm-recipe-cuisine').text.strip() if soup.find('span', class_='wprm-recipe-cuisine') else None,
                             "type": "Cuisine"
                         },
+                        'tags': extract_tags(soup),
                         "prep_time": extract_time(soup.find('span', class_='wprm-recipe-prep_time')),
                         "cook_time": extract_time(soup.find('span', class_='wprm-recipe-cook_time')),
                         "cool_time": extract_time(soup.find('span', class_='wprm-recipe-custom_time')),
@@ -244,7 +254,6 @@ def scrape_recipe(url,dataScraped = None):
                         "status": 1,
                         "activate_date": None,
                         "deactivate_date": None,
-                        
                         "servings": int(soup.find('span', class_='wprm-recipe-servings').text) if soup.find('span', class_='wprm-recipe-servings') else None,
                         "ingredients": extract_ingredients(soup),
                         "instructions": extract_instructions(soup),
