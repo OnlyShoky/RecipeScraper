@@ -208,6 +208,36 @@ def extract_tags(soup):
 
     return tags_list
 
+def extract_tags(soup):
+    tags_list = []
+    tags_container = soup.find_all('meta', property='slick:category')
+    if tags_container:
+        for category in tags_container:
+            tag = category['content'].split(':')[0]
+            tags_list.append(tag)
+
+    return tags_list
+
+def extract_cuisines(soup):
+    cuisine_list = []
+    cuisine_container = soup.find('span', class_='wprm-recipe-cuisine').text.strip().split(',')
+    if cuisine_container:
+        for cuisine in cuisine_container:
+            cuisine = cuisine.replace(' ', '').capitalize()
+            cuisine_list.append(cuisine)
+
+    return cuisine_list
+
+def extract_courses(soup):
+    course_list = []
+    course_container = soup.find('span', class_='wprm-recipe-course').text.strip().split(',')
+    if course_container:
+        for course in course_container:
+            course = course.replace(' ', '').capitalize()
+            course_list.append(course)
+
+    return course_list
+
 def scrape_recipe(url,dataScraped = None):
     try:
         headers = {
@@ -233,16 +263,8 @@ def scrape_recipe(url,dataScraped = None):
                         "difficulty": None,
                         "image_card": save_image(soup.find('div', class_='wprm-recipe-image')) ,
                         "image" : save_image(soup.find('div', class_='featured-image-class'), save_path='/recipe_images/featured/') ,
-                        "course": {
-                            "id": -1,
-                            "name": soup.find('span', class_='wprm-recipe-course').text.strip() if soup.find('span', class_='wprm-recipe-course') else None,
-                            "type": "Course"
-                        },
-                        "cuisine": {
-                            "id": -1,
-                            "name": soup.find('span', class_='wprm-recipe-cuisine').text.strip() if soup.find('span', class_='wprm-recipe-cuisine') else None,
-                            "type": "Cuisine"
-                        },
+                        "course": extract_courses(soup),
+                        "cuisine": extract_cuisines(soup),
                         'tags': extract_tags(soup),
                         "prep_time": extract_time(soup.find('span', class_='wprm-recipe-prep_time')),
                         "cook_time": extract_time(soup.find('span', class_='wprm-recipe-cook_time')),

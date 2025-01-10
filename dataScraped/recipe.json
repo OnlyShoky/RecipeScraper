@@ -9,16 +9,16 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Shag-cupcakes-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Shag-Cupcakes-Feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:15:00",
                     "cook_time": "00:20:00",
                     "cool_time": null,
@@ -263,16 +263,18 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Hearts-fb-330x330.jpg",
                     "image": "/recipe_images/featured/Heart-c-ookies-feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cookies",
+                        "desserts",
+                        "holiday",
+                        "recipes"
+                    ],
                     "prep_time": "00:25:00",
                     "cook_time": "00:11:00",
                     "cool_time": null,
@@ -451,16 +453,16 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Striped-tart-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/striped-tart-feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "French",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "French"
+                    ],
+                    "tags": [
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:01:00",
                     "cook_time": "00:19:00",
                     "cool_time": "00:01:00",
@@ -739,16 +741,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/russian-piping-tips-insta-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/russian-piping-tips-feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American, russian",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American",
+                        " russian"
+                    ],
+                    "tags": [
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:12:00",
                     "cook_time": null,
                     "cool_time": null,
@@ -845,16 +848,16 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/donut-eclairs-4-330x330.jpg",
                     "image": "/recipe_images/featured/donut-eclairs-3.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "French",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "French"
+                    ],
+                    "tags": [
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:30:00",
                     "cook_time": "00:15:00",
                     "cool_time": null,
@@ -1083,16 +1086,16 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Chocolate-Tart-Insta-330x330.jpg",
                     "image": "/recipe_images/featured/Chocolate-Tart-FB2.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:15:00",
                     "cook_time": "00:30:00",
                     "cool_time": null,
@@ -1323,16 +1326,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Mocha-Buttercream-Recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Mocha-Buttercream-Feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "desserts",
+                        "frostings",
+                        "recipes"
+                    ],
                     "prep_time": "00:10:00",
                     "cook_time": null,
                     "cool_time": null,
@@ -1452,16 +1456,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/raspberry-Tart-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/raspberry-Tart-feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American, French",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American",
+                        " French"
+                    ],
+                    "tags": [
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:35:00",
                     "cook_time": "00:25:00",
                     "cool_time": null,
@@ -1691,16 +1696,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Chocolate-Peanut-Butter-Cake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Chocolate-Peanut-Butter-Cake-Feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:20:00",
                     "cook_time": "00:35:00",
                     "cool_time": null,
@@ -2071,7 +2077,7 @@
                         "average": "5",
                         "count": "51"
                     },
-                    "video_url": "https://www.youtube.com/embed/KiHXV-FhvI0",
+                    "video_url": null,
                     "Nutrition": {
                         "Serving": "126 g",
                         "Calories": "483 kcal",
@@ -2100,16 +2106,21 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Apple-Spice-Cake-18-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/apple-spice-cake-feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cakes",
+                        "christmas",
+                        "desserts",
+                        "halloween",
+                        "holiday",
+                        "recipes",
+                        "thanksgiving"
+                    ],
                     "prep_time": "00:15:00",
                     "cook_time": "00:35:00",
                     "cool_time": null,
@@ -2370,7 +2381,7 @@
                         "average": "4.98",
                         "count": "249"
                     },
-                    "video_url": "https://www.youtube.com/embed/-j9rvAW0U3M",
+                    "video_url": null,
                     "Nutrition": {
                         "Serving": "1 slice",
                         "Calories": "238 kcal",
@@ -2402,16 +2413,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Rocky-Road-Cake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Rocky-Road-Cake-feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:30:00",
                     "cook_time": "00:30:00",
                     "cool_time": null,
@@ -2702,16 +2714,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/mermaid-cake-recipe-3-330x330.jpg",
                     "image": "/recipe_images/featured/Mermaid-Cake-feature-2.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:40:00",
                     "cook_time": "00:30:00",
                     "cool_time": null,
@@ -2911,16 +2924,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/champagne-cake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/champagne-cake-Feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:01:00",
                     "cook_time": "00:25:00",
                     "cool_time": null,
@@ -3231,16 +3245,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Flat-cake-layers-Recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Painted-rose-cake-piece-whole-e1534553330549.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:20:00",
                     "cook_time": "00:30:00",
                     "cool_time": null,
@@ -3486,16 +3501,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/cherry-surprise-cupcakes-recipe1-330x330.jpg",
                     "image": "/recipe_images/featured/Chocolate-Cherry-Cupcakes-Feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cupcakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:15:00",
                     "cook_time": "00:20:00",
                     "cool_time": null,
@@ -3736,16 +3752,18 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Chocolate-Raspberry-Cupcake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Chocolate-Raspberry-Cupcake-feature.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American, British",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American",
+                        " British"
+                    ],
+                    "tags": [
+                        "cupcakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:20:00",
                     "cook_time": "00:25:00",
                     "cool_time": null,
@@ -4013,16 +4031,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Rose-Cupcake-2017-5-330x330.jpg",
                     "image": "/recipe_images/featured/Rose-Cupcake-2017-6.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cupcakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:20:00",
                     "cook_time": "00:35:00",
                     "cool_time": null,
@@ -4202,16 +4221,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Peanut-butter-and-jelly-cupcakes-recipe1-330x330.jpg",
                     "image": "/recipe_images/featured/Peanut-butter-and-jelly-cupcakes-recipe.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cupcakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:20:00",
                     "cook_time": "00:25:00",
                     "cool_time": null,
@@ -4462,16 +4482,17 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Rocky-road-cupake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/rocky-road-FEATURE.jpg",
-                    "course": {
-                        "id": -1,
-                        "name": "Dessert",
-                        "type": "Course"
-                    },
-                    "cuisine": {
-                        "id": -1,
-                        "name": "American",
-                        "type": "Cuisine"
-                    },
+                    "course": [
+                        "Dessert"
+                    ],
+                    "cuisine": [
+                        "American"
+                    ],
+                    "tags": [
+                        "cupcakes",
+                        "desserts",
+                        "recipes"
+                    ],
                     "prep_time": "00:20:00",
                     "cook_time": "00:15:00",
                     "cool_time": null,
