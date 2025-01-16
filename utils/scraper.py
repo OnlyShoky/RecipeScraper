@@ -94,8 +94,15 @@ def extract_time(time):
     if not time:
         return None
     time_string = time.text
-    minutes = int(re.search(r'\d+', time_string).group())
-    return f"{minutes//60:02d}:{minutes%60:02d}:00"
+    
+    hours = re.search(r'(\d+)\s*hours?', time_string, re.IGNORECASE)
+    minutes = re.search(r'(\d+)\s*minutes?', time_string)
+    seconds = re.search(r'(\d+)\s*seconds?', time_string)
+
+    hours = int(hours.group(1)) if hours else 0
+    minutes = int(minutes.group(1)) if minutes else 0
+    seconds = int(seconds.group(1)) if seconds else 0
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
 
 
 def extract_ingredients(soup):
