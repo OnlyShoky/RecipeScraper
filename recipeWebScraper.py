@@ -10,6 +10,8 @@ with open('dataScraped/sitemapURLS.json', 'r') as file:
 # Get the URLs to process
 sites_to_process = data['post-sitemap'][1:]
 sites_parsed = 0
+sites_notParsed = 0
+list_sitesNotParsed = []
 recipe_data = None
 
 # Use tqdm to show the progress bar
@@ -27,15 +29,23 @@ with tqdm(sites_to_process, desc="Progress", unit="site") as progress_bar:
             progress_bar.set_postfix({"url": response.url[:50]})  # Truncate URL for readability
 
             if response.url != 'https://preppykitchen.com':
-                sites_parsed += 1
-                recipe_data = scrape_recipe(site,recipe_data)
+                try:
+                    recipe_data = scrape_recipe(site,recipe_data)
+                    sites_parsed += 1
+                except Exception as e:
+                    print(f"\nError fetching {site}: {e}")
+                    sites_notParsed += 1
+                    list_sitesNotParsed.append(site)
 
 
         except requests.exceptions.RequestException as e:
             print(f"\nError fetching {site}: {e}")
+            sites_notParsed += 1
+            list_sitesNotParsed.append(site)
 
 print(f"\nFinished processing {len(sites_to_process)} sites.")
 print(f"Successfully parsed {sites_parsed} sites.")
+print(f"Not successfully parsed {list_sitesNotParsed} sites.")
 
 
 # Save to JSON file
@@ -45,3 +55,9 @@ if recipe_data:
     print("Recipe data saved to recipe.json")
 else:
     print("Failed to scrape recipe data")
+    
+# Save sites not parsed to a text file
+with open('dataScraped/sites_not_parsed.txt', 'w') as f:
+    for site in list_sitesNotParsed:
+        f.write(f"{site}\n")
+    print("Sites not parsed saved to sites_not_parsed.txt")

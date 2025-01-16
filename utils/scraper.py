@@ -9,15 +9,24 @@ from fractions import Fraction
 def convert_fraction_text(quantity_text):
     # Define a mapping from fraction symbols to numeric string equivalents
     fraction_map = {
-        '¼': '.25',
-        '½': '.5',
-        '¾': '.75',
-        '⅓': '.33',
-        '⅔': '.66',
-        '⅕': '.2',
-        '⅖': '.4',
-        '⅗': '.6',
-        '⅘': '.8'
+        '¼': '0.25',  # Quarter
+        '½': '0.5',   # Half
+        '¾': '0.75',  # Three-quarters
+        '⅓': '0.333', # One-third
+        '⅔': '0.666', # Two-thirds
+        '⅕': '0.2',   # One-fifth
+        '⅖': '0.4',   # Two-fifths
+        '⅗': '0.6',   # Three-fifths
+        '⅘': '0.8',   # Four-fifths
+        '⅙': '0.166', # One-sixth
+        '⅚': '0.833', # Five-sixths
+        '⅛': '0.125', # One-eighth
+        '⅜': '0.375', # Three-eighths
+        '⅝': '0.625', # Five-eighths
+        '⅞': '0.875', # Seven-eighths
+        '⅐': '0.142', # One-seventh
+        '⅑': '0.111', # One-ninth
+        '⅒': '0.1',   # One-tenth
     }
 
     # Check if the quantity text is in the mapping
@@ -48,6 +57,10 @@ def convert_fraction_text(quantity_text):
     return float(Fraction(quantity_text))
 
 # Function to download the image and save it locally
+import re
+import os
+import requests
+
 import re
 import os
 import requests
@@ -95,8 +108,8 @@ def save_image(image, save_path='/recipe_images/card/'):
             print("No valid image URL found.")
             return None
 
-        # Construct the full save path
-        save_path = os.path.join('media', save_path, image_name)
+        if image_name:
+            save_path = 'media' + os.path.join(save_path, image_name)
         
         # Ensure the directory exists
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
@@ -110,6 +123,7 @@ def save_image(image, save_path='/recipe_images/card/'):
     except requests.exceptions.RequestException as e:
         print(f"Error downloading image: {e}")
         return None
+
 
 
 def extract_time(time):
