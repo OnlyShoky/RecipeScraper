@@ -8,7 +8,7 @@ with open('dataScraped/sitemapURLS.json', 'r') as file:
     data = json.load(file)
 
 # Get the URLs to process
-sites_to_process = data['post-sitemap'][1:20]
+sites_to_process = data['post-sitemap'][1:]
 sites_parsed = 0
 recipe_data = None
 

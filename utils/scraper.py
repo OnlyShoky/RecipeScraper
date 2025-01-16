@@ -48,35 +48,56 @@ def convert_fraction_text(quantity_text):
     return float(Fraction(quantity_text))
 
 # Function to download the image and save it locally
-def save_image(image,save_path = '/recipe_images/card/'):
+import re
+import os
+import requests
+
+def save_image(image, save_path='/recipe_images/card/'):
+    """
+    Save an image to the specified path.
     
+    Parameters:
+        image: BeautifulSoup tag containing the image
+        save_path: Path to save the image
+    
+    Returns:
+        Path to the saved image or None if the process fails
+    """
     # Extract image URL
-    image_url = image.find('img')['src']
+    try:
+        image_url = image.find('img')['src']
+    except (KeyError, TypeError) as e:
+        print(f"\nError extracting image URL: {e}")
+        return None
     
-    if 'jpg' not in image_url:
+    # Handle 'data-lazy-src' as a fallback
+    if not image_url or not any(ext in image_url for ext in ['.jpg', '.jpeg', '.png']):
         try:
             image_url = image.find('img')['data-lazy-src']
-        except KeyError as e :
-            print(f"\nError fetching {image_url}: {e}")
-
+        except KeyError as e:
+            print(f"\nError fetching lazy image URL: {e}")
+            return None
 
     try:
+        # Set headers for the request
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
         }
-        response = requests.get(image_url, headers=headers,stream=True)
+        response = requests.get(image_url, headers=headers, stream=True)
         response.raise_for_status()
-        
-        
-        match = re.search(r'([^/]+\.jpg)$', image_url)
-        
-        if match:
-            jpg_name = match.group(1)
-        else:
-            print("No match found")
 
-        if jpg_name:
-            save_path = 'media' + os.path.join(save_path, jpg_name)
+        # Match valid image extensions (.jpg, .jpeg, .png, etc.)
+        match = re.search(r'([^/]+\.(jpg|jpeg|png))$', image_url, re.IGNORECASE)
+
+        if match:
+            image_name = match.group(1)  # Extract the image name with extension
+        else:
+            print("No valid image URL found.")
+            return None
+
+        # Construct the full save path
+        save_path = os.path.join('media', save_path, image_name)
+        
         # Ensure the directory exists
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         
@@ -84,21 +105,24 @@ def save_image(image,save_path = '/recipe_images/card/'):
         with open(save_path, 'wb') as f:
             for chunk in response.iter_content(1024):
                 f.write(chunk)
-        return save_path.removeprefix('media')
+        
+        return save_path.removeprefix('media')  # Return relative path
     except requests.exceptions.RequestException as e:
         print(f"Error downloading image: {e}")
         return None
+
 
 def extract_time(time):
     """Convert time string to HH:MM:SS format"""
     if not time:
         return None
-    time_string = time.text
+    
+    time_string = ' '.join([x.text for x in time])
     
     hours = re.search(r'(\d+)\s*hours?', time_string, re.IGNORECASE)
     minutes = re.search(r'(\d+)\s*minutes?', time_string)
     seconds = re.search(r'(\d+)\s*seconds?', time_string)
-
+    
     hours = int(hours.group(1)) if hours else 0
     minutes = int(minutes.group(1)) if minutes else 0
     seconds = int(seconds.group(1)) if seconds else 0
@@ -273,10 +297,10 @@ def scrape_recipe(url,dataScraped = None):
                         "courses": extract_courses(soup),
                         "cuisines": extract_cuisines(soup),
                         'tags': extract_tags(soup),
-                        "prep_time": extract_time(soup.find('span', class_='wprm-recipe-prep_time')),
-                        "cook_time": extract_time(soup.find('span', class_='wprm-recipe-cook_time')),
-                        "cool_time": extract_time(soup.find('span', class_='wprm-recipe-custom_time')),
-                        "total_time": extract_time(soup.find('span', class_='wprm-recipe-total_time')),
+                        "prep_time": extract_time(soup.findAll('span', class_='wprm-recipe-prep_time')),
+                        "cook_time": extract_time(soup.findAll('span', class_='wprm-recipe-cook_time')),
+                        "cool_time": extract_time(soup.findAll('span', class_='wprm-recipe-custom_time')),
+                        "total_time": extract_time(soup.findAll('span', class_='wprm-recipe-total_time')),
                         "created": None,
                         "modified": None,
                         "description": soup.find('div', class_='wprm-recipe-summary').text.strip() if soup.find('div', class_='wprm-recipe-summary') else None,

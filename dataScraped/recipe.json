@@ -9,10 +9,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Shag-cupcakes-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Shag-Cupcakes-Feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -263,10 +263,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Hearts-fb-330x330.jpg",
                     "image": "/recipe_images/featured/Heart-c-ookies-feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -453,20 +453,20 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Striped-tart-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/striped-tart-feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "French"
                     ],
                     "tags": [
                         "desserts",
                         "recipes"
                     ],
-                    "prep_time": "00:01:00",
+                    "prep_time": "01:30:00",
                     "cook_time": "00:19:00",
-                    "cool_time": "00:01:00",
-                    "total_time": "00:01:00",
+                    "cool_time": "01:30:00",
+                    "total_time": "01:49:00",
                     "created": null,
                     "modified": null,
                     "description": "This striking chocolate tart has a two-tone shall, and silky chocolate and vanilla filling and a decadent layer of ganache hidden inside.",
@@ -741,10 +741,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/russian-piping-tips-insta-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/russian-piping-tips-feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American",
                         "Russian"
                     ],
@@ -848,10 +848,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/donut-eclairs-4-330x330.jpg",
                     "image": "/recipe_images/featured/donut-eclairs-3.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "French"
                     ],
                     "tags": [
@@ -1086,10 +1086,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Chocolate-Tart-Insta-330x330.jpg",
                     "image": "/recipe_images/featured/Chocolate-Tart-FB2.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -1326,10 +1326,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Mocha-Buttercream-Recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Mocha-Buttercream-Feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -1456,10 +1456,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/raspberry-Tart-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/raspberry-Tart-feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American",
                         "French"
                     ],
@@ -1696,10 +1696,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Chocolate-Peanut-Butter-Cake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Chocolate-Peanut-Butter-Cake-Feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -2077,7 +2077,7 @@
                         "average": "5",
                         "count": "51"
                     },
-                    "video_url": null,
+                    "video_url": "https://www.youtube.com/embed/KiHXV-FhvI0",
                     "Nutrition": {
                         "Serving": "126 g",
                         "Calories": "483 kcal",
@@ -2106,10 +2106,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Apple-Spice-Cake-18-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/apple-spice-cake-feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -2381,7 +2381,7 @@
                         "average": "4.98",
                         "count": "249"
                     },
-                    "video_url": null,
+                    "video_url": "https://www.youtube.com/embed/-j9rvAW0U3M",
                     "Nutrition": {
                         "Serving": "1 slice",
                         "Calories": "238 kcal",
@@ -2413,10 +2413,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Rocky-Road-Cake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Rocky-Road-Cake-feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -2427,7 +2427,7 @@
                     "prep_time": "00:30:00",
                     "cook_time": "00:30:00",
                     "cool_time": null,
-                    "total_time": "00:01:00",
+                    "total_time": "01:00:00",
                     "created": null,
                     "modified": null,
                     "description": "The best rocky road cake you could imagine! Chocolate covered marshmallows and nuts fill and top this decadent and moist chocolate cake.",
@@ -2714,10 +2714,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/mermaid-cake-recipe-3-330x330.jpg",
                     "image": "/recipe_images/featured/Mermaid-Cake-feature-2.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -2728,7 +2728,7 @@
                     "prep_time": "00:40:00",
                     "cook_time": "00:30:00",
                     "cool_time": null,
-                    "total_time": "00:01:00",
+                    "total_time": "01:10:00",
                     "created": null,
                     "modified": null,
                     "description": "This mermaid cake has super-moist vanilla cake layers wrapped in decadent white chocolate buttercream rendered in easy but beautiful scales.",
@@ -2924,10 +2924,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/champagne-cake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/champagne-cake-Feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -2935,10 +2935,10 @@
                         "desserts",
                         "recipes"
                     ],
-                    "prep_time": "00:01:00",
+                    "prep_time": "01:00:00",
                     "cook_time": "00:25:00",
                     "cool_time": null,
-                    "total_time": "00:01:00",
+                    "total_time": "01:25:00",
                     "created": null,
                     "modified": null,
                     "description": "Champagne and fresh grapefruit juice combine to make this a very special cake.",
@@ -3245,10 +3245,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Flat-cake-layers-Recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Painted-rose-cake-piece-whole-e1534553330549.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -3501,10 +3501,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/cherry-surprise-cupcakes-recipe1-330x330.jpg",
                     "image": "/recipe_images/featured/Chocolate-Cherry-Cupcakes-Feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -3752,10 +3752,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Chocolate-Raspberry-Cupcake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/Chocolate-Raspberry-Cupcake-feature.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American",
                         "British"
                     ],
@@ -4031,10 +4031,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Rose-Cupcake-2017-5-330x330.jpg",
                     "image": "/recipe_images/featured/Rose-Cupcake-2017-6.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -4221,10 +4221,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Peanut-butter-and-jelly-cupcakes-recipe1-330x330.jpg",
                     "image": "/recipe_images/featured/Peanut-butter-and-jelly-cupcakes-recipe.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
@@ -4482,10 +4482,10 @@
                     "difficulty": null,
                     "image_card": "/recipe_images/card/Rocky-road-cupake-recipe-330x330.jpg",
                     "image": "/recipe_images/featured/rocky-road-FEATURE.jpg",
-                    "course": [
+                    "courses": [
                         "Dessert"
                     ],
-                    "cuisine": [
+                    "cuisines": [
                         "American"
                     ],
                     "tags": [
