@@ -215,6 +215,20 @@ def extract_instructions(soup):
     
     return "\n".join(instructions)
 
+def extract_equipment(soup):
+    """Extract cooking equipment"""
+    equipment_container = soup.find('div', class_='wprm-recipe-equipment-container')
+    equipment = []
+    if equipment_container :
+        equipment_items = equipment_container.find_all('div', class_='wprm-recipe-equipment-name')
+        
+        for item in equipment_items:
+            print(item.text)
+            item.text.replace('▢','')
+            equipment.append(item.text.strip())
+    
+    return "\n".join(equipment)
+
 
 def extract_nutrition(soup):
     """Find all nutrition containers"""
@@ -243,15 +257,6 @@ def extract_nutrition(soup):
         
     return nutrition_dict    
 
-def extract_tags(soup):
-    tags_list = []
-    tags_container = soup.find_all('meta', property='slick:category')
-    if tags_container:
-        for category in tags_container:
-            tag = category['content'].split(':')[0]
-            tags_list.append(tag)
-
-    return tags_list
 
 def extract_tags(soup):
     tags_list = []
@@ -322,6 +327,7 @@ def scrape_recipe(url,dataScraped = None):
                         "activate_date": None,
                         "deactivate_date": None,
                         "servings": int(soup.find('span', class_='wprm-recipe-servings').text) if soup.find('span', class_='wprm-recipe-servings') else None,
+                        "equipment" : extract_equipment(soup),
                         "ingredients": extract_ingredients(soup),
                         "instructions": extract_instructions(soup),
                         "author": soup.find('span', class_='wprm-recipe-author').text.strip() if soup.find('span', class_='wprm-recipe-author') else None,
