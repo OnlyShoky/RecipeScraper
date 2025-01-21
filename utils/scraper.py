@@ -347,7 +347,7 @@ def scrape_recipe(url,dataScraped = None):
                             "count": soup.find('div', id='wprm-recipe-user-rating-0')['data-count']
                         },
                         "video_url": soup.find('div', class_='rll-youtube-player')['data-src'] if soup.find('div', class_='rll-youtube-player') else None,
-                        "Nutrition" : extract_nutrition(soup)
+                        "nutrition" : extract_nutrition(soup)
                     }
                 }
             }
