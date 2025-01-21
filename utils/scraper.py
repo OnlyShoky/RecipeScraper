@@ -223,7 +223,6 @@ def extract_equipment(soup):
         equipment_items = equipment_container.find_all('div', class_='wprm-recipe-equipment-name')
         
         for item in equipment_items:
-            print(item.text)
             item.text.replace('▢','')
             equipment.append(item.text.strip())
     
@@ -263,7 +262,6 @@ def extract_notes(soup):
     notes = []
     if notes_container :
         notes_items = notes_container.find_all('li')
-        
         for item in notes_items:
             notes.append(item.text.strip())
     
