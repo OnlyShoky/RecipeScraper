@@ -255,8 +255,19 @@ def extract_nutrition(soup):
         # Store the data in the dictionary
         nutrition_dict[label] = f"{value} {unit}"
         
-    return nutrition_dict    
-
+    return nutrition_dict   
+ 
+def extract_notes(soup):
+    """Extract cooking notes"""
+    notes_container = soup.find('div', class_='wprm-recipe-notes-container')
+    notes = []
+    if notes_container :
+        notes_items = notes_container.find_all('li')
+        
+        for item in notes_items:
+            notes.append(item.text.strip())
+    
+    return "\n".join(notes)
 
 def extract_tags(soup):
     tags_list = []
@@ -332,6 +343,7 @@ def scrape_recipe(url,dataScraped = None):
                         "instructions": extract_instructions(soup),
                         "author": soup.find('span', class_='wprm-recipe-author').text.strip() if soup.find('span', class_='wprm-recipe-author') else None,
                         "source": "Preppy Kitchen",
+                        "notes" : extract_notes(soup),
                         "rating": {
                             "average": soup.find('div', id='wprm-recipe-user-rating-0')['data-average'],
                             "count": soup.find('div', id='wprm-recipe-user-rating-0')['data-count']
