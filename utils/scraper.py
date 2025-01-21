@@ -252,9 +252,9 @@ def extract_nutrition(soup):
         unit = element.select_one('.wprm-nutrition-label-text-nutrition-unit').text
         
         # Store the data in the dictionary
-        nutrition_dict[label] = f"{value} {unit}"
+        nutrition_dict[label] = (value,unit)
         
-    return nutrition_dict   
+    return nutrition_dict    
  
 def extract_notes(soup):
     """Extract cooking notes"""
