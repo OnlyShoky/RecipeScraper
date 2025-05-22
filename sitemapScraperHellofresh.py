@@ -26,26 +26,31 @@ def parse_sitemap_index(sitemap_xml):
     return urls
 
 def parse_sitemap(sitemap_xml):
-    """ Parse the XML sitemap to extract all URLs """
+    """ Parse the XML sitemap and extract URLs, handling optional namespaces """
     urls = []
     try:
         root = ET.fromstring(sitemap_xml)
-        
-        # Define the namespace for handling the default namespace
-        namespaces = {
-            '': 'http://www.sitemaps.org/schemas/sitemap/0.9'  # Default namespace
-        }
 
-        # Find all <url> elements in the sitemap
-        for url in root.findall('.//url', namespaces):
-            loc = url.find('loc', namespaces)
-            if loc is not None:
-                # Extract the URL from the <loc> tag
-                urls.append(loc.text)
+        # Detect default namespace (if any)
+        if root.tag.startswith("{"):
+            ns_uri = root.tag.split("}")[0].strip("{")
+            ns = {'ns': ns_uri}
+            url_tag = 'ns:url'
+            loc_tag = 'ns:loc'
+        else:
+            ns = {}
+            url_tag = 'url'
+            loc_tag = 'loc'
+
+        # Extract all <loc> elements from <url>
+        for url_elem in root.findall(f'.//{url_tag}', ns):
+            loc = url_elem.find(loc_tag, ns)
+            if loc is not None and loc.text:
+                urls.append(loc.text.strip())
 
     except ET.ParseError as e:
         print(f"Error parsing XML: {e}")
-    
+
     return urls
 
 def fetch_sitemap(url):
@@ -61,8 +66,11 @@ def fetch_sitemap(url):
         return None
 
 # Fetch the sitemap index
-sitemap_url = "https://preppykitchen.com/sitemap_index.xml"
+# Fetch the sitemap index
+sitemap_url = "https://www.hellofresh.com/sitemap_index.xml"
+
 sitemap_xml = fetch_sitemap(sitemap_url)
+
 
 if sitemap_xml:
     # Parse the sitemap index to get individual sitemap URLs
@@ -70,24 +78,27 @@ if sitemap_xml:
     sitemaps = parse_sitemap_index(sitemap_xml)
 
     categorized_urls = {
-        "post-sitemap": [],
-        "page-sitemap": [],
-        "category-sitemap": []
+        "sitemap_transactional_pages": [],
+        "sitemap_recipe_collections": [],
+        "sitemap_recipe_pages": [],
+        "sitemap_others" : []
     }
 
-    for sitemap_url in sitemaps[1:5]:
+    for sitemap_url in sitemaps:
         print(f"Fetching {sitemap_url}...")
         sitemap_xml = fetch_sitemap(sitemap_url)
         if sitemap_xml:
             print(f"Parsing {sitemap_url}...")
-            if "post" in sitemap_url:
-                categorized_urls["post-sitemap"].extend(parse_sitemap(sitemap_xml))
-            elif "page" in sitemap_url:
-                categorized_urls["page-sitemap"].extend(parse_sitemap(sitemap_xml))
-            elif "category" in sitemap_url:
-                categorized_urls["category-sitemap"].extend(parse_sitemap(sitemap_xml))
+            if "sitemap_transactional_pages" in sitemap_url:
+                categorized_urls["sitemap_transactional_pages"].extend(parse_sitemap(sitemap_xml))
+            elif "sitemap_recipe_collections" in sitemap_url:
+                categorized_urls["sitemap_recipe_collections"].extend(parse_sitemap(sitemap_xml))
+            elif "sitemap_recipe_pages" in sitemap_url:
+                categorized_urls["sitemap_recipe_pages"].extend(parse_sitemap(sitemap_xml))
+            elif "others" in sitemap_url:
+                categorized_urls["sitemap_others"].extend(parse_sitemap(sitemap_xml))
 
     # Save all categorized URLs to a JSON file
-    print(f"Saving categorized URLs to 'recipes.json'...")
-    save_urls_to_json(categorized_urls, 'dataScraped/sitemapURLS2.json')
+    print(f"Saving categorized URLs to 'dataScraped/helloFresh/sitemapURLSHelloFresh.json'...")
+    save_urls_to_json(categorized_urls, 'dataScraped/helloFresh/sitemapURLSHelloFresh.json')
     print("Done!")
