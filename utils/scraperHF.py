@@ -65,7 +65,7 @@ import re
 import os
 import requests
 
-def save_image(image, save_path='/recipe_images/card/'):
+def save_image(image, save_path='/recipe_imagesHF/card/'):
     """
     Save an image to the specified path.
     
@@ -144,51 +144,60 @@ def extract_time(time):
 
 
 def extract_ingredients(soup):
-    """Extract ingredients information with fractional quantities"""
+    """Extract ingredients information from HelloFresh-style HTML"""
     ingredients_list = []
-    ingredients_container = soup.find('div', class_='wprm-recipe-ingredients-container')
-
+    
+    ingredients_container = soup.find('div', attrs={'data-test-id': 'ingredients-list'})
+    
     if ingredients_container:
-        # ingredient_items = ingredients_container.find_all('li', class_='wprm-recipe-ingredient')
-        groups_ingredients = ingredients_container.find_all('div', class_='wprm-recipe-ingredient-group')
-
-        for group in groups_ingredients:
-            groupname = group.find('h4', class_='wprm-recipe-group-name')
-            ingredient_items = group.find_all('li', class_='wprm-recipe-ingredient')
-            for item in ingredient_items:
-                amount = item.find('span', class_='wprm-recipe-ingredient-amount')
-                unit = item.find('span', class_='wprm-recipe-ingredient-unit')
-                name = item.find('span', class_='wprm-recipe-ingredient-name')
-                notes = item.find('span', class_='wprm-recipe-ingredient-notes')
-
-                # # Handle fractional quantities (like ½, ¼)
-                if amount:
-                    quantity_text = amount.text.strip()
+        ingredient_items = ingredients_container.find_all('div', attrs={'data-test-id': 'ingredient-item-shipped'})
+        
+        for item in ingredient_items:
+            text_blocks = item.find_all('p')
+            
+            # Get quantity and unit
+            quantity_unit = text_blocks[0].text.strip() if len(text_blocks) > 0 else None
+            quantity = None
+            unit = None
+            
+            if quantity_unit:
+                # Split quantity and unit using the first space
+                parts = quantity_unit.split(' ', 1)
+                if len(parts) == 2:
                     try:
-                        # Convert the fraction to a float if it's a valid fraction
-                        quantity = convert_fraction_text(quantity_text)
-                        
-
+                        quantity = convert_fraction_text(parts[0].strip())
+                        unit = parts[1].strip()
                     except ValueError:
-                        # If it's not a valid fraction (or not a number), keep it as None
-                        print(f"it's not a valid fraction (or not a number), keep it as None")
                         quantity = None
+                        unit = quantity_unit  # fallback to full string if parsing fails
                 else:
-                    quantity = None
+                    try:
+                        quantity = convert_fraction_text(parts[0].strip())
+                        unit = "whole"
+                    except ValueError:
+                        quantity = None
+                        unit = "whole"
 
-                ingredient_dict = {
-                    "ingredient": {
-                        "name": name.text.strip() if name else None,
-                        "nutrition": None
-                    },
-                    "quantity": quantity,
-                    "unit": unit.text.strip() if unit else "whole",
-                    "groupName" : groupname.text if groupname else None,
-                    "notes": notes.text.strip() if notes else None
-                }
-                ingredients_list.append(ingredient_dict)
+            # Get ingredient name
+            name = text_blocks[1].text.strip() if len(text_blocks) > 1 else None
+
+            # Get notes like allergens (optional)
+            notes = text_blocks[2].text.strip() if len(text_blocks) > 2 else None
+
+            ingredient_dict = {
+                "ingredient": {
+                    "name": name,
+                    "nutrition": None
+                },
+                "quantity": quantity,
+                "unit": unit,
+                "groupName": None,  # No group names in this layout
+                "notes": notes
+            }
+            ingredients_list.append(ingredient_dict)
 
     return ingredients_list
+
 
 
 def extract_instructions(soup):
@@ -216,23 +225,32 @@ def extract_instructions(soup):
     return "\n".join(instructions)
 
 def extract_equipment(soup):
-    """Extract cooking equipment"""
-    equipment_container = soup.find('div', class_='wprm-recipe-equipment-container')
+    """Extract cooking equipment (utensils) from new structure"""
     equipment = []
-    if equipment_container :
-        equipment_items = equipment_container.find_all('div', class_='wprm-recipe-equipment-name')
-        
-        for item in equipment_items:
-            item.text.replace('▢','')
-            equipment.append(item.text.strip())
-    
+
+    # Start from the section
+    section = soup.find('div', {'data-section-id': 'utensilsSection'})
+    if section:
+        # Now get the list container
+        list_container = section.find('div', {'data-test-id': 'utensils-list'})
+        if list_container:
+            items = list_container.find_all('div', {'data-test-id': 'utensils-list-item'})
+            for item in items:
+                # Each item has two spans: one for bullet (•), one for name
+                spans = item.find_all('span')
+                if len(spans) >= 2:
+                    equipment_name = spans[1].get_text(strip=True)
+                    equipment.append(equipment_name)
+
     return "\n".join(equipment)
+
+
 
 
 def extract_nutrition(soup):
     """Find all nutrition containers"""
     
-    nutrition_elements = soup.select('.wprm-nutrition-label-text-nutrition-container')
+    nutrition_elements = soup.select('sc-54d3413f-0 cQCwal')
 
 
     if not nutrition_elements :
@@ -243,10 +261,10 @@ def extract_nutrition(soup):
     # Loop through each element and extract the nutrition details
     for element in nutrition_elements:
         # Extract the label (e.g., Calories, Carbohydrates)
-        label = element.select_one('.wprm-nutrition-label-text-nutrition-label').text.strip(': ')
+        label = element.select_one('sc-54d3413f-0 khSFcA').text.strip(': ')
         
         # Extract the value (e.g., 443, 76)
-        value = element.select_one('.wprm-nutrition-label-text-nutrition-value').text
+        value = element.select_one('sc-54d3413f-0 gHvgPY').text
         
         # Extract the unit (e.g., kcal, g, mg)
         unit = element.select_one('.wprm-nutrition-label-text-nutrition-unit').text
@@ -299,7 +317,6 @@ def extract_courses(soup):
 
 def scrape_recipe(url,dataScraped = None):
     try:
-        print("Scrape recipe :  ")
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
         }
@@ -307,51 +324,85 @@ def scrape_recipe(url,dataScraped = None):
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
         
-
+        script_tag = soup.find('script', {'type': 'application/ld+json', 'id': 'schema-org'})
         
+        print(script_tag)
+        # Step 3: Parse the JSON content
+        if script_tag:
+            data = json.loads(script_tag.string)
+
+            # Now you can access the structured data
+            print("Recipe Name:", data.get("name"))
+            print("Recipe Category:", data.get("recipeCategory"))
+            print("Recipe Cuisine:", data.get("recipeCuisine"))
+            print("Author:", data.get("author"))
+            print("Ingredients:", data.get("recipeIngredient"))
+        else:
+            print("No structured data found")
+    
         #Data scrap for 1 element
         if(not dataScraped):
             recipe_data = {"recipes": []}
         else:
             recipe_data = dataScraped
+            
+        # Difficulty
+        difficulty_label = soup.find('span', attrs={'data-translation-id': 'recipe-detail.difficulty'})
+        if difficulty_label:
+            difficulty = difficulty_label.find_parent().find_next_sibling('span', class_='sc-54d3413f-0 gHvgPY').get_text(strip=True)
+        else:
+            difficulty = None
+            
+        # Prep Time
+        prep_time_label = soup.find('span', attrs={'data-translation-id': 'recipe-detail.cooking-time'})
+        if prep_time_label:
+            prep_time = prep_time_label.find_parent().find_next_sibling('span', class_='sc-54d3413f-0 gHvgPY').get_text(strip=True)
+        else:
+            prep_time = None
+        
+        
         
         data = {"data": {
                     "type": "RecipeDetailAPIView",
                     "id": -1,
                     "attributes": {
-                        "title": soup.find('h2', class_='wprm-recipe-name').text.strip(),
-                        "difficulty": None,
-                        "image_card": save_image(soup.find('div', class_='wprm-recipe-image')) ,
-                        "image" : save_image(soup.find('div', class_='featured-image-class'), save_path='/recipe_images/featured/') ,
-                        "courses": extract_courses(soup),
-                        "cuisines": extract_cuisines(soup),
-                        'tags': extract_tags(soup),
-                        "prep_time": extract_time(soup.findAll('span', class_='wprm-recipe-prep_time')),
+                        "title": soup.find('h1', class_='sc-54d3413f-0 hwFcHr').text.strip(),
+                        "difficulty": difficulty,
+                        "image_card": save_image(soup.find('div', class_='sc-54d3413f-0 gUmaWK'), save_path='/recipe_imagesHF/card/') ,
+                        "image" : save_image(soup.find('div', class_='sc-54d3413f-0 gUmaWK'), save_path='/recipe_imagesHF/featured/') ,
+                        "courses": [data.get("recipeCategory")],
+                        "cuisines": [data.get("recipeCuisine")],
+                        'tags': data.get("keywords"),
+                        "prep_time": extract_time(soup.findAll('span', class_='sc-54d3413f-0 gHvgPY')),
                         "cook_time": extract_time(soup.findAll('span', class_='wprm-recipe-cook_time')),
                         "cool_time": extract_time(soup.findAll('span', class_='wprm-recipe-custom_time')),
-                        "total_time": extract_time(soup.findAll('span', class_='wprm-recipe-total_time')),
+                        "total_time": extract_time(soup.findAll('span', class_='sc-54d3413f-0 gHvgPY')),
                         "created": None,
                         "modified": None,
-                        "description": soup.find('div', class_='wprm-recipe-summary').text.strip() if soup.find('div', class_='wprm-recipe-summary') else None,
+                        "description": data.get("Description"),
                         "status": 1,
                         "activate_date": None,
                         "deactivate_date": None,
-                        "servings": int(soup.find('span', class_='wprm-recipe-servings').text) if soup.find('span', class_='wprm-recipe-servings') else None,
+                        "servings": data.get("recipeYield"),
                         "equipment" : extract_equipment(soup),
                         "ingredients": extract_ingredients(soup),
-                        "instructions": extract_instructions(soup),
-                        "author": soup.find('span', class_='wprm-recipe-author').text.strip() if soup.find('span', class_='wprm-recipe-author') else None,
-                        "source": "Preppy Kitchen",
-                        "notes" : extract_notes(soup),
+                        "instructions": None, #extract_instructions(soup),
+                        "author": data.get("author"),
+                        "source": "Hello Fresh",
+                        "notes" : None,
                         "rating": {
-                            "average": soup.find('div', id='wprm-recipe-user-rating-0')['data-average'],
-                            "count": soup.find('div', id='wprm-recipe-user-rating-0')['data-count']
+                            "average": None,
+                            "count": None
                         },
-                        "video_url": soup.find('div', class_='rll-youtube-player')['data-src'] if soup.find('div', class_='rll-youtube-player') else None,
-                        "nutrition" : extract_nutrition(soup)
+                        "video_url": None,
+                        "nutrition" : None, #extract_nutrition(soup)
                     }
                 }
             }
+        
+
+        print("Data : ", data)
+
         
         recipe_data['recipes'].append(data)
         

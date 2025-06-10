@@ -1,0 +1,142 @@
+{
+    "recipes": [
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Creamy Lemon-Basil Pork Rigatoni",
+                    "difficulty": null,
+                    "image_card": "/recipe_imagesHF/card/67fcde63e22258bf02840512-ce6ad3ac.jpeg",
+                    "image": "/recipe_imagesHF/featured/67fcde63e22258bf02840512-ce6ad3ac.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "Southern Europe"
+                    ],
+                    "tags": [
+                        "Quick",
+                        "Easy Prep",
+                        "New",
+                        "Family Friendly"
+                    ],
+                    "prep_time": "00:20:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:20:00",
+                    "created": null,
+                    "modified": null,
+                    "description": null,
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "Large Pot\nStrainer\nLarge Pan\nZester",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Cream Sauce Base",
+                                "nutrition": null
+                            },
+                            "quantity": 4.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": "(Contains:  Milk)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Ground Pork",
+                                "nutrition": null
+                            },
+                            "quantity": 10.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Garlic Powder",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Lemon",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Rigatoni Pasta",
+                                "nutrition": null
+                            },
+                            "quantity": 6.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": "(Contains:  Wheat)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Zucchini",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Scallions",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Cream Cheese",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "tablespoon",
+                            "groupName": null,
+                            "notes": "(Contains:  Milk)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Basil Paste",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": null,
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": null
+                }
+            }
+        }
+    ]
+}

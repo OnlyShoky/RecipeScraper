@@ -1,0 +1,1 @@
+from utils.scraper import scrape_recipe

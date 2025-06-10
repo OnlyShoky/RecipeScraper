@@ -5,10 +5,618 @@
                 "type": "RecipeDetailAPIView",
                 "id": -1,
                 "attributes": {
-                    "title": "Cute Cupcakes",
+                    "title": "Peanut Butter Pie Recipe",
                     "difficulty": null,
-                    "image_card": "/recipe_images/card/Shag-cupcakes-recipe-330x330.jpg",
-                    "image": "/recipe_images/featured/Shag-Cupcakes-Feature.jpg",
+                    "image_card": "/recipe_images/card/Peanut-Butter-Pie-Recipe-Card-330x330.jpg",
+                    "image": "/recipe_images/featured/Peanut-Butter-Pie-Feature.jpg",
+                    "courses": [
+                        "Dessert"
+                    ],
+                    "cuisines": [
+                        "American"
+                    ],
+                    "tags": [
+                        "desserts",
+                        "holiday",
+                        "pies",
+                        "recipes"
+                    ],
+                    "prep_time": "00:10:00",
+                    "cook_time": null,
+                    "cool_time": "03:00:00",
+                    "total_time": "03:10:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Peanut Butter Pie is creamy, cool, chocolaty, and rich. The perfect dessert recipe that disappears before your eyes! Make it for summer, family dinner, and to satisfy peanut butter cravings.",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 8,
+                    "equipment": "9” pie plate\nMixing Bowls\nFood Processor\nElectric hand mixer or stand mixer",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Oreos sandwich cookies",
+                                "nutrition": null
+                            },
+                            "quantity": 24.0,
+                            "unit": "whole",
+                            "groupName": "For the Crust:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "unsalted butter",
+                                "nutrition": null
+                            },
+                            "quantity": 0.25,
+                            "unit": "cup",
+                            "groupName": "For the Crust:",
+                            "notes": "melted (56g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "cream cheese",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "(8 ounce/226g) block",
+                            "groupName": "For the Filling:",
+                            "notes": "room temperature"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "creamy peanut butter",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "cup",
+                            "groupName": "For the Filling:",
+                            "notes": "(250g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "powdered sugar",
+                                "nutrition": null
+                            },
+                            "quantity": 0.75,
+                            "unit": "cup",
+                            "groupName": "For the Filling:",
+                            "notes": "(90g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "heavy whipping cream",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "cup",
+                            "groupName": "For the Filling:",
+                            "notes": "(240ml)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "vanilla extract",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "teaspoon",
+                            "groupName": "For the Filling:",
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "GroupName : For the Crust:\n1. Place the cookies in a food processor, and process the cookies until finely ground, about 30 seconds. Transfer the crumbs to a large bowl. Stir in the melted butter until well combined. (You can also crush the cookies in a large ziptop bag with a rolling pin until finely ground.)\n2. Press the mixture into the bottom and sides of a 9-inch pie pan. Freeze for 30 minutes.\nGroupName : For the Filling:\n1. In a large mixing bowl or the bowl of a stand mixer fitting with the whisk attachment, combine cream cheese and peanut butter. Beat on medium speed until smooth and well combined. Scrape down the bowl and add the powdered sugar. Beat just until combined.\n2. In a separate bowl, beat the cream and vanilla until soft peaks form, then fold the whipped cream into the peanut butter mixture. Spoon the filling into the pie crust and smooth into an even layer. Freeze for at least 3 hours or refrigerate for at least 6 hours before slicing.",
+                    "author": "John Kanell",
+                    "source": "Preppy Kitchen",
+                    "notes": "Chill the pie crust. Make the crust first so it can chill for 30 minutes in the freezer while you prepare the filling. Alternatively, set the crust in the refrigerator for an hour.\nCookie-crushing alternative. You can also crush the cookies in a large ziptop bag with a rolling pin until finely ground.\nChill the pie until set. To prevent a runny filling, chill the pie for 3 hours in the freezer or 6 hours in the fridge. The pie can also be made up to a day in advance and chilled right up until serving as well.\nOptional: Switch up the crust. Replace the Oreos with 2 cups of regular or chocolate graham cracker crumbs or chocolate wafer cookies. Increase the butter to ½ cup and add an optional 2 tablespoons of brown sugar for more sweetness. Check out my graham cracker crust recipe for more details. Or, swap the crumb crust altogether for a flaky blind-baked pie crust shell.\nOptional: Use frozen whipped topping. For an even easier filling, skip making homemade whipped cream and use 1 (8-ounce) tub of frozen whipped topping (like Cool Whip), thawed. Just stir it into the filling as directed with the whipped cream.",
+                    "rating": {
+                        "average": "5",
+                        "count": "30"
+                    },
+                    "video_url": "https://www.youtube.com/embed/OqZNe-gfzGg",
+                    "nutrition": {
+                        "Calories": [
+                            "656",
+                            "kcal"
+                        ],
+                        "Carbohydrates": [
+                            "46",
+                            "g"
+                        ],
+                        "Protein": [
+                            "12",
+                            "g"
+                        ],
+                        "Fat": [
+                            "50",
+                            "g"
+                        ],
+                        "Saturated Fat": [
+                            "21",
+                            "g"
+                        ],
+                        "Polyunsaturated Fat": [
+                            "6",
+                            "g"
+                        ],
+                        "Monounsaturated Fat": [
+                            "18",
+                            "g"
+                        ],
+                        "Trans Fat": [
+                            "0.3",
+                            "g"
+                        ],
+                        "Cholesterol": [
+                            "77",
+                            "mg"
+                        ],
+                        "Sodium": [
+                            "376",
+                            "mg"
+                        ],
+                        "Potassium": [
+                            "334",
+                            "mg"
+                        ],
+                        "Fiber": [
+                            "3",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "31",
+                            "g"
+                        ],
+                        "Vitamin A": [
+                            "995",
+                            "IU"
+                        ],
+                        "Vitamin C": [
+                            "0.2",
+                            "mg"
+                        ],
+                        "Calcium": [
+                            "72",
+                            "mg"
+                        ],
+                        "Iron": [
+                            "5",
+                            "mg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Zucchini Muffins Recipe",
+                    "difficulty": null,
+                    "image_card": "/recipe_images/card/Zuccchhini-muffins-recipe-n-330x330.jpg",
+                    "image": "/recipe_images/featured/Zucchini-muffins-feature.jpg",
+                    "courses": [
+                        "Dessert"
+                    ],
+                    "cuisines": [
+                        "American"
+                    ],
+                    "tags": [
+                        "breakfast",
+                        "muffins",
+                        "recipes"
+                    ],
+                    "prep_time": "00:10:00",
+                    "cook_time": "00:25:00",
+                    "cool_time": null,
+                    "total_time": "00:35:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "My delicious, most zucchini muffins are a quick and easy snack you can prep in minutes!",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 12,
+                    "equipment": "12 cup muffin pan\nPaper cupcake liners",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "all-purpose flour",
+                                "nutrition": null
+                            },
+                            "quantity": 20.25,
+                            "unit": "cups",
+                            "groupName": null,
+                            "notes": "(270g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "baking powder",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "baking soda",
+                                "nutrition": null
+                            },
+                            "quantity": 0.75,
+                            "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "salt",
+                                "nutrition": null
+                            },
+                            "quantity": 0.75,
+                            "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "ground cinnamon",
+                                "nutrition": null
+                            },
+                            "quantity": 10.5,
+                            "unit": "teaspoons",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "eggs",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "large",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "vegetable oil",
+                                "nutrition": null
+                            },
+                            "quantity": 0.666,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(160mL)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "granulated sugar",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(100g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "brown sugar",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "packed (110g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "vanilla extract",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "teaspoons",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "grated zucchini",
+                                "nutrition": null
+                            },
+                            "quantity": 20.5,
+                            "unit": "cups",
+                            "groupName": null,
+                            "notes": "(325g)"
+                        }
+                    ],
+                    "instructions": "1. Preheat the oven to 350°F. Line a 12 cup muffin tin with paper liners.\n2. In a large mixing bowl, whisk together the flour, baking powder, baking soda, salt, and cinnamon.\n3. In a medium mixing bowl, whisk together the eggs, oil, sugars, and vanilla until lightened in color and smooth.\n4. Add the wet mixture and zucchini to the dry mixture and gently stir until combined and no dry streaks of flour remain. (The batter will be thick. The zucchini will continue to release moisture as the muffins bake.)\n5. Use a triggered ice cream scooper to fill the muffin liners almost all of the way full. Bake for 24 to 26 minutes or until a toothpick inserted into the center of the muffins comes out clean.\n6. Let the muffins cool for 5 minutes in the pan, then transfer them to a wire cooling rack to cool completely.",
+                    "author": "John Kanell",
+                    "source": "Preppy Kitchen",
+                    "notes": "Use room temperature ingredients. Set the eggs out 30 minutes or so before you start baking so they can warm up to room temperature. This will make it easier to incorporate with the other ingredients.\nWeigh the flour. Using too much flour in these muffins will make them dry and crumbly instead of soft and moist. The best way to measure flour is by weighing it with a kitchen scale. If you don’t have one, fluff the flour in its canister and spoon it into your measuring cup. Use a knife to level off the top. Do not scoop directly from the container.\nDon’t over-mix the batter. Your muffins will turn out dense and hard if you stir them excessively. Just mix until the flour is fully incorporated.\nDo not wring the zucchini dry or squeeze out any liquid before adding to the wet ingredients. It provides moisture to the muffins while baking. If you lose this excess moisture, the muffins will be dense, dry, and not very delicious.",
+                    "rating": {
+                        "average": "4.92",
+                        "count": "72"
+                    },
+                    "video_url": "https://www.youtube.com/embed/fw86FpMI_UU",
+                    "nutrition": {
+                        "Calories": [
+                            "278",
+                            "kcal"
+                        ],
+                        "Carbohydrates": [
+                            "36",
+                            "g"
+                        ],
+                        "Protein": [
+                            "4",
+                            "g"
+                        ],
+                        "Fat": [
+                            "13",
+                            "g"
+                        ],
+                        "Saturated Fat": [
+                            "2",
+                            "g"
+                        ],
+                        "Polyunsaturated Fat": [
+                            "7",
+                            "g"
+                        ],
+                        "Monounsaturated Fat": [
+                            "3",
+                            "g"
+                        ],
+                        "Trans Fat": [
+                            "0.1",
+                            "g"
+                        ],
+                        "Cholesterol": [
+                            "31",
+                            "mg"
+                        ],
+                        "Sodium": [
+                            "266",
+                            "mg"
+                        ],
+                        "Potassium": [
+                            "119",
+                            "mg"
+                        ],
+                        "Fiber": [
+                            "1",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "18",
+                            "g"
+                        ],
+                        "Vitamin A": [
+                            "97",
+                            "IU"
+                        ],
+                        "Vitamin C": [
+                            "5",
+                            "mg"
+                        ],
+                        "Calcium": [
+                            "42",
+                            "mg"
+                        ],
+                        "Iron": [
+                            "1",
+                            "mg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Strawberry Pretzel Salad Recipe",
+                    "difficulty": null,
+                    "image_card": "/recipe_images/card/Strawberry-Pretzel-Salad-Recipe-Card-330x330.jpg",
+                    "image": "/recipe_images/featured/Strawberry-Pretzel-Salad-Feature.jpg",
+                    "courses": [
+                        "Dessert"
+                    ],
+                    "cuisines": [
+                        "American"
+                    ],
+                    "tags": [
+                        "desserts",
+                        "recipes"
+                    ],
+                    "prep_time": "00:10:00",
+                    "cook_time": "00:10:00",
+                    "cool_time": "07:00:00",
+                    "total_time": "07:20:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Perfect for sweet-salty snack lovers, my strawberry pretzel salad is a delightful summer recipe that is sure to become a cookout staple!",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 16,
+                    "equipment": "9×13 pan\nHand or stand mixer",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "crushed pretzels",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "cups",
+                            "groupName": null,
+                            "notes": "(160g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "granulated sugar",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(200g), divided"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "unsalted butter",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "melted (113g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "cream cheese",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "(8-ounce, 226g) package",
+                            "groupName": null,
+                            "notes": "room temperature"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "frozen whipped topping",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "(8-ounce, 226g) container",
+                            "groupName": null,
+                            "notes": "thawed"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "strawberry Jell-O",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "(6-ounces, 176g) package",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "boiling water",
+                                "nutrition": null
+                            },
+                            "quantity": 20.5,
+                            "unit": "cups",
+                            "groupName": null,
+                            "notes": "(600mL)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "fresh strawberries",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "pound",
+                            "groupName": null,
+                            "notes": "(450g)"
+                        }
+                    ],
+                    "instructions": "1. Preheat the oven to 350°F.\n2. In a medium bowl, combine the pretzels and ⅓ cup sugar. Pour the butter over top and stir to combine. Place the mixture in a 9×13-inch baking dish and press with a flat-bottomed glass or measuring cup to make an even layer.\n3. Bake for 10 to 12 minutes until fragrant. Set on a wire rack for about 45 minutes to cool completely.\n4. Once the crust is cool, place the cream cheese and ⅔ cup granulated sugar in a large mixing bowl. Beat on high speed with a hand mixer for about 2 minutes until very smooth. Scrape down the sides and bottom of the bowl as needed.\n5. Fold in the thawed whipped topping. Spread the mixture into an even layer over the cooled crust. Refrigerate for 1 hour to set.\n6. In a large bowl, combine the Jell-O and the boiling water. Whisk by hand for 1 to 2 minutes until the Jell-O is fully dissolved. Set aside to cool to room temperature for about 1 hour.\n7. Meanwhile, hull the strawberries and slice them into ¼-inch thick pieces.\n8. Once the cream cheese filling is set, carefully lay the strawberries over top of it, overlapping them slightly. Slowly pour the cooled Jell-O mixture over the strawberries. Refrigerate for 4 to 6 hours until the Jell-O is firmly set. Slice and serve.",
+                    "author": "John Kanell",
+                    "source": "Preppy Kitchen",
+                    "notes": "How to crush pretzels: Place the pretzels in a sealed zip-top plastic bag and crush them by rolling with a rolling pin or by gently pounding with a mallet. Do not crush them into a powder. Instead, leave some pea-sized pieces to add texture to the crust. You can also pulse them in a food processor until coarsely chopped.\nYou can use a stand mixer to make the cream cheese filling. If you would prefer, use a stand mixer instead of a hand mixer. Beat the cream cheese and sugar on medium speed with a paddle or whisk attachment. Remove the bowl from the stand mixer and fold in the cool whip.\nFor clean, neat slices of strawberry pretzel salad, run a sharp knife under hot water and wipe it dry before slicing. Wipe off the knife between cuts and run it under hot water occasionally if slicing several pieces.",
+                    "rating": {
+                        "average": "0",
+                        "count": "0"
+                    },
+                    "video_url": null,
+                    "nutrition": {
+                        "Calories": [
+                            "258",
+                            "kcal"
+                        ],
+                        "Carbohydrates": [
+                            "37",
+                            "g"
+                        ],
+                        "Protein": [
+                            "3",
+                            "g"
+                        ],
+                        "Fat": [
+                            "12",
+                            "g"
+                        ],
+                        "Saturated Fat": [
+                            "7",
+                            "g"
+                        ],
+                        "Polyunsaturated Fat": [
+                            "1",
+                            "g"
+                        ],
+                        "Monounsaturated Fat": [
+                            "3",
+                            "g"
+                        ],
+                        "Trans Fat": [
+                            "0.2",
+                            "g"
+                        ],
+                        "Cholesterol": [
+                            "32",
+                            "mg"
+                        ],
+                        "Sodium": [
+                            "229",
+                            "mg"
+                        ],
+                        "Potassium": [
+                            "102",
+                            "mg"
+                        ],
+                        "Fiber": [
+                            "1",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "26",
+                            "g"
+                        ],
+                        "Vitamin A": [
+                            "396",
+                            "IU"
+                        ],
+                        "Vitamin C": [
+                            "17",
+                            "mg"
+                        ],
+                        "Calcium": [
+                            "38",
+                            "mg"
+                        ],
+                        "Iron": [
+                            "1",
+                            "mg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Fruit Pizza Recipe",
+                    "difficulty": null,
+                    "image_card": "/recipe_images/card/Fruit-Pizza-Recipe-Card-330x330.jpg",
+                    "image": "/recipe_images/featured/Fruit-Pizza-Feature.jpg",
                     "courses": [
                         "Dessert"
                     ],
@@ -20,264 +628,206 @@
                         "recipes"
                     ],
                     "prep_time": "00:15:00",
-                    "cook_time": "00:20:00",
+                    "cook_time": "00:16:00",
                     "cool_time": null,
-                    "total_time": "00:35:00",
+                    "total_time": "00:31:00",
                     "created": null,
                     "modified": null,
-                    "description": "Charming, and cheerful cupcakes that are perfect for any celebration! Inside they're perfect, moist vanilla cake and on top a shaggy mop of vanilla buttercream!",
+                    "description": "Fruit pizza is so simple to make with basic ingredients. Use your favorite colorful fruits for a dessert pizza that explodes with flavor in every bite!",
                     "status": 1,
                     "activate_date": null,
                     "deactivate_date": null,
-                    "servings": 18,
-                    "equipment": "",
+                    "servings": 6,
+                    "equipment": "Mixing Bowls\nMixer\nPizza Pan",
                     "ingredients": [
                         {
                             "ingredient": {
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": 1.6666666666666667,
-                            "unit": "cup",
-                            "groupName": "For the Cupcakes:",
-                            "notes": "213g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "granulated sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
+                            "quantity": 2.0,
                             "unit": "cups",
-                            "groupName": "For the Cupcakes:",
-                            "notes": "200g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "baking soda",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "For the Cupcakes:",
-                            "notes": "heaping"
+                            "groupName": "For the Sugar Cookie Crust:",
+                            "notes": "(240 grams)"
                         },
                         {
                             "ingredient": {
                                 "name": "baking powder",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Cupcakes:",
-                            "notes": "heaping"
+                            "quantity": 2.0,
+                            "unit": "teaspoons",
+                            "groupName": "For the Sugar Cookie Crust:",
+                            "notes": null
                         },
                         {
                             "ingredient": {
                                 "name": "kosher salt",
                                 "nutrition": null
                             },
-                            "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "For the Cupcakes:",
+                            "quantity": 0.5,
+                            "unit": "teaspoon",
+                            "groupName": "For the Sugar Cookie Crust:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "unsalted butter",
+                                "name": "butter",
+                                "nutrition": null
+                            },
+                            "quantity": 10.0,
+                            "unit": "tablespoons",
+                            "groupName": "For the Sugar Cookie Crust:",
+                            "notes": "softened (142g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "granulated sugar",
                                 "nutrition": null
                             },
                             "quantity": 0.75,
                             "unit": "cup",
-                            "groupName": "For the Cupcakes:",
-                            "notes": "190g, room temperature"
+                            "groupName": "For the Sugar Cookie Crust:",
+                            "notes": "(150g)"
                         },
                         {
                             "ingredient": {
-                                "name": "egg whites",
+                                "name": "egg",
                                 "nutrition": null
                             },
-                            "quantity": 3.0,
-                            "unit": "whole",
-                            "groupName": "For the Cupcakes:",
-                            "notes": "room temperature"
+                            "quantity": 1.0,
+                            "unit": "large",
+                            "groupName": "For the Sugar Cookie Crust:",
+                            "notes": null
                         },
                         {
                             "ingredient": {
                                 "name": "vanilla extract",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Cupcakes:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "sour cream",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "For the Cupcakes:",
-                            "notes": "120ml, room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "whole milk",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "For the Cupcakes:",
-                            "notes": "120ml, warm"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Lemon zest",
-                                "nutrition": null
-                            },
                             "quantity": 2.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Cupcakes:",
+                            "unit": "teaspoons",
+                            "groupName": "For the Sugar Cookie Crust:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "Lemon juice",
+                                "name": "cream cheese",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Cupcakes:",
-                            "notes": null
+                            "quantity": 4.0,
+                            "unit": "ounces",
+                            "groupName": "For the Topping:",
+                            "notes": "softened (113g)"
                         },
                         {
                             "ingredient": {
                                 "name": "confectioners sugar",
                                 "nutrition": null
                             },
-                            "quantity": 2.0,
-                            "unit": "lb",
-                            "groupName": "For the Vanilla Buttercream:",
-                            "notes": "900g, sifted"
+                            "quantity": 0.75,
+                            "unit": "cup",
+                            "groupName": "For the Topping:",
+                            "notes": "(90g)"
                         },
                         {
                             "ingredient": {
-                                "name": "unsalted butter",
+                                "name": "vanilla",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "lb",
-                            "groupName": "For the Vanilla Buttercream:",
-                            "notes": "450g, room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla extract",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Vanilla Buttercream:",
+                            "quantity": 0.5,
+                            "unit": "teaspoon",
+                            "groupName": "For the Topping:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "heavy cream",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Vanilla Buttercream:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "kosher salt",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "pinch",
-                            "groupName": "For the Vanilla Buttercream:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "whole milk",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Vanilla Buttercream:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "rose water",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Vanilla Buttercream:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Food coloring",
+                                "name": "Sliced fresh fruit",
                                 "nutrition": null
                             },
                             "quantity": null,
                             "unit": "whole",
-                            "groupName": "For the Vanilla Buttercream:",
-                            "notes": null
+                            "groupName": "For the Topping:",
+                            "notes": "we used kiwi, strawberries, blueberries, grapes, and canned mandarin orange slices."
                         }
                     ],
-                    "instructions": "GroupName : INSTRUCTIONS\nGroupName : For the Cupcakes:\n1. Preheat oven to 350 degrees F. Place cupcake papers in a cupcake pan. Zest a lemon.\n2. In a large bowl, sift the dry ingredients together until incorporated. Including the sugar.\n3. In another bowl, whisk together the wet ingredients and lemon zest until combined. (The batter may be clumpy! Do not worry!)\n4. Add the wet ingredients to the dry ingredients. Mix until combined.\n5. Distribute the batter evenly into cupcake papers.\n6. Bake for 15-20 minutes or until golden and springy to the touch.\nGroupName : For the Buttercream:\n1. In a stand mixer fitted with a paddle attachment, cream the room temperature butter. Add in the confectioners sugar in two batches. Add salt, milk, cream, rose water and vanilla. Mix until fluffy.\n2. Transfer to separate bowls.\n3. Add food coloring to each batch.\n4. Transfer to a piping bags fitted with grass tips.\n5. Pipe the shaggy buttercream on each cupcake.",
+                    "instructions": "GroupName : For the Sugar Cookie Crust:\n1. Preheat oven to 350º. Spray a 12-inch round pizza pan with baking spray with flour.\n2. In a medium bowl, whisk together the flour, baking powder, and salt.\n3. In a large mixing bowl or the bowl of a stand mixer fitted with a paddle attachment, beat the butter and sugar on medium speed until light and fluffy, about 3 to 4 minutes.\n4. Add the egg and vanilla and beat on medium until well combined.\n5. With the mixer on low, slowly add flour mixture to butter mixture until combined, stopping to scrape down the bowl as needed. Place the cookie dough onto the prepared baking sheet. Place a piece of wax or parchment paper over the dough, and press the dough into an even 12-inch circle. (To get a perfectly even cookie crust layer, use a flat spatula, bench scraper, or bowl scraper to help spread your cookie dough onto the pan.) Remove the paper.\n6. Bake for 16 to 18 minutes, or until the edges are lightly browned and a wooden toothpick comes out clean. Let cool completely on the pan.\nGroupName : For the Topping:\n1. In a medium bowl, beat the cream cheese on medium speed until fluffy, about 2 minutes. Add the powdered sugar and vanilla. Beat on medium-low until smooth. Spread over cooled cookie crust. Arrange fruit slices in concentric rings of alternating fruits over the frosting. Serve immediately. Refrigerate any leftovers for up to 3 days.",
                     "author": "John Kanell",
                     "source": "Preppy Kitchen",
-                    "notes": "Double the lemon zest if you want a zingyer cupcake.\nIf you want to whip up some lemon buttercream for these then skip the vanilla and rose water and add a tablespoon of lemon juice.\nI used a large grass tip to pipe the dollop on top but really they only need a little smear of buttercream.",
+                    "notes": "If the cookie crust dough is too sticky to work with, chill the dough in the refrigerator for 30 minutes.\nDo not spread the cookie crust too thin. It needs to be sturdy enough to hold up the fruit topping. If you are using a 12” pizza pan, this won’t be an issue!\nLet the crust cool completely before frosting. If it’s still hot, the cream cheese frosting will melt.\nIf you do not have powdered sugar, follow my foolproof guide on how to make powdered sugar.\nSlice the fruit into small, bite-sized pieces or chunks to make the pizza easier to eat.\nUse fresh or canned fruit. Frozen fruit will not have the same texture or flavor. If you use canned fruit, drain the fruit and pat dry with paper towels.",
                     "rating": {
                         "average": "5",
                         "count": "6"
                     },
-                    "video_url": "https://www.youtube.com/embed/OERYW30ymOg",
+                    "video_url": null,
                     "nutrition": {
-                        "Serving": [
-                            "1",
-                            "g"
-                        ],
                         "Calories": [
-                            "324",
+                            "467",
                             "kcal"
                         ],
                         "Carbohydrates": [
-                            "52",
+                            "67",
                             "g"
                         ],
                         "Protein": [
-                            "3",
+                            "5",
                             "g"
                         ],
                         "Fat": [
-                            "23",
+                            "21",
                             "g"
                         ],
                         "Saturated Fat": [
-                            "14",
+                            "12",
+                            "g"
+                        ],
+                        "Polyunsaturated Fat": [
+                            "1",
+                            "g"
+                        ],
+                        "Monounsaturated Fat": [
+                            "5",
+                            "g"
+                        ],
+                        "Trans Fat": [
+                            "1",
                             "g"
                         ],
                         "Cholesterol": [
-                            "80",
+                            "75",
                             "mg"
                         ],
                         "Sodium": [
-                            "210",
+                            "419",
                             "mg"
                         ],
-                        "Sugar": [
-                            "34",
+                        "Potassium": [
+                            "120",
+                            "mg"
+                        ],
+                        "Fiber": [
+                            "3",
                             "g"
+                        ],
+                        "Sugar": [
+                            "39",
+                            "g"
+                        ],
+                        "Vitamin A": [
+                            "706",
+                            "IU"
+                        ],
+                        "Vitamin C": [
+                            "2",
+                            "mg"
+                        ],
+                        "Calcium": [
+                            "93",
+                            "mg"
+                        ],
+                        "Iron": [
+                            "2",
+                            "mg"
                         ]
                     }
                 }
@@ -288,10 +838,247 @@
                 "type": "RecipeDetailAPIView",
                 "id": -1,
                 "attributes": {
-                    "title": "Valentine's Day Sugar Cookies",
+                    "title": "Instant Pot Chicken Tacos Recipe",
                     "difficulty": null,
-                    "image_card": "/recipe_images/card/Hearts-fb-330x330.jpg",
-                    "image": "/recipe_images/featured/Heart-c-ookies-feature.jpg",
+                    "image_card": "/recipe_images/card/Instant-Pot-Chicken-Tacos-Recipe-Card-330x330.jpg",
+                    "image": "/recipe_images/featured/Instant-Pot-Chicken-Tacos-Feature.jpg",
+                    "courses": [
+                        "Maincourse"
+                    ],
+                    "cuisines": [
+                        "Mexican"
+                    ],
+                    "tags": [
+                        "chicken",
+                        "cooking-method",
+                        "instant-pot-cooking-method",
+                        "recipes"
+                    ],
+                    "prep_time": "00:10:00",
+                    "cook_time": "00:20:00",
+                    "cool_time": null,
+                    "total_time": "00:30:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Try these Instant Pot chicken tacos if you are looking for a simple, tasty dinner that makes wonderful leftovers. Excellent for meal prep.",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 6,
+                    "equipment": "Instant Pot",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "salsa",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(240mL)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "chicken broth",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(120mL)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "taco seasoning",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "tablespoons",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "olive oil",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "teaspoons",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "lime juiced and zested",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "whole",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "boneless skinless chicken breasts",
+                                "nutrition": null
+                            },
+                            "quantity": 10.5,
+                            "unit": "pounds",
+                            "groupName": null,
+                            "notes": "(675g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Tortillas",
+                                "nutrition": null
+                            },
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "For Serving (optional):",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Sour cream",
+                                "nutrition": null
+                            },
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "For Serving (optional):",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Shredded cheese",
+                                "nutrition": null
+                            },
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "For Serving (optional):",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Pico de gallo",
+                                "nutrition": null
+                            },
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "For Serving (optional):",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Avocado",
+                                "nutrition": null
+                            },
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "For Serving (optional):",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Cilantro",
+                                "nutrition": null
+                            },
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "For Serving (optional):",
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. In the Instant pot, stir together the salsa, broth, taco seasoning, oil, lime juice and zest. Nestle the chicken breasts into the salsa mixture.\n2. Secure the lid, making sure the steam valve is sealed. Cook on high pressure for 10 minutes. Quick release the steam.\n3. Remove the chicken, reserving the liquid in the pot, and shred using 2 forks.\n4. If you want to reduce the cooking liquid, turn the Instant Pot onto the “Saute” setting and simmer until the liquid has reduced by about half or your desired consistency, about 10 minutes. Press ‘Cancel’ to the pot off.\n5. Return the shredded chicken to the pot and stir until heated through. Fill tortillas with the shredded chicken and serve with your desired toppings.",
+                    "author": "John Kanell",
+                    "source": "Preppy Kitchen",
+                    "notes": "If you like heat: Stir ¼ teaspoon cayenne pepper in along with the taco seasoning blend, or choose a spicy salsa and taco seasoning. You can also top your tacos with hot sauce.\nIf there’s too much liquid: After removing the chicken, change to the Saute setting and simmer until the sauce reaches your desired consistency. To save time, reduce the liquid while shredding the chicken.",
+                    "rating": {
+                        "average": "5",
+                        "count": "6"
+                    },
+                    "video_url": null,
+                    "nutrition": {
+                        "Calories": [
+                            "372",
+                            "kcal"
+                        ],
+                        "Carbohydrates": [
+                            "33",
+                            "g"
+                        ],
+                        "Protein": [
+                            "30",
+                            "g"
+                        ],
+                        "Fat": [
+                            "14",
+                            "g"
+                        ],
+                        "Saturated Fat": [
+                            "4",
+                            "g"
+                        ],
+                        "Polyunsaturated Fat": [
+                            "2",
+                            "g"
+                        ],
+                        "Monounsaturated Fat": [
+                            "6",
+                            "g"
+                        ],
+                        "Trans Fat": [
+                            "0.01",
+                            "g"
+                        ],
+                        "Cholesterol": [
+                            "78",
+                            "mg"
+                        ],
+                        "Sodium": [
+                            "1154",
+                            "mg"
+                        ],
+                        "Potassium": [
+                            "764",
+                            "mg"
+                        ],
+                        "Fiber": [
+                            "5",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "7",
+                            "g"
+                        ],
+                        "Vitamin A": [
+                            "595",
+                            "IU"
+                        ],
+                        "Vitamin C": [
+                            "11",
+                            "mg"
+                        ],
+                        "Calcium": [
+                            "114",
+                            "mg"
+                        ],
+                        "Iron": [
+                            "2",
+                            "mg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Apple Galette Recipe",
+                    "difficulty": null,
+                    "image_card": "/recipe_images/card/Apple-Galette-recipe-330x330.jpg",
+                    "image": "/recipe_images/featured/Apple-Galette-feature.jpg",
                     "courses": [
                         "Dessert"
                     ],
@@ -299,82 +1086,40 @@
                         "American"
                     ],
                     "tags": [
-                        "cookies",
                         "desserts",
-                        "holiday",
                         "recipes"
                     ],
-                    "prep_time": "00:25:00",
-                    "cook_time": "00:11:00",
-                    "cool_time": null,
-                    "total_time": "00:36:00",
+                    "prep_time": "00:15:00",
+                    "cook_time": "00:45:00",
+                    "cool_time": "02:00:00",
+                    "total_time": "03:00:00",
                     "created": null,
                     "modified": null,
-                    "description": "These delicious sugar cookies with easy but beautiful royal icing decorations on top are perfect for Valentine's Day!",
+                    "description": "My easy apple galette recipe is a must-try! You’ll love the lightly spiced apples and buttery crust.",
                     "status": 1,
                     "activate_date": null,
                     "deactivate_date": null,
                     "servings": 6,
-                    "equipment": "",
+                    "equipment": "Baking Sheet\nRolling Pin",
                     "ingredients": [
-                        {
-                            "ingredient": {
-                                "name": "softened butter",
-                                "nutrition": null
-                            },
-                            "quantity": 1.5,
-                            "unit": "cups",
-                            "groupName": "For the Cookies:",
-                            "notes": "unsalted"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "white sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "cups",
-                            "groupName": "For the Cookies:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "eggs",
-                                "nutrition": null
-                            },
-                            "quantity": 4.0,
-                            "unit": "whole",
-                            "groupName": "For the Cookies:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla extract",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Cookies:",
-                            "notes": null
-                        },
                         {
                             "ingredient": {
                                 "name": "all-purpose flour",
                                 "nutrition": null
                             },
-                            "quantity": 5.0,
+                            "quantity": 10.5,
                             "unit": "cups",
-                            "groupName": "For the Cookies:",
-                            "notes": null
+                            "groupName": "For the Pie Dough:",
+                            "notes": "(180g)"
                         },
                         {
                             "ingredient": {
-                                "name": "corn starch",
+                                "name": "granulated sugar",
                                 "nutrition": null
                             },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "For the Cookies:",
+                            "quantity": 2.0,
+                            "unit": "tablespoons",
+                            "groupName": "For the Pie Dough:",
                             "notes": null
                         },
                         {
@@ -382,417 +1127,114 @@
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Cookies:",
+                            "quantity": 0.5,
+                            "unit": "teaspoon",
+                            "groupName": "For the Pie Dough:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "baking powder",
+                                "name": "cold unsalted butter",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": "For the Pie Dough:",
+                            "notes": "cubed (113g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "ice water",
+                                "nutrition": null
+                            },
+                            "quantity": 4.0,
+                            "unit": "tablespoons",
+                            "groupName": "For the Pie Dough:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "baking apples",
+                                "nutrition": null
+                            },
+                            "quantity": 2.5,
+                            "unit": "large",
+                            "groupName": "For the Apple Filling:",
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "lemon juice",
                                 "nutrition": null
                             },
                             "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Cookies:",
+                            "unit": "tablespoon",
+                            "groupName": "For the Apple Filling:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "egg whites",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "whole",
-                            "groupName": "For the Icing:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "confectioner's sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "lb",
-                            "groupName": "For the Icing:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "cream of tartar",
+                                "name": "granulated sugar",
                                 "nutrition": null
                             },
                             "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "For the Icing:",
-                            "notes": null
+                            "unit": "cup",
+                            "groupName": "For the Apple Filling:",
+                            "notes": "(50g)"
                         },
                         {
                             "ingredient": {
-                                "name": "water",
+                                "name": "cinnamon",
                                 "nutrition": null
                             },
-                            "quantity": 3.0,
-                            "unit": "tsp",
-                            "groupName": "For the Icing:",
+                            "quantity": 0.5,
+                            "unit": "teaspoon",
+                            "groupName": "For the Apple Filling:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "Food coloring",
+                                "name": "butter",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "tablespoons",
+                            "groupName": "Assembly:",
+                            "notes": "melted"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "egg",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "whole",
+                            "groupName": "Assembly:",
+                            "notes": "beaten"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Coarse sugar",
                                 "nutrition": null
                             },
                             "quantity": null,
                             "unit": "whole",
-                            "groupName": "For the Icing:",
-                            "notes": null
+                            "groupName": "Assembly:",
+                            "notes": "for sprinkling"
                         }
                     ],
-                    "instructions": "1. Sift the flour, corn starch, salt, and baking powder in a large bowl. Whisk to combine and set aside. Beat the butter and sugar until it is light and fluffy, then add the eggs one at a time.\n2. Stir the flour in, making sure to add in several batches. Once combined cover with plastic and chill in the refrigerator for at least two hours.\n3. Roll out the cold dough in small batches, It warms up quickly! You can roll out between two sheets of plastic wrap if you’re worried about the dough getting too sticky to release.\n4. Cut into heart shapes with a cookie cutter. If you do not have any heart-shaped cookie cutters just cut one out of paper and trace around it with a pin or small knife. Lay on a baking sheet lined with parchment paper. Bake at 375F for 5 minutes, rotate the tray and bake additional 3-6 minutes depending on the size, thickness and desired crisp.\n5. Allow time to cool on a rack while you whip up some royal icing.\n6. Sift the powdered sugar into a bowl. In a separate bowl beat the egg whites and add the cream of tartar once they become frothy.\n7. Add the sugar in 3-4 batches and mix at low speed.\n8. Once combined, separate into batches and add the water until desired flooding consistency is reached to some of the batches. Stir in the food coloring.",
+                    "instructions": "GroupName : For the Pie Dough:\n1. In a food processor, combine flour, sugar, and salt. Pulse to combine. Add the butter and pulse a few times just to break the pieces down a bit.\n2. While pulsing, drizzle in 4 tablespoons of ice water. Pulse until dough starts to clump together. Turn out dough onto a lightly floured surface and knead together to form a ball. Shape into a disk and tightly wrap in plastic wrap. Chill for at least 2 hours or up to 3 days.\nGroupName : For the Apple Filling:\n1. Preheat the oven to 400F. Line a baking sheet with parchment paper or a silicone baking mat.\n2. Peel, core, and slice the apples into ⅛-inch thick slices. Place in a large bowl. Toss with lemon juice until well coated.\n3. Sprinkle apples with sugar and cinnamon and toss until combined.\nGroupName : For the Assembly:\n1. On a lightly floured surface, roll pie dough into roughly a 12-inch circle. Transfer to the lined baking sheet (the dough will likely hang over the edges.) Arrange the apple filling in the center of the dough, leaving a 3-inch border. Drizzle the apples with melted butter.\n2. Fold the edges of the dough over the filling towards the center. (The dough will not fully cover the filling). Brush the dough with egg and sprinkle with sugar.\n3. Bake for 45 minutes or until crust is golden brown and filling is bubbly. Let cool on a wire rack for at least 30 minutes before slicing.",
                     "author": "John Kanell",
                     "source": "Preppy Kitchen",
-                    "notes": "",
-                    "rating": {
-                        "average": "4.96",
-                        "count": "69"
-                    },
-                    "video_url": null,
-                    "nutrition": {
-                        "Serving": [
-                            "1",
-                            "cookie"
-                        ],
-                        "Calories": [
-                            "132",
-                            "kcal"
-                        ],
-                        "Carbohydrates": [
-                            "16",
-                            "g"
-                        ],
-                        "Protein": [
-                            "1",
-                            "g"
-                        ],
-                        "Fat": [
-                            "5",
-                            "g"
-                        ],
-                        "Saturated Fat": [
-                            "11",
-                            "g"
-                        ],
-                        "Monounsaturated Fat": [
-                            "2",
-                            "g"
-                        ],
-                        "Cholesterol": [
-                            "3",
-                            "mg"
-                        ],
-                        "Sodium": [
-                            "82",
-                            "mg"
-                        ],
-                        "Potassium": [
-                            "38",
-                            "mg"
-                        ],
-                        "Sugar": [
-                            "9",
-                            "g"
-                        ],
-                        "Calcium": [
-                            "10",
-                            "mg"
-                        ],
-                        "Iron": [
-                            "0.4",
-                            "mg"
-                        ]
-                    }
-                }
-            }
-        },
-        {
-            "data": {
-                "type": "RecipeDetailAPIView",
-                "id": -1,
-                "attributes": {
-                    "title": "French Pastry",
-                    "difficulty": null,
-                    "image_card": "/recipe_images/card/Striped-tart-recipe-330x330.jpg",
-                    "image": "/recipe_images/featured/striped-tart-feature.jpg",
-                    "courses": [
-                        "Dessert"
-                    ],
-                    "cuisines": [
-                        "French"
-                    ],
-                    "tags": [
-                        "desserts",
-                        "recipes"
-                    ],
-                    "prep_time": "01:30:00",
-                    "cook_time": "00:19:00",
-                    "cool_time": "01:30:00",
-                    "total_time": "01:49:00",
-                    "created": null,
-                    "modified": null,
-                    "description": "This striking chocolate tart has a two-tone shall, and silky chocolate and vanilla filling and a decadent layer of ganache hidden inside.",
-                    "status": 1,
-                    "activate_date": null,
-                    "deactivate_date": null,
-                    "servings": 6,
-                    "equipment": "",
-                    "ingredients": [
-                        {
-                            "ingredient": {
-                                "name": "confectioners sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 80.0,
-                            "unit": "g",
-                            "groupName": "Vanilla Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Large Egg Yolks",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "whole",
-                            "groupName": "Vanilla Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla extract 2.5mL",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "tsp",
-                            "groupName": "Vanilla Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "plain flour 225g",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "lb",
-                            "groupName": "Vanilla Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter 113g",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "Vanilla Tart Shell:",
-                            "notes": "cold & cubed"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "salt 1g",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "Vanilla Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "confectioners sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 80.0,
-                            "unit": "g",
-                            "groupName": "Chocolate Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Large Egg Yolks",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "whole",
-                            "groupName": "Chocolate Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla extract 2.5mL",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "tsp",
-                            "groupName": "Chocolate Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "plain flour 215g",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "lb",
-                            "groupName": "Chocolate Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter 113g",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "Chocolate Tart Shell:",
-                            "notes": "cold & cubed"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "cocoa powder",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "tbsp",
-                            "groupName": "Chocolate Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "salt 1g",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "Chocolate Tart Shell:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "semisweet chocolate chips 200g",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "Chocolate Ganache:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Heavy cream 110g",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "Chocolate Ganache:",
-                            "notes": "heated"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "egg whites at room temperature",
-                                "nutrition": null
-                            },
-                            "quantity": 5.0,
-                            "unit": "whole",
-                            "groupName": "Swiss Meringue Buttercream:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter 452g",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "cups",
-                            "groupName": "Swiss Meringue Buttercream:",
-                            "notes": "room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "granulated sugar 300g",
-                                "nutrition": null
-                            },
-                            "quantity": 10.5,
-                            "unit": "cups",
-                            "groupName": "Swiss Meringue Buttercream:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "kosher salt",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "pinch",
-                            "groupName": "Swiss Meringue Buttercream:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla extract",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "Swiss Meringue Buttercream:",
-                            "notes": "5mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "semi-sweet chocolate",
-                                "nutrition": null
-                            },
-                            "quantity": 0.3333333333333333,
-                            "unit": "cup",
-                            "groupName": "Swiss Meringue Buttercream:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Swiss meringue buttercream",
-                                "nutrition": null
-                            },
-                            "quantity": null,
-                            "unit": "whole",
-                            "groupName": "Ridged Top:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "cocoa powder",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "tbsp",
-                            "groupName": "Ridged Top:",
-                            "notes": "for assembly"
-                        }
-                    ],
-                    "instructions": "GroupName : For the Tart Shell:\n1. You're making two batches of pastry, one vanilla and one chocolate. Later on they will be laminated together.\nGroupName : For the Vanilla Dough: \n1. Add the icing sugar, butter, vanilla & salt in the bowl of a stand mixer. You can also use a hand mixer.\n2. Beat the mixture on a medium speed for 2 minutes until it forms a paste. Scrape down the bowl after 1 minute.\n3. Add in the egg yolks and mix until fully incorporated.\n4. Add in the flour, and mix on low speed until it is just combined. You want the mixture to have JUST come together.\n5. Transfer the dough on a lightly floured piece of parchment paper. Add a second piece of parchment paper dusted with flour on top. Press down and then roll out to 1/8 an inch or 3mm.\n6. Transfer to fridge to chill for at least 30 minutes.\nGroupName : For the Chocolate Dough\n1. For the second batch, repeat the above steps. Just sift the cocoa powder in with the confectioners' sugar at the beginning.\n2. Using a ruler, cut about 1/4-inch strips out of each batch of dough with a sharp knife.\n3. Carefully lift up the strips from each batch and layer the alternating colored strips so they are touching, this should be done on a a sheet of parchment.\n4. Place a sheet of parchment on top and roll out to create a seal.\n5. Place the whole sheet of pastry dough in the fridge for 30 minutes.\n6. Once the dough has chilled, remove one sheet from the fridge. Peel off the top sheet of parchment paper, very lightly flour the pastry, then flip it over.\n7. Peel off the remaining sheet of parchment paper, lightly flour the dough again to prevent it from sticking.\n8. Using a 4.5\" round perforated tart ring (or any tart ring you have) cut out 6 large circles of dough.\n9. Remove the second sheet of dough from fridge. Using a sharp knife, cut long strips of dough about 7-8” long and ¾” wide.\n10. Carefully lift the strips and place them on the inside of the tart rings. Press them against the side so they line up with the dough at the bottom.\n11. Press the bottom of the dough gently with your fingers to mold it to the base of the dough.\n12. Cut off any excess pastry hanging over the top of the tart rings with a sharp knife.\n13. Place the tart shells into the freezer for 30 minutes to 1 hour.\n14. Pre-heat your oven to 320F. Place the tray with your tart shells in the oven. Bake for 15 minutes or until the shell is almost lightly golden.\n15. Remove tart shells from the oven and allow time to cool before piping so the filling does not melt.\nGroupName : For the Chocolate Ganache:\n1. Melt chocolate and cream together on low heat. Whisk together and set aside.\n2. You might need to add more or less cream to achieve the desired consistency.\n3. Once you’re ready to assemble your tart, transfer the ganache to a piping bag and snip off the tip.\nGroupName : For the Swiss Meringue Buttercream:\n1. Add egg whites, sugar and salt in a bowl.\n2. Give the mixture a brief whisk.\n3. Place the bowl over a pan of simmering water. Making sure the water does not touch the bowl.  Whisk the egg whites occasionally while it warms up. When the mixture has warmed, whisk it constantly.\n4. Heat the mixture until it reaches an internal temperature of 160ºF or until it's not grainy between your fingers.   Transfer to the bowl of a stand mixer with a whisk attachment. Whisk until you get room temperature glossy peaks.\n5. Switch to a paddle attachment and while the mixture is running on low, add tablespoon sized dollops of room temperature butter making sure to let the butter incorporate before you add the next piece.\n6. Once all the butter is incorporated, go ahead and add the vanilla extract.\n7. Reserve 2/3 of the white Swiss meringue buttercream for the topping.\n8. Melt the semi-sweet chocolate and allow it to cool to room temp. Add it into the rest of the batch that’s left in the stand mixer.\n9. Once the chocolate is fully incorporated and you’re ready to assemble the tarts, transfer the chocolate buttercream to a piping bag and snip off the tip.\n10. For the Ridged Top:\n11. Transfer the batch of white Swiss meringue buttercream to a piping bag fitted to a 127 (medium petal) tip.\n12. Pipe strips of buttercream (with the thicker side of the petal tip down) in tight rows with the piping tip perpendicular to the surface of the parchment paper. Keep piping until the design is a bit larger than the cutter you will be using.\n13. Carefully place the buttercream pattern in the freezer for 30 minutes.\n14. Remove the buttercream topping from the freezer. While carefully tilting it to one side, sift on cocoa powder.\n15. Using a cutter slightly smaller sized than your tart shell, cut out a circle from the ridges Swiss buttercream top.\n16. Keep these tops in the fridge until you assemble your tarts.\nGroupName : For the Assembly\n1. Once your tart shells have cooled, pipe in the first layer of chocolate ganache.\n2. Pipe a layer of the chocolate Swiss meringue buttercream over the ganache.\n3. Carefully place the ridged top over the chocolate buttercream and enjoy!",
-                    "author": "John Kanell",
-                    "source": "Preppy Kitchen",
-                    "notes": "Freezing the shells before baking is really important so don't skip that step! Check on them after a 2-3 minutes in the oven. If the walls have sagged down, remove from oven and press back into ring. Continue baking and they should be fine.\nYou can make the shells in advance and keep them in an airtight container for a few days before filling.\nMake sure to chill that top before cutting out the circles and store in freezer until ready to assemble.",
+                    "notes": "To save time: You can use store-bought pie dough instead of making galette dough from scratch.\nWeigh the flour. This is the easiest way to avoid using too much flour, which will yield a dry, crumbly crust. If you don’t have a kitchen scale, fluff your flour with a spoon in its container, spoon it into your measuring cup, and use a knife to level it off.\nIf you don’t have a food processor: Make the dough by hand using a pastry cutter or your hands. Combine the flour, sugar, and salt. Add the cubed butter and work it into the flour until the mixture is very crumbly. Stir in the water with a fork and gently knead the dough into one large mass. Wrap and chill as directed.\nIf the chilled pie crust dough starts to tear and crack when you’re rolling it out, let it rest for a few minutes at room temperature before trying to roll it again.\nPeel the apples. While not completely necessary, peeling the apples before slicing them makes a world of difference to the texture of the filling once the apples bake. The peels tend to become wrinkly and rubbery in the oven, which I prefer to avoid.\nFor more caramel or molasses notes: Use light brown sugar in the filling in place of granulated sugar.\nDon’t overfill the crust. Lay the apple slices out in an even layer. If there is too much apple filling, the crust may not bake properly and become soggy, and the filling may bubble over.\nRefrigerate the galette once you assemble it: This optional step helps the butter in the pastry dough firm up so that the galette holds its shape nicely and the crust is flaky when baked. It can be refrigerated for up to 2 hours before baking.",
                     "rating": {
                         "average": "5",
-                        "count": "10"
+                        "count": "7"
                     },
                     "video_url": null,
                     "nutrition": {
-                        "Serving": [
-                            "1",
-                            "tart"
-                        ],
                         "Calories": [
-                            "668",
+                            "388",
                             "kcal"
                         ],
                         "Carbohydrates": [
@@ -800,153 +1242,7 @@
                             "g"
                         ],
                         "Protein": [
-                            "5.6",
-                            "g"
-                        ],
-                        "Fat": [
-                            "28",
-                            "g"
-                        ],
-                        "Saturated Fat": [
-                            "16",
-                            "g"
-                        ],
-                        "Cholesterol": [
-                            "19",
-                            "mg"
-                        ],
-                        "Sodium": [
-                            "212",
-                            "mg"
-                        ],
-                        "Potassium": [
-                            "82",
-                            "mg"
-                        ],
-                        "Fiber": [
-                            "2",
-                            "g"
-                        ],
-                        "Sugar": [
-                            "28",
-                            "g"
-                        ],
-                        "Calcium": [
-                            "20",
-                            "mg"
-                        ],
-                        "Iron": [
-                            "0.9",
-                            "mg"
-                        ]
-                    }
-                }
-            }
-        },
-        {
-            "data": {
-                "type": "RecipeDetailAPIView",
-                "id": -1,
-                "attributes": {
-                    "title": "Russian Piping Tips",
-                    "difficulty": null,
-                    "image_card": "/recipe_images/card/russian-piping-tips-insta-recipe-330x330.jpg",
-                    "image": "/recipe_images/featured/russian-piping-tips-feature.jpg",
-                    "courses": [
-                        "Dessert"
-                    ],
-                    "cuisines": [
-                        "American",
-                        "Russian"
-                    ],
-                    "tags": [
-                        "desserts",
-                        "recipes"
-                    ],
-                    "prep_time": "00:12:00",
-                    "cook_time": null,
-                    "cool_time": null,
-                    "total_time": "00:12:00",
-                    "created": null,
-                    "modified": null,
-                    "description": "Making beautiful flowers using Russian piping tips is quick and east as long as you follow a few simple steps.",
-                    "status": 1,
-                    "activate_date": null,
-                    "deactivate_date": null,
-                    "servings": 18,
-                    "equipment": "",
-                    "ingredients": [
-                        {
-                            "ingredient": {
-                                "name": "egg whites at room temperature",
-                                "nutrition": null
-                            },
-                            "quantity": 4.0,
-                            "unit": "whole",
-                            "groupName": null,
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter 452g",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "cups",
-                            "groupName": null,
-                            "notes": "at room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "granulated sugar 300g",
-                                "nutrition": null
-                            },
-                            "quantity": 10.5,
-                            "unit": "cups",
-                            "groupName": null,
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "kosher salt",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "pinch",
-                            "groupName": null,
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla extract",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "tsp",
-                            "groupName": null,
-                            "notes": null
-                        }
-                    ],
-                    "instructions": "GroupName : For the Swiss Buttercream\n1. Add egg whites, sugar and salt in a bowl.\n2. Give the mixture a brief whisk.\n3. Place the bowl over a pan of simmering water. Make sure the water does not touch the bowl.\n4. Whisk the egg whites occasionally while it warms up. When the mixture has warmed, whisk it constantly. You will heat the mixture until it reaches an internal temperature of 160ºF or until it's not grainy between your fingers.\n5. Transfer the bowl to a stand mixer, mix with a whisk attachment until you get room temperature glossy peaks.\n6. Switch to a paddle attachment and while the mixture is running on low, add tablespoon sized dollops of room temperature butter making sure to let the butter incorporate before you add the next piece. Once all the butter is incorporated, go ahead and add the vanilla extract. You can transfer it to a piping bag or to a ziplock bag to store in the freezer.\nGroupName : To Assemble\n1. Divide your buttercream into batches and tint with food coloring.\n2. Choose a Russian piping tip to use and place in a piping bag with the tip snipped off.\n3. Use a small spatula or knife apply a layer of buttercream to the inside of the piping bag.\n4. Fill the bag with an other color of buttercream.\n5. Smear a thin layer of buttercream onto a cupcake or the surface of your cake. This will allow the piped flowers to adhere to the surface.\n6. Pipe the flowers. If you're using a soft meringue-based buttercream make sure to pipe just above the surface, squeeze and the buttercream will come down to make contact with the cake, Continue squeezing while you pull up to build the flower. Finish by pulling up without squeezing. You can pipe leaves to fill in the blank spaces between the flowers.",
-                    "author": "John Kanell",
-                    "source": "Preppy Kitchen",
-                    "notes": "",
-                    "rating": {
-                        "average": "4.98",
-                        "count": "37"
-                    },
-                    "video_url": "https://www.youtube.com/embed/TRAgXne621o",
-                    "nutrition": {
-                        "Serving": [
-                            "50",
-                            "g"
-                        ],
-                        "Calories": [
-                            "250",
-                            "kcal"
-                        ],
-                        "Carbohydrates": [
-                            "16",
+                            "5",
                             "g"
                         ],
                         "Fat": [
@@ -957,28 +1253,52 @@
                             "12",
                             "g"
                         ],
+                        "Polyunsaturated Fat": [
+                            "1",
+                            "g"
+                        ],
+                        "Monounsaturated Fat": [
+                            "5",
+                            "g"
+                        ],
+                        "Trans Fat": [
+                            "1",
+                            "g"
+                        ],
                         "Cholesterol": [
-                            "54",
+                            "78",
                             "mg"
                         ],
                         "Sodium": [
-                            "193",
+                            "242",
                             "mg"
                         ],
                         "Potassium": [
-                            "16",
+                            "132",
                             "mg"
                         ],
+                        "Fiber": [
+                            "3",
+                            "g"
+                        ],
                         "Sugar": [
-                            "16",
+                            "22",
                             "g"
                         ],
                         "Vitamin A": [
-                            "630",
+                            "670",
                             "IU"
                         ],
+                        "Vitamin C": [
+                            "4",
+                            "mg"
+                        ],
                         "Calcium": [
-                            "6",
+                            "21",
+                            "mg"
+                        ],
+                        "Iron": [
+                            "2",
                             "mg"
                         ]
                     }
@@ -990,234 +1310,313 @@
                 "type": "RecipeDetailAPIView",
                 "id": -1,
                 "attributes": {
-                    "title": "Chocolate Eclair Donuts",
+                    "title": "Flan Recipe",
                     "difficulty": null,
-                    "image_card": "/recipe_images/card/donut-eclairs-4-330x330.jpg",
-                    "image": "/recipe_images/featured/donut-eclairs-3.jpg",
+                    "image_card": "/recipe_images/card/flan-recipe-a-330x330.jpg",
+                    "image": "/recipe_images/featured/flan-feature.jpg",
                     "courses": [
                         "Dessert"
                     ],
                     "cuisines": [
-                        "French"
+                        "Mexican"
                     ],
                     "tags": [
                         "desserts",
                         "recipes"
                     ],
-                    "prep_time": "00:30:00",
-                    "cook_time": "00:15:00",
+                    "prep_time": "00:20:00",
+                    "cook_time": "00:50:00",
                     "cool_time": null,
-                    "total_time": "00:45:00",
+                    "total_time": "01:10:00",
                     "created": null,
                     "modified": null,
-                    "description": "These look just like donuts but they're delicious chocolate eclairs! Light as air puffs of choux filled with a vanilla pastry cream and then smothered in dark and white chocolate.",
+                    "description": "This Mexican flan recipe is as easy as it is delicious! Rich custard and sweet caramel are an indulgent treat.",
                     "status": 1,
                     "activate_date": null,
                     "deactivate_date": null,
-                    "servings": null,
-                    "equipment": "",
+                    "servings": 8,
+                    "equipment": "8-inch or 9-inch round cake pan\nBlender\nFine mesh strainer, optional",
                     "ingredients": [
                         {
                             "ingredient": {
-                                "name": "whole milk",
+                                "name": "granulated sugar",
+                                "nutrition": null
+                            },
+                            "quantity": 0.75,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(150g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "eggs",
+                                "nutrition": null
+                            },
+                            "quantity": 5.0,
+                            "unit": "large",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "sweetened condensed milk",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "(14-ounce, 396g) can",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "evaporated milk",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "(12-ounce, 354g) can",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "vanilla extract",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "tablespoon",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. Preheat the oven to 350°F.\n2. To a medium saucepan, add the sugar and ¼ cup of water. Cook over medium heat, stirring frequently, for about 2 minutes, or until the sugar is dissolved.\n3. Increase the heat to medium-high and cook, swirling occasionally, for about 5 minutes until golden or amber in color. (If sugar crystals form on the side of the pan, use a wet pastry brush to push them down the sides.)\n4. Immediately pour the caramel into an 8-inch round cake pan. Tilt and turn the pan to spread the caramel out to the edges, then set the pan aside to cool and harden while you make the custard. (Be careful- the bottom of the pan will be very hot!)\n5. Combine the eggs, condensed milk, evaporated milk, and vanilla extract in a blender or a large mixing bowl. If blending, blend on low just until combined, and set aside for a few minutes to let any bubbles on the surface settle. If using a mixing bowl, whisk it together until well combined. If the milk mixture if too bubbly in either method, pour it through a fine mesh sieve into to the pan to remove the air bubbles.\n6. Place the pan with the caramel in a roasting pan. Pour the milk mixture directly into the pan over the hardened caramel. Fill the roasting pan with 1 inch of hot water.\n7. Bake for 35 to 40 minutes until the center is just set. (It will wobble slightly when you jiggle the pan but continue to set as it cools.)\n8. Remove the cake pan from the roasting pan. Transfer it to a wire rack and allow it to cool to room temperature before serving. (You can refrigerate the flan if you prefer as well.)\n9. To serve, run a small sharp knife around the edge of the pan then place a serving dish upside down on top. Flip and remove the pan. (If you chilled the flan, dip the pan halfway into a bowl of hot water to warm the caramel before inverting onto a plate.) Slice and serve.",
+                    "author": "John Kanell",
+                    "source": "Preppy Kitchen",
+                    "notes": "When making the caramel: If sugar crystals form on the side of the pan, use a wet pastry brush to push them down the sides.\nKeep an eye on the caramel. It can burn very quickly, so watch it closely. Use a light-colored pot as well to help determine how dark the caramel is. You want it to be a deep golden brown. Lighter caramel will lend less flavor to the baked flan.\nFor a perfectly smooth flan: After blending, strain the mixture through a fine mesh strainer directly over top of the hardened caramel in the cake pan. This is an easy way to remove any remaining bubbles as well!\nTo remove air bubbles in the custard: Gently tap the cake pan on your counter to help any air bubbles inside the custard escape.\nFor neat slices: Use a sharp knife and wipe it off between each slice.",
+                    "rating": {
+                        "average": "4.95",
+                        "count": "271"
+                    },
+                    "video_url": "https://www.youtube.com/embed/d7_CTU4HXEY",
+                    "nutrition": {
+                        "Calories": [
+                            "338",
+                            "kcal"
+                        ],
+                        "Carbohydrates": [
+                            "50",
+                            "g"
+                        ],
+                        "Protein": [
+                            "11",
+                            "g"
+                        ],
+                        "Fat": [
+                            "11",
+                            "g"
+                        ],
+                        "Saturated Fat": [
+                            "6",
+                            "g"
+                        ],
+                        "Polyunsaturated Fat": [
+                            "1",
+                            "g"
+                        ],
+                        "Monounsaturated Fat": [
+                            "3",
+                            "g"
+                        ],
+                        "Trans Fat": [
+                            "0.01",
+                            "g"
+                        ],
+                        "Cholesterol": [
+                            "145",
+                            "mg"
+                        ],
+                        "Sodium": [
+                            "153",
+                            "mg"
+                        ],
+                        "Potassium": [
+                            "359",
+                            "mg"
+                        ],
+                        "Sugar": [
+                            "50",
+                            "g"
+                        ],
+                        "Vitamin A": [
+                            "403",
+                            "IU"
+                        ],
+                        "Vitamin C": [
+                            "2",
+                            "mg"
+                        ],
+                        "Calcium": [
+                            "270",
+                            "mg"
+                        ],
+                        "Iron": [
+                            "1",
+                            "mg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Air Fryer Taquitos Recipe",
+                    "difficulty": null,
+                    "image_card": "/recipe_images/card/Air-Fryer-Taquitos-Recipe-Card-330x330.jpg",
+                    "image": "/recipe_images/featured/Air-Fryer-Taquitos-Feature.jpg",
+                    "courses": [
+                        "Maincourse"
+                    ],
+                    "cuisines": [
+                        "Mexican"
+                    ],
+                    "tags": [
+                        "air-fryer",
+                        "chicken",
+                        "cooking-method",
+                        "recipes"
+                    ],
+                    "prep_time": "00:05:00",
+                    "cook_time": "00:24:00",
+                    "cool_time": null,
+                    "total_time": "00:29:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Try these crispy, cheesy air fryer taquitos loaded with your favorite toppings! So easy to make using your air fryer.",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 16,
+                    "equipment": "Air fryer\nmixing bowl",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "cooked shredded chicken",
                                 "nutrition": null
                             },
                             "quantity": 2.0,
                             "unit": "cups",
-                            "groupName": "Filling:",
-                            "notes": null
+                            "groupName": null,
+                            "notes": "(228g)"
                         },
                         {
                             "ingredient": {
-                                "name": "vanilla bean, split lengthwise",
+                                "name": "salsa",
                                 "nutrition": null
                             },
                             "quantity": 0.5,
-                            "unit": "whole",
-                            "groupName": "Filling:",
-                            "notes": "(or 1 TBS vanilla paste and i TBS vanilla extract)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "egg yolks",
-                                "nutrition": null
-                            },
-                            "quantity": 6.0,
-                            "unit": "whole",
-                            "groupName": "Filling:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 0.6666666666666666,
                             "unit": "cup",
-                            "groupName": "Filling:",
-                            "notes": null
+                            "groupName": null,
+                            "notes": "(130g)"
                         },
                         {
                             "ingredient": {
-                                "name": "cornstarch",
+                                "name": "shredded cheese",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(56g)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "sour cream",
                                 "nutrition": null
                             },
                             "quantity": 0.25,
                             "unit": "cup",
-                            "groupName": "Filling:",
-                            "notes": null
+                            "groupName": null,
+                            "notes": "(60g)"
                         },
                         {
                             "ingredient": {
-                                "name": "cold unsalted butter",
+                                "name": "taco seasoning",
                                 "nutrition": null
                             },
                             "quantity": 1.0,
-                            "unit": "TBS",
-                            "groupName": "Filling:",
+                            "unit": "tablespoon",
+                            "groupName": null,
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "water",
+                                "name": "corn tortillas",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "Pastry:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter",
-                                "nutrition": null
-                            },
-                            "quantity": 8.0,
-                            "unit": "TBS",
-                            "groupName": "Pastry:",
-                            "notes": "(1 stick)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "salt",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "tsp",
-                            "groupName": "Pastry:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 1.5,
-                            "unit": "tsps",
-                            "groupName": "Pastry:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "all-purpose flour",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "Pastry:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "egg, plus 1 extra if needed",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
+                            "quantity": 16.0,
                             "unit": "whole",
-                            "groupName": "Pastry:",
-                            "notes": "(I used four)"
+                            "groupName": null,
+                            "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "egg",
+                                "name": "Cooking spray",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
+                            "quantity": null,
                             "unit": "whole",
-                            "groupName": "Egg Wash:",
+                            "groupName": null,
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "water",
+                                "name": "Guacamole",
                                 "nutrition": null
                             },
-                            "quantity": 1.5,
-                            "unit": "tsp",
-                            "groupName": "Egg Wash:",
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "To Serve:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "heavy cream",
+                                "name": "Sour cream",
                                 "nutrition": null
                             },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "Chocolate Glaze:",
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "To Serve:",
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "semi-sweet chocolate",
+                                "name": "Salsa",
                                 "nutrition": null
                             },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "Chocolate Glaze:",
-                            "notes": "coarsely chopped"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "heavy cream",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "White Chocolate Glaze:",
+                            "quantity": null,
+                            "unit": "whole",
+                            "groupName": "To Serve:",
                             "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "white chocolate",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "White Chocolate Glaze:",
-                            "notes": "coarsely chopped"
                         }
                     ],
-                    "instructions": "GroupName : For the Filling:\n1. In a medium saucepan, heat the milk and vanilla bean to a boil over medium heat.\n2. Immediately turn off the heat and set aside to infuse for 15 minutes.\n3. In a bowl, whisk the egg yolks and sugar until light and fluffy.\n4. Add the cornstarch and whisk vigorously until no lumps remain.\n5. Whisk in 1/3 cup of the hot milk mixture until incorporated.\n6. Whisk in the remaining hot milk mixture, reserving the saucepan.\n7. Pour the mixture through a strainer back into the saucepan.\n8. Cook over medium-high heat, whisking constantly, until thickened and slowly boiling.\n9. Remove from the heat and stir in the butter. Let cool slightly.\n10. Cover with plastic wrap, lightly pressing the plastic against the surface to prevent a skin from forming. Chill at least 2 hours or until ready to serve. The custard can be made up to 24 hours in advance. Refrigerate until 1 hour before using.\nGroupName : For the Ganache:\n1. Combine the chocolate and cream in a bowl and microwave for a few 30 second bursts.\n2. Cover and let stand for 5 minutes then whisk until smooth.\nGroupName : For the Pastry:\n1. Preheat the oven to 425 degrees.\n2. Line a sheet pan with parchment paper.\n3. In a large saucepan, bring the water, butter, salt and sugar to a rolling boil over medium-high heat. When it boils, immediately take the pan off the heat.\n4. Stirring with a wooden spoon, add all the flour at once and stir hard until all the flour is incorporated, 30 to 60 seconds.\n5. Return to the heat and cook, stirring about 30 seconds.\n6. Scrape the mixture into a mixer fitted with a paddle attachment (or use a hand mixer).\n7. With the mixer running at medium speed, add 3 eggs, 1 egg at a time.\n8. Stop mixing after each addition to scrape down the sides of the bowl.\n9. Mix until the dough is smooth and glossy and the eggs are completely incorporated.\n10. The dough should be thick, but should fall slowly and steadily from the beaters when you lift them out of the bowl.\n11. If the dough is still clinging to the beaters, add the remaining 1 egg and mix until incorporated.\n12. Pipe the choux into circles and then brush with the egg wash.\n13. Bake at 425F for 15 minutes then reduce heat to 375F for 20-25 min or until golden brown.\n14. Fill the cooled donuts with pastry cream, you might want to cut small holes in the bottom for easy piping.\n15. Dip in chocolate ganache and decorate.",
+                    "instructions": "1. In a medium bowl, stir together the shredded chicken, salsa, cheese, sour cream, and taco seasoning.\n2. Wrap 4 to 6 tortillas in a damp paper towel and microwave for 25 seconds. Once heated, cover the tortillas to keep them warm.\n3. Spoon about 1½ tablespoons of the chicken mixture along one edge of each tortilla. Roll up the tortillas tightly.\n4. Preheat the air fryer to 400°F.\n5. Place the taquitos, seam side down, in the air fryer basket, leaving space between them. Spray the tops with cooking spray.\n6. Cook for 6 to 7 minutes or until crispy. Remove the taquitos and keep warm. Continue warming tortillas, filling, and rolling taquitos while each batch cooks.\n7. Serve hot with with guacamole, sour cream, and salsa.",
                     "author": "John Kanell",
                     "source": "Preppy Kitchen",
-                    "notes": "",
+                    "notes": "For efficiency: While each batch of taquitos is cooking, prepare the next batch. Do not roll up all the taquitos at one time. They will dry out, and the tortillas will start to crack while waiting to be cooked. You can keep them warm in a 200°F oven while each batch cooks.\nWarm up the tortillas to make them pliable. Don’t skip this step! Otherwise, they will break when you start to roll them.\nWrap the taquitos tightly so they do not come apart in the air fryer. Be careful, though, as corn tortillas crack easily.\nPlace the air fryer chicken taquitos seam side down in the air fryer basket. This will ensure they do not fall apart.",
                     "rating": {
-                        "average": "5",
-                        "count": "7"
+                        "average": "0",
+                        "count": "0"
                     },
-                    "video_url": "https://www.youtube.com/embed/6I_rts3ERFU",
+                    "video_url": null,
                     "nutrition": {
-                        "Serving": [
-                            "1",
-                            "donut"
-                        ],
                         "Calories": [
-                            "290",
+                            "142",
                             "kcal"
                         ],
                         "Carbohydrates": [
-                            "27",
+                            "15",
                             "g"
                         ],
                         "Protein": [
@@ -1225,39 +1624,55 @@
                             "g"
                         ],
                         "Fat": [
-                            "17",
+                            "6",
                             "g"
                         ],
                         "Saturated Fat": [
-                            "4",
+                            "2",
                             "g"
                         ],
-                        "Cholesterol": [
-                            "142",
-                            "mg"
-                        ],
-                        "Sodium": [
-                            "370",
-                            "mg"
-                        ],
-                        "Fiber": [
+                        "Polyunsaturated Fat": [
                             "1",
                             "g"
                         ],
+                        "Monounsaturated Fat": [
+                            "3",
+                            "g"
+                        ],
+                        "Cholesterol": [
+                            "20",
+                            "mg"
+                        ],
+                        "Sodium": [
+                            "222",
+                            "mg"
+                        ],
+                        "Potassium": [
+                            "238",
+                            "mg"
+                        ],
+                        "Fiber": [
+                            "3",
+                            "g"
+                        ],
                         "Sugar": [
-                            "10",
+                            "2",
                             "g"
                         ],
                         "Vitamin A": [
-                            "950",
+                            "227",
                             "IU"
                         ],
+                        "Vitamin C": [
+                            "2",
+                            "mg"
+                        ],
                         "Calcium": [
-                            "70",
+                            "56",
                             "mg"
                         ],
                         "Iron": [
-                            "1.3",
+                            "1",
                             "mg"
                         ]
                     }
@@ -1269,1194 +1684,184 @@
                 "type": "RecipeDetailAPIView",
                 "id": -1,
                 "attributes": {
-                    "title": "Chocolate Tarts",
+                    "title": "Instant Pot Black Beans Recipe",
                     "difficulty": null,
-                    "image_card": "/recipe_images/card/Chocolate-Tart-Insta-330x330.jpg",
-                    "image": "/recipe_images/featured/Chocolate-Tart-FB2.jpg",
+                    "image_card": "/recipe_images/card/Instant-Pot-Black-Beans-Recipe-Card-330x330.jpg",
+                    "image": "/recipe_images/featured/Instant-Pot-Black-Beans-Feature.jpg",
                     "courses": [
-                        "Dessert"
+                        "Sidedish"
                     ],
                     "cuisines": [
-                        "American"
+                        "Mexican"
                     ],
                     "tags": [
-                        "desserts",
-                        "recipes"
+                        "cooking-method",
+                        "instant-pot-cooking-method",
+                        "recipes",
+                        "side-dishes"
                     ],
-                    "prep_time": "00:15:00",
-                    "cook_time": "00:30:00",
-                    "cool_time": null,
-                    "total_time": "00:45:00",
+                    "prep_time": "00:05:00",
+                    "cook_time": "00:25:00",
+                    "cool_time": "00:25:00",
+                    "total_time": "00:55:00",
                     "created": null,
                     "modified": null,
-                    "description": "Chocolate makes any dessert better.",
+                    "description": "Try these no-soak Instant Pot black beans when you need an easy, flavorful, nutritious side dish.",
                     "status": 1,
                     "activate_date": null,
                     "deactivate_date": null,
                     "servings": 8,
-                    "equipment": "",
+                    "equipment": "6-quart Instant Pot",
                     "ingredients": [
                         {
                             "ingredient": {
-                                "name": "large egg yolks",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "whole",
-                            "groupName": "For the Crust:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "heavy cream",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "cup",
-                            "groupName": "For the Crust:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "all-purpose flour",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "cup",
-                            "groupName": "For the Crust:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "almond flour",
-                                "nutrition": null
-                            },
-                            "quantity": 0.75,
-                            "unit": "cup",
-                            "groupName": "For the Crust:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "2 sticks chilled unsalted butter",
+                                "name": "dried black beans",
                                 "nutrition": null
                             },
                             "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "For the Crust:",
-                            "notes": "cut into 1/2-inch cubes"
+                            "unit": "pound",
+                            "groupName": null,
+                            "notes": "(450g)"
                         },
                         {
                             "ingredient": {
-                                "name": "plus 3 tablespoons sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "cup",
-                            "groupName": "For the Crust:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "kosher salt",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "For the Crust:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "bittersweet chocolate",
-                                "nutrition": null
-                            },
-                            "quantity": 8.0,
-                            "unit": "oz",
-                            "groupName": "For the Filling:",
-                            "notes": "finely chopped"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "semisweet chocolate",
-                                "nutrition": null
-                            },
-                            "quantity": 4.0,
-                            "unit": "oz",
-                            "groupName": "For the Filling:",
-                            "notes": "finely chopped"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter",
-                                "nutrition": null
-                            },
-                            "quantity": 4.0,
-                            "unit": "tbs",
-                            "groupName": "For the Filling:",
-                            "notes": "1/2 stick, cut into small pieces"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "heavy cream",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "For the Filling:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "granulated sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "tbs",
-                            "groupName": "For the Filling:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "fine salt",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "For the Filling:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "espresso powder",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "tbs",
-                            "groupName": "For the Filling:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "16-ounce package powdered sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "whole",
-                            "groupName": "For the Topping:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "milk",
-                                "nutrition": null
-                            },
-                            "quantity": 0.16666666666666666,
-                            "unit": "cup",
-                            "groupName": "For the Topping:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "bourbon",
-                                "nutrition": null
-                            },
-                            "quantity": 0.16666666666666666,
-                            "unit": "cup",
-                            "groupName": "For the Topping:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "butter",
+                                "name": "yellow onion",
                                 "nutrition": null
                             },
                             "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "For the Topping:",
-                            "notes": "softened"
-                        }
-                    ],
-                    "instructions": "GroupName : INSTRUCTIONS:\n1. Place parchment paper into the shell, cut the edges to fit better.\n2. Place beans or weights in the shell and place in the oven preheated to 425F. Bake for 10 minutes. remove from oven, the out beans, and paper. pierce bottom with a fork several times to allow steam to escape and bake for about 15 minutes more at 375F.\n3. Add the chopped chocolate, espresso powder, and butter to a bowl. Bring the milk sugar and salt to a simmer.\n4. Immediately pour the milk mixture onto the chocolate. Leave for 2 minutes.\n5. Stir until well combined.\n6. The filling should be glossy with no lumps.\n7. Pour the warm mixture into the shells and smooth if needed.\n8. Chill in refrigerator for at least one hour.",
-                    "author": "John Kanell",
-                    "source": "Preppy Kitchen",
-                    "notes": "",
-                    "rating": {
-                        "average": "5",
-                        "count": "9"
-                    },
-                    "video_url": null,
-                    "nutrition": {
-                        "Serving": [
-                            "1",
-                            "tart"
-                        ],
-                        "Calories": [
-                            "300",
-                            "kcal"
-                        ],
-                        "Carbohydrates": [
-                            "33",
-                            "g"
-                        ],
-                        "Protein": [
-                            "3",
-                            "g"
-                        ],
-                        "Fat": [
-                            "18",
-                            "g"
-                        ],
-                        "Saturated Fat": [
-                            "11",
-                            "g"
-                        ],
-                        "Cholesterol": [
-                            "20",
-                            "mg"
-                        ],
-                        "Sodium": [
-                            "65",
-                            "mg"
-                        ],
-                        "Potassium": [
-                            "75",
-                            "mg"
-                        ],
-                        "Fiber": [
-                            "2",
-                            "g"
-                        ],
-                        "Sugar": [
-                            "19",
-                            "g"
-                        ],
-                        "Vitamin A": [
-                            "535",
-                            "IU"
-                        ],
-                        "Vitamin C": [
-                            "0.1",
-                            "mg"
-                        ],
-                        "Calcium": [
-                            "19",
-                            "mg"
-                        ],
-                        "Iron": [
-                            "1.5",
-                            "mg"
-                        ]
-                    }
-                }
-            }
-        },
-        {
-            "data": {
-                "type": "RecipeDetailAPIView",
-                "id": -1,
-                "attributes": {
-                    "title": "Mocha Frosting",
-                    "difficulty": null,
-                    "image_card": "/recipe_images/card/Mocha-Buttercream-Recipe-330x330.jpg",
-                    "image": "/recipe_images/featured/Mocha-Buttercream-Feature.jpg",
-                    "courses": [
-                        "Dessert"
-                    ],
-                    "cuisines": [
-                        "American"
-                    ],
-                    "tags": [
-                        "desserts",
-                        "frostings",
-                        "recipes"
-                    ],
-                    "prep_time": "00:10:00",
-                    "cook_time": null,
-                    "cool_time": null,
-                    "total_time": "00:10:00",
-                    "created": null,
-                    "modified": null,
-                    "description": "A deliciously decadent buttercream with big notes of chocolate and coffee.",
-                    "status": 1,
-                    "activate_date": null,
-                    "deactivate_date": null,
-                    "servings": 18,
-                    "equipment": "",
-                    "ingredients": [
-                        {
-                            "ingredient": {
-                                "name": "butter",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "cups",
-                            "groupName": "For the Buttercream:",
-                            "notes": "unsalted 454g"
+                            "unit": "whole",
+                            "groupName": null,
+                            "notes": "diced (130g)"
                         },
                         {
                             "ingredient": {
-                                "name": "confectioners sugar",
+                                "name": "garlic",
                                 "nutrition": null
                             },
-                            "quantity": 2.0,
-                            "unit": "lb",
-                            "groupName": "For the Buttercream:",
-                            "notes": "907g"
+                            "quantity": 6.0,
+                            "unit": "cloves",
+                            "groupName": null,
+                            "notes": "minced"
                         },
                         {
                             "ingredient": {
-                                "name": "cocoa powder",
+                                "name": "chili powder",
                                 "nutrition": null
                             },
-                            "quantity": 2.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Buttercream:",
+                            "quantity": 4.0,
+                            "unit": "teaspoons",
+                            "groupName": null,
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "espresso powder",
+                                "name": "ground cumin",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Buttercream:",
+                            "quantity": 2.0,
+                            "unit": "teaspoons",
+                            "groupName": null,
                             "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Buttercream:",
-                            "notes": "15mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "heavy cream",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Buttercream:",
-                            "notes": "45mL"
                         },
                         {
                             "ingredient": {
                                 "name": "salt",
                                 "nutrition": null
                             },
-                            "quantity": 0.5,
-                            "unit": "tsp",
-                            "groupName": "For the Buttercream:",
+                            "quantity": 2.0,
+                            "unit": "teaspoons",
+                            "groupName": null,
                             "notes": null
-                        }
-                    ],
-                    "instructions": "GroupName : For the Mocha Buttercream:\n1. Sift the confectioners’ sugar, salt, cocoa and espresso powder into a bowl.\n2. Whip the butter for about 5 minutes using a paddle attachment (in a standing mixer).\n3. Beat in the sugar mixture slowly.\n4. Add vanilla and drizzle in the cream while beating until desired consistency is reached. If the you want the buttercream to have a stronger espresso taste, add as much as you would like!",
-                    "author": "John Kanell",
-                    "source": "Preppy Kitchen",
-                    "notes": "Sift the cocoa powder, and powdered sugar before adding to the butter. Both can hav lumps that will clog piping tips and disturb the consistency.\nIf your buttercream has a grainy texture add a tablespoon of cream and mix. Keep adding cream, or coffee if desired while mixing until the consistency is to your satisfaction.\nIf possible, use a high-quality Dutch processed cocoa powder.\nDon't have unsalted butter on hand? Use salted butter and skip that 1/2 tsp. You can add additional salt to taste at the end if needed.\n",
-                    "rating": {
-                        "average": "4.96",
-                        "count": "75"
-                    },
-                    "video_url": "https://www.youtube.com/embed/ErArPvGdQ4g",
-                    "nutrition": {
-                        "Serving": [
-                            "1",
-                            "piece"
-                        ],
-                        "Calories": [
-                            "389",
-                            "kcal"
-                        ],
-                        "Carbohydrates": [
-                            "51",
-                            "g"
-                        ],
-                        "Protein": [
-                            "1",
-                            "g"
-                        ],
-                        "Fat": [
-                            "21",
-                            "g"
-                        ],
-                        "Saturated Fat": [
-                            "14",
-                            "g"
-                        ],
-                        "Cholesterol": [
-                            "58",
-                            "mg"
-                        ],
-                        "Sodium": [
-                            "247",
-                            "mg"
-                        ],
-                        "Potassium": [
-                            "20",
-                            "mg"
-                        ],
-                        "Fiber": [
-                            "1",
-                            "g"
-                        ],
-                        "Sugar": [
-                            "49",
-                            "g"
-                        ],
-                        "Vitamin A": [
-                            "665",
-                            "IU"
-                        ],
-                        "Calcium": [
-                            "8",
-                            "mg"
-                        ],
-                        "Iron": [
-                            "0.1",
-                            "mg"
-                        ]
-                    }
-                }
-            }
-        },
-        {
-            "data": {
-                "type": "RecipeDetailAPIView",
-                "id": -1,
-                "attributes": {
-                    "title": "Raspberry Tarts",
-                    "difficulty": null,
-                    "image_card": "/recipe_images/card/raspberry-Tart-recipe-330x330.jpg",
-                    "image": "/recipe_images/featured/raspberry-Tart-feature.jpg",
-                    "courses": [
-                        "Dessert"
-                    ],
-                    "cuisines": [
-                        "American",
-                        "French"
-                    ],
-                    "tags": [
-                        "desserts",
-                        "recipes"
-                    ],
-                    "prep_time": "00:35:00",
-                    "cook_time": "00:25:00",
-                    "cool_time": null,
-                    "total_time": "00:31:00",
-                    "created": null,
-                    "modified": null,
-                    "description": "Delicious little raspberry tarts have a crisp homemade butter crust filled with raspberry infused pastry cream topped with fresh berries a raspberry reduction.",
-                    "status": 1,
-                    "activate_date": null,
-                    "deactivate_date": null,
-                    "servings": 24,
-                    "equipment": "",
-                    "ingredients": [
+                        },
                         {
                             "ingredient": {
-                                "name": "whole milk",
+                                "name": "dried oregano",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "lime juice",
                                 "nutrition": null
                             },
                             "quantity": 2.0,
-                            "unit": "cups",
-                            "groupName": "Custard:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla bean",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "whole",
-                            "groupName": "Custard:",
-                            "notes": "split lengthwise"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "egg yolks",
-                                "nutrition": null
-                            },
-                            "quantity": 6.0,
-                            "unit": "whole",
-                            "groupName": "Custard:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 0.6666666666666666,
-                            "unit": "cup",
-                            "groupName": "Custard:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "cornstarch",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "cup",
-                            "groupName": "Custard:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "cold unsalted butter",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tbs",
-                            "groupName": "Custard:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "all-purpose flour",
-                                "nutrition": null
-                            },
-                            "quantity": 2.5,
-                            "unit": "cups",
-                            "groupName": "Pastry:",
-                            "notes": "300g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "water",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "tbsp",
-                            "groupName": "Pastry:",
-                            "notes": "ice cold 45mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vodka",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "tbsp",
-                            "groupName": "Pastry:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "Pastry:",
-                            "notes": "cold, cubed 226g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "salt",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "Pastry:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "cup",
-                            "groupName": "Pastry:",
-                            "notes": "50g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "Raspberry Sauce:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "water",
-                                "nutrition": null
-                            },
-                            "quantity": 0.75,
-                            "unit": "cup",
-                            "groupName": "Raspberry Sauce:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "raspberries",
-                                "nutrition": null
-                            },
-                            "quantity": 6.0,
-                            "unit": "oz",
-                            "groupName": "Raspberry Sauce:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "lemon juice",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "tbsp",
-                            "groupName": "Raspberry Sauce:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Confectioner's sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tbsp",
-                            "groupName": "For the Assembly:",
-                            "notes": "for dusting"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "raspberries",
-                                "nutrition": null
-                            },
-                            "quantity": 72.0,
-                            "unit": "whole",
-                            "groupName": "For the Assembly:",
+                            "unit": "tablespoons",
+                            "groupName": null,
                             "notes": null
                         }
                     ],
-                    "instructions": "GroupName : For the Pastry Dough\n1. Add the all-purpose flour, sugar and salt in a food processor. Give it a few pulses before adding the butter.\n2. Cut the COLD butter up into tablespoon sized pieces and add it to the flour mixture. Pulse a few times until the butter is in pea-sized clumps. In a small bowl mix together the ice water and vodka. Drizzle the mixture into the processor while pulsing. If you can squeeze the dough into a clump that stays together it's done. If not, add in another tablespoon of ice water. P.S. The vodka will bake off so don't worry about adding it in!\n3. Transfer the dough onto a pastry mat or another floured surface and knead 2 to 3 times just to help it come together a bit. Gently flatten the dough into a one-inch thick disk and cover it in plastic wrap or a ziplock bag, then place it in the fridge to chill for about 30 minutes to an hour.\n4. Roll the chilled pastry dough out on a well-floured surface. My tart forms came with this great cutting tool for that cute rilled edge but rougher circles will work just as well.\n5. A also use this little stamp to press the dough down but fingers would work just as well.\n6. Pierce the shells with a fork a couple of times to let steam out and weight down with beans over some parchment paper.\n7. Bake at 425F until golden brown, approximately 15 minutes. I removed the tarts and let them cool on a cloth.\nGroupName : For the Reduction\n1. Add the raspberries, water, lemon juice, and sugar to a small pot over medium heat. muddle and mix a bit. Once it starts to bubble reduce to a simmer and allow to reduce by about half.\nGroupName : For the Custard\n1. In a medium saucepan, heat the milk and vanilla bean by bringing it to a boil over medium heat. Immediately turn off the heat then set it aside to infuse for 15 minutes.\n2. Separate the egg whites and yolks into a separate bowls. Don’t throw out those egg whites, you can use them to make many tasty things! Put the yolks into a larger bowl.\n3. Pour in 2/3 cup sugar in with the egg yolks and whisk them together until it’s a light and fluffy mixture.Now add the cornstarch and mix vigorously. You don’t want any lumps remaining! You can also sift it into the bowl to help prevent those lumps.\n4. Whisk in 1/4 cup of the hot milk mixture until it is incorporated then mix the remaining hot milk mixture in. Pour the mixture back into the saucepan and cook over medium-high heat, whisking continuously until thickened and slowly boiling. Now go ahead and remove from the heat and stir in the butter.\n5. Let it cool slightly then pour it into a bowl, mix in the raspberry reduction and set aside.\nGroupName : For the Assembly\n1. I filled the shells with my leftover strawberry custard. A dollop of whipped cream would work well as long as you don't plan on storing them very long.\n2. I placed three raspberries on each tart and then added a few drops of the strawberry sauce I made between each berry.\n3. You could use some thinned out jam instead if you want to save time.\n4. Dust with some confectioner's sugar for garnish and you're done!",
+                    "instructions": "1. In a large colander, rinse the black beans under cool water. Remove any broken beans or small stones.\n2. Add the black beans, 6 cups of water, onion, garlic, chili powder, cumin, salt, and oregano to the Instant Pot insert.\n3. Place the lid on the Instant Pot and twist and seal to lock. Turn the steam release valve to “sealing”. Set the Instant Pot to high pressure for 25 minutes. Let steam release naturally, for 25 minutes, then release manually.\n4. Remove the lid from the Instant Pot. Add the lime juice and season with more salt to taste.",
                     "author": "John Kanell",
                     "source": "Preppy Kitchen",
-                    "notes": "If your dough looks crumbly after adding the water then place a spoonful in the palm of your hand and squeeze together. if it forms into a clump then it’s fine! If it’s still a crumbly mess add a few more tablespoons of ice water.\nDon’t skimp on the chill time! This is when your dough will rest and come together.\nGive the egg wash a thorough mix for a nice even golden crust. globs of egg whites will mar the look and texture.\nWhen rolling out the dough make sure to move it around frequently and add more flour to the work surface and top.",
+                    "notes": "For thicker black beans, you can drain off the liquid after cooking or mash ½ to 1 cup of the beans and stir them back into the pot.\nTo soften the flavors of the onion and garlic, use the saute function to cook them until starting to brown in 1 to 2 tablespoons of olive oil before pressure cooking the black beans.\nUse a 6-quart Instant Pot. This is the ideal size for this recipe. If using a smaller Instant Pot, remember that the contents should not pass the max fill line. You may need to scale the recipe down to fit into a smaller pot.",
                     "rating": {
                         "average": "5",
                         "count": "6"
                     },
                     "video_url": null,
                     "nutrition": {
-                        "Serving": [
-                            "111",
-                            "g"
-                        ],
                         "Calories": [
-                            "360",
+                            "206",
                             "kcal"
                         ],
                         "Carbohydrates": [
-                            "49",
+                            "38",
                             "g"
                         ],
                         "Protein": [
-                            "3",
+                            "13",
                             "g"
                         ],
                         "Fat": [
-                            "18",
+                            "1",
                             "g"
                         ],
                         "Saturated Fat": [
-                            "14",
+                            "0.2",
                             "g"
                         ],
-                        "Cholesterol": [
-                            "35",
-                            "mg"
+                        "Polyunsaturated Fat": [
+                            "0.5",
+                            "g"
+                        ],
+                        "Monounsaturated Fat": [
+                            "0.2",
+                            "g"
                         ],
                         "Sodium": [
-                            "70",
-                            "mg"
-                        ],
-                        "Fiber": [
-                            "2",
-                            "g"
-                        ],
-                        "Sugar": [
-                            "33",
-                            "g"
-                        ],
-                        "Vitamin A": [
-                            "400",
-                            "IU"
-                        ],
-                        "Vitamin C": [
-                            "5",
-                            "mg"
-                        ],
-                        "Calcium": [
-                            "20",
-                            "mg"
-                        ],
-                        "Iron": [
-                            "1.1",
-                            "mg"
-                        ]
-                    }
-                }
-            }
-        },
-        {
-            "data": {
-                "type": "RecipeDetailAPIView",
-                "id": -1,
-                "attributes": {
-                    "title": "Chocolate Peanut Butter Cake",
-                    "difficulty": null,
-                    "image_card": "/recipe_images/card/Chocolate-Peanut-Butter-Cake-recipe-330x330.jpg",
-                    "image": "/recipe_images/featured/Chocolate-Peanut-Butter-Cake-Feature.jpg",
-                    "courses": [
-                        "Dessert"
-                    ],
-                    "cuisines": [
-                        "American"
-                    ],
-                    "tags": [
-                        "cakes",
-                        "desserts",
-                        "recipes"
-                    ],
-                    "prep_time": "00:20:00",
-                    "cook_time": "00:35:00",
-                    "cool_time": null,
-                    "total_time": "00:50:00",
-                    "created": null,
-                    "modified": null,
-                    "description": "Chocolate and Peanut butter make for a sinfully delicious duo!",
-                    "status": 1,
-                    "activate_date": null,
-                    "deactivate_date": null,
-                    "servings": 10,
-                    "equipment": "",
-                    "ingredients": [
-                        {
-                            "ingredient": {
-                                "name": "all-purpose flour",
-                                "nutrition": null
-                            },
-                            "quantity": 1.75,
-                            "unit": "cups",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "216g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "granulated sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 1.75,
-                            "unit": "cups",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "350g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter",
-                                "nutrition": null
-                            },
-                            "quantity": 0.75,
-                            "unit": "cup",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "170g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "cocoa powder",
-                                "nutrition": null
-                            },
-                            "quantity": 0.75,
-                            "unit": "cup",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "75g, not dutch processed"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "baking powder",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "4g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "baking soda",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "tsp",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "12g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "kosher salt",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "6g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "sour cream",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "240g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vegetable oil",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "118mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "large eggs",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "whole",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla extract",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "5mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "coffee",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "For the Chocolate Cake:",
-                            "notes": "236mL, freshly brewed, strong"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "all-purpose flour",
-                                "nutrition": null
-                            },
-                            "quantity": 0.75,
-                            "unit": "cup",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "96g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "granulated sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "100g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "baking soda",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "tsp",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "1g, heaping"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "baking powder",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "tsp",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "2g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "cup",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "58g, room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "peanut butter",
-                                "nutrition": null
-                            },
-                            "quantity": 0.3333333333333333,
-                            "unit": "cup",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "85g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "egg whites",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "whole",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla extract",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "tsp",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "10mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "sour cream",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "cup",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "60g, room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "whole milk",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
-                            "unit": "cup",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": "60mL, room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "OR about 1 cup peanut butter chips added to batter just after pouring onto pans so they can be distributed evenly.",
-                                "nutrition": null
-                            },
-                            "quantity": null,
-                            "unit": "whole",
-                            "groupName": "For the Peanut Butter Swirls:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "confectioners sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 4.0,
-                            "unit": "cups",
-                            "groupName": "For Peanut Butter Frosting:",
-                            "notes": "440g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "For Peanut Butter Frosting:",
-                            "notes": "115g, room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "peanut butter",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": "For Peanut Butter Frosting:",
-                            "notes": "125g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "heavy cream",
-                                "nutrition": null
-                            },
-                            "quantity": 3.0,
-                            "unit": "tbsp",
-                            "groupName": "For Peanut Butter Frosting:",
-                            "notes": "30-60mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "large egg whites",
-                                "nutrition": null
-                            },
-                            "quantity": 4.0,
-                            "unit": "whole",
-                            "groupName": "For the Italian Buttercream:",
-                            "notes": "room temperature"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "granulated sugar",
-                                "nutrition": null
-                            },
-                            "quantity": 1.5,
-                            "unit": "cups",
-                            "groupName": "For the Italian Buttercream:",
-                            "notes": "300g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "water",
-                                "nutrition": null
-                            },
-                            "quantity": 0.3333333333333333,
-                            "unit": "cup",
-                            "groupName": "For the Italian Buttercream:",
-                            "notes": "79mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "salt",
-                                "nutrition": null
-                            },
-                            "quantity": null,
-                            "unit": "pinch",
-                            "groupName": "For the Italian Buttercream:",
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "unsalted butter",
-                                "nutrition": null
-                            },
-                            "quantity": 16.0,
-                            "unit": "ounces",
-                            "groupName": "For the Italian Buttercream:",
-                            "notes": "454g, room temperature cut into 1-inch pieces"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "vanilla extract",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "tsp",
-                            "groupName": "For the Italian Buttercream:",
-                            "notes": "5mL"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "dark chocolate",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "For the Chocolate Ganache:",
-                            "notes": "175g"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "heavy cream",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "cup",
-                            "groupName": "For the Chocolate Ganache:",
-                            "notes": "236mL, or less if you want a firmer ganache and shorter drips"
-                        }
-                    ],
-                    "instructions": "GroupName : INSTRUCTIONS\nGroupName : For the Chocolate Cake:\n1. Preheat oven to 350F. Butter and flour four 6-inch cake pans. Add damp cake strips.\n2. In a medium, sift the dry ingredients together and give them a good whisk.\n3. Cream the butter and sugar, then mix in the rest of the wet ingredients.\n4. Slowly add the wet ingredients to the dry, mixing until just combined.\n5. Same steps for the peanut butter mixture. (mix dry, mix wet, combine)\n6. Pour chocolate batter into the pans, add dollops of the peanut butter batter and give a swirl. You will have enough left over PB batter to make a few cupcakes for later. ?\n7. Bake for about 30 min or until centers springs back when pressed.\nGroupName : To Make the Peanut Butter Frosting:\n1. Cream the butter and peanut butter together\n2. Add sifted powdered sugar and mix\n3. Add in cream as needed to reach desired consistency (this also depends on the brand/ type of peanut butter used)\nGroupName : For the Italian Buttercream:\n1. Beat the egg whites and 1/3 cup of sugar until soft peaks form.\n2. In a medium saucepan add the remaining sugar and 1/3 cup water then place on low heat. Stir constantly until sugar melts and becomes clear. Maintain at medium high heat until temperature reads 235-240F. Drizzle the sugar into the mixer immediately. Run mixer until merengue is body temperature. Add room temperature butter into running mixer one piece at a time. Beat until butter is combined and mixture has reached a silky consistency.\n3. I used an 869 tip to pipe the dollops on top by the way.\nGroupName : For the Chocolate Ganache:\n1. Melt chocolate and cream in a microwave at half power in 2-3 30 second bursts. Allow to sit for a few minutes then whisk until consistency is smooth.\nGroupName : For the Assembly:\n1. Pipe the peanut butter buttercream in between each layer. Pipe a crumb coat. Smooth with an offset spatula and bench scraper. Chill for about 10 min.\n2. Pipe on italian meringue buttercream. Smooth with an offset spatula and bench scraper.\n3. Save some plain italian meringue. Add various amounts of chocolate to the remaining italian meringue.\n4. Add chocolate italian meringues, white italian meringue and ganache to the sides of the cake. Smooth with a bench scraper.\n5. Add ganache drip and smooth.\n6. Pipe dollops of italian meringue to the edge of the cake.",
-                    "author": "John Kanell",
-                    "source": "Preppy Kitchen",
-                    "notes": "If you’re not using 6-inch pans, double the recipe for 8-inch pans or triple the recipe for 9-inch pans.\nYou can substitute whole milk yogurt for the sour cream if desired, I do it all the time and can’t really tell the difference.\nTo get FLAT layers that are moist inside and out try using cake strips! You can buy a set on the shop page or make your own from foil and paper towels at home. I made a whole blog post on it so check it out if you’re interested!\nIf you don't want to make Italian buttercream you can use the American variety. I just prefer the smoothness and taste of the Italian variety. I know it's a pain to make two different types of frosting though!",
-                    "rating": {
-                        "average": "5",
-                        "count": "51"
-                    },
-                    "video_url": "https://www.youtube.com/embed/KiHXV-FhvI0",
-                    "nutrition": {
-                        "Serving": [
-                            "126",
-                            "g"
-                        ],
-                        "Calories": [
-                            "483",
-                            "kcal"
-                        ],
-                        "Carbohydrates": [
-                            "57",
-                            "g"
-                        ],
-                        "Protein": [
-                            "11",
-                            "g"
-                        ],
-                        "Fat": [
-                            "25",
-                            "g"
-                        ],
-                        "Saturated Fat": [
-                            "9.4",
-                            "g"
-                        ],
-                        "Cholesterol": [
-                            "54",
-                            "mg"
-                        ],
-                        "Sodium": [
-                            "409",
+                            "602",
                             "mg"
                         ],
                         "Potassium": [
-                            "243",
+                            "896",
                             "mg"
                         ],
                         "Fiber": [
-                            "2.2",
+                            "9",
                             "g"
                         ],
                         "Sugar": [
-                            "27",
+                            "2",
                             "g"
                         ],
                         "Vitamin A": [
-                            "400",
+                            "319",
                             "IU"
                         ],
+                        "Vitamin C": [
+                            "2",
+                            "mg"
+                        ],
                         "Calcium": [
-                            "100",
+                            "88",
                             "mg"
                         ],
                         "Iron": [
-                            "3.1",
+                            "4",
                             "mg"
                         ]
                     }
