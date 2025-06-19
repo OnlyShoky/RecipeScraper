@@ -201,28 +201,27 @@ def extract_ingredients(soup):
 
 
 def extract_instructions(soup):
-    """Extract cooking instructions"""
-    instructions_container = soup.find('div', class_='wprm-recipe-instructions-container')
+    """Extract cooking instructions from HelloFresh HTML structure"""
     instructions = []
-    
-    groups_instructions = instructions_container.find_all('div', class_='wprm-recipe-instruction-group')
 
-    for group in groups_instructions:
-        groupname = group.find('h4', class_='wprm-recipe-group-name')
-        instructions_group = group.find_all('ul', class_='wprm-recipe-instructions')
+    # Locate all steps
+    instruction_steps = soup.find_all('div', attrs={'data-test-id': 'instruction-step'})
+
+    for step in instruction_steps:
+        # Extract step number
+        number_tag = step.find('span', class_='fhZPKU')
+        step_number = number_tag.text.strip() if number_tag else '?'
+
+        # Extract step description
+        description_tag = step.find('p')
+        step_text = description_tag.get_text(separator=' ', strip=True) if description_tag else 'No instruction text found.'
         
-        if groupname :
-            instructions.append(f"GroupName : {groupname.text}")
-            for instruction in instructions_group:
-                instruction_items = instruction.find_all('li', class_='wprm-recipe-instruction')
-                # instructions = [f"{i+1}. {item.text.strip()}" for i, item in enumerate(instruction_items)]
-                instructions.extend([f"{i+1}. {item.text.strip()}" for i, item in enumerate(instruction_items)])
-        else :
-            if instructions_container:
-                instruction_items = instructions_container.find_all('li', class_='wprm-recipe-instruction')
-                instructions = [f"{i+1}. {item.text.strip()}" for i, item in enumerate(instruction_items)]
-    
+        step_text= step_text.replace('\n', '')
+
+        instructions.append(f"{step_number}. {step_text}")
+
     return "\n".join(instructions)
+
 
 def extract_equipment(soup):
     """Extract cooking equipment (utensils) from new structure"""
@@ -248,31 +247,35 @@ def extract_equipment(soup):
 
 
 def extract_nutrition(soup):
-    """Find all nutrition containers"""
-    
-    nutrition_elements = soup.select('sc-54d3413f-0 cQCwal')
+    """Extract nutrition information as a dictionary from the HTML soup."""
 
+    # Encuentra todos los bloques de nutrición individuales
+    nutrition_elements = soup.select('div[data-test-id="nutrition-step"]')
 
-    if not nutrition_elements :
+    if not nutrition_elements:
         return None
-    # Initialize an empty dictionary to store the nutrition data
+
     nutrition_dict = {}
 
-    # Loop through each element and extract the nutrition details
     for element in nutrition_elements:
-        # Extract the label (e.g., Calories, Carbohydrates)
-        label = element.select_one('sc-54d3413f-0 khSFcA').text.strip(': ')
-        
-        # Extract the value (e.g., 443, 76)
-        value = element.select_one('sc-54d3413f-0 gHvgPY').text
-        
-        # Extract the unit (e.g., kcal, g, mg)
-        unit = element.select_one('.wprm-nutrition-label-text-nutrition-unit').text
-        
-        # Store the data in the dictionary
-        nutrition_dict[label] = (value,unit)
-        
-    return nutrition_dict    
+        # Label: ej. Calories, Fat, etc.
+        label_tag = element.select_one('.khSFcA')
+        # Value y unidad están en el mismo span
+        value_unit_tag = element.select_one('.gHvgPY')
+
+        if label_tag and value_unit_tag:
+            label = label_tag.text.strip(': ')
+            
+            # Extraer el valor numérico y la unidad con una expresión regular
+            import re
+            match = re.match(r'(\d+)\s*([a-zA-Z]+)', value_unit_tag.text.strip())
+            if match:
+                value = match.group(1)
+                unit = match.group(2)
+                nutrition_dict[label] = (value, unit)
+
+    return nutrition_dict
+  
  
 def extract_notes(soup):
     """Extract cooking notes"""
@@ -326,17 +329,9 @@ def scrape_recipe(url,dataScraped = None):
         
         script_tag = soup.find('script', {'type': 'application/ld+json', 'id': 'schema-org'})
         
-        print(script_tag)
         # Step 3: Parse the JSON content
         if script_tag:
             data = json.loads(script_tag.string)
-
-            # Now you can access the structured data
-            print("Recipe Name:", data.get("name"))
-            print("Recipe Category:", data.get("recipeCategory"))
-            print("Recipe Cuisine:", data.get("recipeCuisine"))
-            print("Author:", data.get("author"))
-            print("Ingredients:", data.get("recipeIngredient"))
         else:
             print("No structured data found")
     
@@ -356,7 +351,7 @@ def scrape_recipe(url,dataScraped = None):
         # Prep Time
         prep_time_label = soup.find('span', attrs={'data-translation-id': 'recipe-detail.cooking-time'})
         if prep_time_label:
-            prep_time = prep_time_label.find_parent().find_next_sibling('span', class_='sc-54d3413f-0 gHvgPY').get_text(strip=True)
+            prep_time = extract_time(prep_time_label.find_parent().find_next_sibling('span', class_='sc-54d3413f-0 gHvgPY'))
         else:
             prep_time = None
         
@@ -373,20 +368,20 @@ def scrape_recipe(url,dataScraped = None):
                         "courses": [data.get("recipeCategory")],
                         "cuisines": [data.get("recipeCuisine")],
                         'tags': data.get("keywords"),
-                        "prep_time": extract_time(soup.findAll('span', class_='sc-54d3413f-0 gHvgPY')),
+                        "prep_time": prep_time,
                         "cook_time": extract_time(soup.findAll('span', class_='wprm-recipe-cook_time')),
                         "cool_time": extract_time(soup.findAll('span', class_='wprm-recipe-custom_time')),
                         "total_time": extract_time(soup.findAll('span', class_='sc-54d3413f-0 gHvgPY')),
                         "created": None,
                         "modified": None,
-                        "description": data.get("Description"),
+                        "description": data.get("description"),
                         "status": 1,
                         "activate_date": None,
                         "deactivate_date": None,
                         "servings": data.get("recipeYield"),
                         "equipment" : extract_equipment(soup),
                         "ingredients": extract_ingredients(soup),
-                        "instructions": None, #extract_instructions(soup),
+                        "instructions": extract_instructions(soup),
                         "author": data.get("author"),
                         "source": "Hello Fresh",
                         "notes" : None,
@@ -395,13 +390,12 @@ def scrape_recipe(url,dataScraped = None):
                             "count": None
                         },
                         "video_url": None,
-                        "nutrition" : None, #extract_nutrition(soup)
+                        "nutrition" : extract_nutrition(soup)
                     }
                 }
             }
         
 
-        print("Data : ", data)
 
         
         recipe_data['recipes'].append(data)

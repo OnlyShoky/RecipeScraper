@@ -5,62 +5,290 @@
                 "type": "RecipeDetailAPIView",
                 "id": -1,
                 "attributes": {
-                    "title": "Creamy Lemon-Basil Pork Rigatoni",
-                    "difficulty": null,
-                    "image_card": "/recipe_imagesHF/card/67fcde63e22258bf02840512-ce6ad3ac.jpeg",
-                    "image": "/recipe_imagesHF/featured/67fcde63e22258bf02840512-ce6ad3ac.jpeg",
+                    "title": "Easy Cheesy Black Bean Quesadillas",
+                    "difficulty": "Medium",
+                    "image_card": "/recipe_imagesHF/card/67fcd5bbe22258bf02840511-1ddb0fb1.jpeg",
+                    "image": "/recipe_imagesHF/featured/67fcd5bbe22258bf02840511-1ddb0fb1.jpeg",
                     "courses": [
                         "main course"
                     ],
                     "cuisines": [
-                        "Southern Europe"
+                        "Central America"
                     ],
                     "tags": [
                         "Quick",
                         "Easy Prep",
                         "New",
-                        "Family Friendly"
+                        "Family Friendly",
+                        "Pork-free"
                     ],
-                    "prep_time": "00:20:00",
+                    "prep_time": "00:05:00",
                     "cook_time": null,
                     "cool_time": null,
                     "total_time": "00:20:00",
                     "created": null,
                     "modified": null,
-                    "description": null,
+                    "description": "Get ready to whip up cheesy black bean quesadillas and creamy corn esquites in a speedy 20 minutes! You'll fill flour tortillas with spiced black beans, tangy cotija cheese, and Mexican cheese blend that melts to perfection. Charred corn tossed with mayonnaise, lime juice, and more cotija cheese makes a quick and easy side for this delicious meal!",
                     "status": 1,
                     "activate_date": null,
                     "deactivate_date": null,
                     "servings": 2,
-                    "equipment": "Large Pot\nStrainer\nLarge Pan\nZester",
+                    "equipment": "Can Opener\nStrainer\nMedium Bowl\nPlastic Wrap\nPaper Towel\nLarge Pan\nLarge Bowl",
                     "ingredients": [
                         {
                             "ingredient": {
-                                "name": "Cream Sauce Base",
+                                "name": "Lime",
                                 "nutrition": null
                             },
-                            "quantity": 4.0,
-                            "unit": "ounce",
+                            "quantity": 1.0,
+                            "unit": "unit",
                             "groupName": null,
-                            "notes": "(Contains:  Milk)"
+                            "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "Ground Pork",
+                                "name": "Cilantro",
                                 "nutrition": null
                             },
-                            "quantity": 10.0,
+                            "quantity": 0.25,
                             "unit": "ounce",
                             "groupName": null,
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "Garlic Powder",
+                                "name": "Chili Powder",
                                 "nutrition": null
                             },
                             "quantity": 1.0,
                             "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Corn",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Mayonnaise",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "tablespoon",
+                            "groupName": null,
+                            "notes": "(Contains:  Eggs)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Cotija Cheese",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(Contains:  Milk)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Mexican Cheese Blend",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(Contains:  Milk)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Sour Cream",
+                                "nutrition": null
+                            },
+                            "quantity": 1.5,
+                            "unit": "tablespoon",
+                            "groupName": null,
+                            "notes": "(Contains:  Milk)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Black Beans",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Flour Tortillas",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": "(Contains:  Soy, Wheat)"
+                        }
+                    ],
+                    "instructions": "1. • Wash and dry produce.• Drain and rinse beans. Quarter lime. Roughly chop cilantro.• Transfer beans to a medium microwave-safe bowl. (Rinse outstrainer.) Stir in half the chili powder (you’ll use more later),1 TBSP water (2 TBSP for 4 servings), a drizzle of oil, a pinch ofsalt, and pepper. Cover with plastic wrap and microwave untilwarmed through, 1-2 minutes.• Add a squeeze of lime juice; stir to combine.\n2. • Drain corn; pat dry with paper towels.• Heat a drizzle of oil in a large pan over high heat. Add corn andcook, stirring occasionally, until golden brown and lightly charredin spots, 4-6 minutes. TIP: Cover pan if corn begins to pop!• Meanwhile, in a large bowl, combine mayonnaise, half the cotijacheese (you’ll use the rest later), remaining chili powder, juicefrom two lime wedges (four wedges for 4 servings), a big pinchof salt, and pepper.• Once corn is done, turn off heat. Transfer to bowl withmayonnaise mixture; stir to thoroughly combine. Taste andseason with salt and pepper if desired. Set aside until ready toserve. Wash out pan.\n3. • Place tortillas on a clean work surface. Evenly divide seasonedbeans, Mexican cheese blend, and remaining cotija cheesebetween bottom halves of tortillas. (TIP: Reserve some cotijacheese for serving if you like!) Fold each tortilla in half toform quesadillas.• Heat a drizzle of oil in pan used for corn over medium heat. Addquesadillas; cook until tortillas are golden brown and cheesemelts, 2-4 minutes per side (depending on the size of your pan,you may need to work in batches). TIP: Lower heat if tortillasbegin to brown too quickly.\n4. • Cut quesadillas into wedges; divide between plates and dollopwith sour cream. Serve esquites on the side. Squeeze remaininglime over esquites. Sprinkle everything with cilantro and serve.",
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": {
+                        "Calories": [
+                            "990",
+                            "kcal"
+                        ],
+                        "Fat": [
+                            "51",
+                            "g"
+                        ],
+                        "Saturated Fat": [
+                            "18",
+                            "g"
+                        ],
+                        "Carbohydrate": [
+                            "87",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "14",
+                            "g"
+                        ],
+                        "Dietary Fiber": [
+                            "12",
+                            "g"
+                        ],
+                        "Protein": [
+                            "31",
+                            "g"
+                        ],
+                        "Cholesterol": [
+                            "75",
+                            "mg"
+                        ],
+                        "Sodium": [
+                            "1370",
+                            "mg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Warm Lentil, Kale & Feta Salad",
+                    "difficulty": "Easy",
+                    "image_card": "/recipe_imagesHF/card/67fcd41fe22258bf02840510-ad99ecad.jpeg",
+                    "image": "/recipe_imagesHF/featured/67fcd41fe22258bf02840510-ad99ecad.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "North America"
+                    ],
+                    "tags": [
+                        "Veggie",
+                        "Fiber Smart",
+                        "Easy Prep",
+                        "New",
+                        "Pork-free",
+                        "Spring Flavors"
+                    ],
+                    "prep_time": "00:05:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:25:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "This salad features tender lentils, hearty kale, crunchy cabbage, and roasted sweet potatoes for variety in every bite. You'll whip up a caramelized onion dressing to add savory sweetness, and sprinkle on feta cheese for delicious tangy flavor. Crunchy cashews and wonton strips add nutty contrast, for a hearty, wholesome meal in just 25 minutes.",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "Baking Sheet\nFine-mesh Strainer\nZester\nLarge Bowl\nLarge Pan",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Kale",
+                                "nutrition": null
+                            },
+                            "quantity": 4.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Creamy Balsamic Dressing",
+                                "nutrition": null
+                            },
+                            "quantity": 1.5,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": "(Contains:  Eggs)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Feta Cheese",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": "(Contains:  Milk)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Lentils",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Cashews",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": "(Contains:  Tree Nuts)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Wonton Strips",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": "(Contains:  Wheat)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Roasted Onion & Garlic Spread",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "ounce",
                             "groupName": null,
                             "notes": null
                         },
@@ -76,17 +304,7 @@
                         },
                         {
                             "ingredient": {
-                                "name": "Rigatoni Pasta",
-                                "nutrition": null
-                            },
-                            "quantity": 6.0,
-                            "unit": "ounce",
-                            "groupName": null,
-                            "notes": "(Contains:  Wheat)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Zucchini",
+                                "name": "Sweet Potatoes",
                                 "nutrition": null
                             },
                             "quantity": 1.0,
@@ -96,36 +314,16 @@
                         },
                         {
                             "ingredient": {
-                                "name": "Scallions",
+                                "name": "Shredded Red Cabbage",
                                 "nutrition": null
                             },
-                            "quantity": 2.0,
-                            "unit": "unit",
-                            "groupName": null,
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Cream Cheese",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "tablespoon",
-                            "groupName": null,
-                            "notes": "(Contains:  Milk)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Basil Paste",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
+                            "quantity": 4.0,
                             "unit": "ounce",
                             "groupName": null,
                             "notes": null
                         }
                     ],
-                    "instructions": null,
+                    "instructions": "1. • Adjust rack to top position and preheat oven to450 degrees. Wash and dry produce.• Trim ends of sweet potato and halve lengthwise; thinlyslice crosswise into 1⁄4-inch-thick half-moons.• Toss on a baking sheet with a drizzle of olive oil, salt,and pepper. Roast on top rack until browned andtender, 15-18 minutes.\n2. • While sweet potato roasts, remove and discard any largestems from kale. Drain and rinse lentils. Zest andquarter lemon.• Add kale to a large bowl along with a pinch of salt. Usingyour hands, massage kale (similar to how you wouldknead dough) until leaves begin to tenderize, 30 seconds.TIP: Don’t skip this step—massaging helps the kale leaveswilt slightly, lending a tender texture.• Heat a drizzle of olive oil in a large pan over medium-highheat. Add lentils, salt, and pepper; cook, stirringoccasionally, until lentils are warmed through, 1-2 minutes.\n3. • Transfer warmed lentils to bowl with kale; add cabbage,cashews, onion and garlic spread, dressing, lemonzest, a drizzle of olive oil, and juice from half thelemon. Toss until kale is wilted and everything is evenlycoated in dressing.• Once sweet potato is done, carefully transfer to bowl withsalad; toss to combine. Taste and season with additionallemon juice, salt, and pepper if desired.\n4. • Divide salad between bowls. Top with feta and wontonstrips. Serve.",
                     "author": "HelloFresh",
                     "source": "Hello Fresh",
                     "notes": null,
@@ -134,7 +332,44 @@
                         "count": null
                     },
                     "video_url": null,
-                    "nutrition": null
+                    "nutrition": {
+                        "Calories": [
+                            "730",
+                            "kcal"
+                        ],
+                        "Fat": [
+                            "27",
+                            "g"
+                        ],
+                        "Saturated Fat": [
+                            "7",
+                            "g"
+                        ],
+                        "Carbohydrate": [
+                            "87",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "21",
+                            "g"
+                        ],
+                        "Dietary Fiber": [
+                            "15",
+                            "g"
+                        ],
+                        "Protein": [
+                            "24",
+                            "g"
+                        ],
+                        "Cholesterol": [
+                            "30",
+                            "mg"
+                        ],
+                        "Sodium": [
+                            "1180",
+                            "mg"
+                        ]
+                    }
                 }
             }
         }
