@@ -200,9 +200,12 @@ def extract_ingredients(soup):
 
 
 
+import re
+
 def extract_instructions(soup):
-    """Extract cooking instructions from HelloFresh HTML structure"""
+    """Extract cooking instructions as a single string and notes separately"""
     instructions = []
+    notes = []
 
     # Locate all steps
     instruction_steps = soup.find_all('div', attrs={'data-test-id': 'instruction-step'})
@@ -215,12 +218,23 @@ def extract_instructions(soup):
         # Extract step description
         description_tag = step.find('p')
         step_text = description_tag.get_text(separator=' ', strip=True) if description_tag else 'No instruction text found.'
-        
-        step_text= step_text.replace('\n', '')
+        step_text = step_text.replace('\n', '').strip()
 
-        instructions.append(f"{step_number}. {step_text}")
+        # Detect and extract TIPS (e.g., "TIP: Do this." or "TIPS: Do that.")
+        tips_found = re.findall(r'TIPS?:.*?[.•!)]', step_text)
+        for tip in tips_found:
+            step_text = step_text.replace(tip, '')
+            tip = tip.replace('TIP: ', '').replace('•', '')
+            notes.append(tip.strip())
+            step_text = step_text.replace(tip, '').strip()
 
-    return "\n".join(instructions)
+        # Add formatted instruction string
+        if step_text:
+            instructions.append(f"{step_number}. {step_text}")
+
+    # Join all instructions with newline characters
+    return "\n".join(instructions), notes
+
 
 
 def extract_equipment(soup):
@@ -356,7 +370,7 @@ def scrape_recipe(url,dataScraped = None):
             prep_time = None
         
         
-        
+        instructions, notes = extract_instructions(soup)
         data = {"data": {
                     "type": "RecipeDetailAPIView",
                     "id": -1,
@@ -381,10 +395,10 @@ def scrape_recipe(url,dataScraped = None):
                         "servings": data.get("recipeYield"),
                         "equipment" : extract_equipment(soup),
                         "ingredients": extract_ingredients(soup),
-                        "instructions": extract_instructions(soup),
+                        "instructions": instructions,
                         "author": data.get("author"),
                         "source": "Hello Fresh",
-                        "notes" : None,
+                        "notes" : notes,
                         "rating": {
                             "average": None,
                             "count": None
