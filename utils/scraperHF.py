@@ -218,22 +218,22 @@ def extract_instructions(soup):
         # Extract step description
         description_tag = step.find('p')
         step_text = description_tag.get_text(separator=' ', strip=True) if description_tag else 'No instruction text found.'
-        step_text = step_text.replace('\n', '').strip()
+        step_text = step_text.replace('\n', ' ')
 
         # Detect and extract TIPS (e.g., "TIP: Do this." or "TIPS: Do that.")
         tips_found = re.findall(r'TIPS?:.*?[.•!)]', step_text)
         for tip in tips_found:
             step_text = step_text.replace(tip, '')
-            tip = tip.replace('TIP: ', '').replace('•', '')
+            tip = tip.replace('TIP:', '').replace('•', '')
             notes.append(tip.strip())
-            step_text = step_text.replace(tip, '').strip()
+            step_text = step_text.replace(tip, '')
 
         # Add formatted instruction string
         if step_text:
             instructions.append(f"{step_number}. {step_text}")
 
     # Join all instructions with newline characters
-    return "\n".join(instructions), notes
+    return "\n".join(instructions), "\n".join(notes)
 
 
 
@@ -398,7 +398,7 @@ def scrape_recipe(url,dataScraped = None):
                         "instructions": instructions,
                         "author": data.get("author"),
                         "source": "Hello Fresh",
-                        "notes" : notes,
+                        "notes" : notes if notes else None,
                         "rating": {
                             "average": None,
                             "count": None

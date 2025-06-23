@@ -5,59 +5,59 @@
                 "type": "RecipeDetailAPIView",
                 "id": -1,
                 "attributes": {
-                    "title": "Easy Cheesy Black Bean Quesadillas",
+                    "title": "Southwest Chicken & Bacon Cobb Salad",
                     "difficulty": "Medium",
-                    "image_card": "/recipe_imagesHF/card/67fcd5bbe22258bf02840511-1ddb0fb1.jpeg",
-                    "image": "/recipe_imagesHF/featured/67fcd5bbe22258bf02840511-1ddb0fb1.jpeg",
+                    "image_card": "/recipe_imagesHF/card/67fcd2251025888df6f416a1-11a7eba4.jpeg",
+                    "image": "/recipe_imagesHF/featured/67fcd2251025888df6f416a1-11a7eba4.jpeg",
                     "courses": [
                         "main course"
                     ],
                     "cuisines": [
-                        "Central America"
+                        "North America"
                     ],
                     "tags": [
-                        "Quick",
-                        "Easy Prep",
+                        "Carb Smart",
+                        "Protein Smart",
                         "New",
                         "Family Friendly",
-                        "Pork-free"
+                        "Spring Flavors"
                     ],
-                    "prep_time": "00:05:00",
+                    "prep_time": "00:10:00",
                     "cook_time": null,
                     "cool_time": null,
-                    "total_time": "00:20:00",
+                    "total_time": "00:25:00",
                     "created": null,
                     "modified": null,
-                    "description": "Get ready to whip up cheesy black bean quesadillas and creamy corn esquites in a speedy 20 minutes! You'll fill flour tortillas with spiced black beans, tangy cotija cheese, and Mexican cheese blend that melts to perfection. Charred corn tossed with mayonnaise, lime juice, and more cotija cheese makes a quick and easy side for this delicious meal!",
+                    "description": "This twist on a Cobb salad takes all your favorite elements of the classic dish—crispy bacon, juicy chicken, creamy avocado, tangy blue cheese—and gives them a Southwestern spin thanks to additions like guacamole and crunchy blue corn tortilla chips. Toss everything with grape tomatoes and crisp baby lettuce, and you’re set!",
                     "status": 1,
                     "activate_date": null,
                     "deactivate_date": null,
                     "servings": 2,
-                    "equipment": "Can Opener\nStrainer\nMedium Bowl\nPlastic Wrap\nPaper Towel\nLarge Pan\nLarge Bowl",
+                    "equipment": "Large Pan\nPaper Towel\nSmall Bowl\nLarge Bowl",
                     "ingredients": [
                         {
                             "ingredient": {
-                                "name": "Lime",
+                                "name": "Grape Tomatoes",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "unit",
-                            "groupName": null,
-                            "notes": null
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Cilantro",
-                                "nutrition": null
-                            },
-                            "quantity": 0.25,
+                            "quantity": 4.0,
                             "unit": "ounce",
                             "groupName": null,
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "Chili Powder",
+                                "name": "Scallions",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Garlic Powder",
                                 "nutrition": null
                             },
                             "quantity": 1.0,
@@ -67,83 +67,69 @@
                         },
                         {
                             "ingredient": {
-                                "name": "Corn",
+                                "name": "Blue Cheese Dressing",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
+                            "quantity": 3.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": "(Contains:  Eggs, Milk)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Guacamole",
+                                "nutrition": null
+                            },
+                            "quantity": 4.0,
+                            "unit": "tablespoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Baby Lettuce",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
                             "unit": "unit",
                             "groupName": null,
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "Mayonnaise",
-                                "nutrition": null
-                            },
-                            "quantity": 2.0,
-                            "unit": "tablespoon",
-                            "groupName": null,
-                            "notes": "(Contains:  Eggs)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Cotija Cheese",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": null,
-                            "notes": "(Contains:  Milk)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Mexican Cheese Blend",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": null,
-                            "notes": "(Contains:  Milk)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Sour Cream",
+                                "name": "Blue Corn Tortilla Chips",
                                 "nutrition": null
                             },
                             "quantity": 1.5,
-                            "unit": "tablespoon",
+                            "unit": "ounce",
                             "groupName": null,
-                            "notes": "(Contains:  Milk)"
+                            "notes": "(Contains:  Sesame)"
                         },
                         {
                             "ingredient": {
-                                "name": "Black Beans",
+                                "name": "Chicken Cutlets",
                                 "nutrition": null
                             },
-                            "quantity": 1.0,
-                            "unit": "unit",
+                            "quantity": 10.0,
+                            "unit": "ounce",
                             "groupName": null,
                             "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "Flour Tortillas",
+                                "name": "Bacon",
                                 "nutrition": null
                             },
-                            "quantity": 2.0,
-                            "unit": "unit",
+                            "quantity": 4.0,
+                            "unit": "ounce",
                             "groupName": null,
-                            "notes": "(Contains:  Soy, Wheat)"
+                            "notes": null
                         }
                     ],
-                    "instructions": "1. • Wash and dry produce.• Drain and rinse beans. Quarter lime. Roughly chop cilantro.• Transfer beans to a medium microwave-safe bowl. (Rinse outstrainer.) Stir in half the chili powder (you’ll use more later),1 TBSP water (2 TBSP for 4 servings), a drizzle of oil, a pinch ofsalt, and pepper. Cover with plastic wrap and microwave untilwarmed through, 1-2 minutes.• Add a squeeze of lime juice; stir to combine.\n2. • Drain corn; pat dry with paper towels.• Heat a drizzle of oil in a large pan over high heat. Add corn andcook, stirring occasionally, until golden brown and lightly charredin spots, 4-6 minutes. • Meanwhile, in a large bowl, combine mayonnaise, half the cotijacheese (you’ll use the rest later), remaining chili powder, juicefrom two lime wedges (four wedges for 4 servings), a big pinchof salt, and pepper.• Once corn is done, turn off heat. Transfer to bowl withmayonnaise mixture; stir to thoroughly combine. Taste andseason with salt and pepper if desired. Set aside until ready toserve. Wash out pan.\n3. • Place tortillas on a clean work surface. Evenly divide seasonedbeans, Mexican cheese blend, and remaining cotija cheesebetween bottom halves of tortillas. () Fold each tortilla in half toform quesadillas.• Heat a drizzle of oil in pan used for corn over medium heat. Addquesadillas; cook until tortillas are golden brown and cheesemelts, 2-4 minutes per side (depending on the size of your pan,you may need to work in batches).\n4. • Cut quesadillas into wedges; divide between plates and dollopwith sour cream. Serve esquites on the side. Squeeze remaininglime over esquites. Sprinkle everything with cilantro and serve.",
+                    "instructions": "1. • Heat a large dry pan over medium- high heat. Add bacon*; cook, turning occasionally and adjusting heat if browning too quickly, until crispy, 6-10 minutes. • Turn off heat; transfer to a paper-towel- lined plate. Reserve bacon fat in a small heatproof bowl and carefully wipe out any burnt bits from pan.\n2. • While bacon cooks, wash and dry produce. • Dry lettuce thoroughly. Trim and discard root end; chop leaves into bite-size pieces. Halve tomatoes. Trim and thinly slice scallions, separating whites from greens.\n3. • Once bacon is done, pat chicken* dry with paper towels and season all over with garlic powder, salt, and pepper. • Heat reserved bacon fat and a drizzle of oil in pan used for bacon over medium-high heat. Add chicken; cook until browned and cooked through, 3-5 minutes per side.  • Transfer chicken to a cutting board to rest.\n4. • Meanwhile, in a large bowl, add lettuce, tomatoes, scallion whites, and dressing. Toss until thoroughly combined.\n5. • Roughly chop bacon. Thinly slice chicken crosswise.\n6. • Divide salad between shallow bowls. Arrange chicken over center of each salad, then top with bacon, a dollop of guacamole, and scallion greens. Sprinkle as many chips (crushing in the bag first) as you like around chicken and serve.",
                     "author": "HelloFresh",
                     "source": "Hello Fresh",
-                    "notes": [
-                        "Cover pan if corn begins to pop!",
-                        "Reserve some cotijacheese for serving if you like!",
-                        "Lower heat if tortillasbegin to brown too quickly."
-                    ],
+                    "notes": "If chicken starts to brown too quickly, reduce heat and cover.",
                     "rating": {
                         "average": null,
                         "count": null
@@ -151,39 +137,39 @@
                     "video_url": null,
                     "nutrition": {
                         "Calories": [
-                            "990",
+                            "850",
                             "kcal"
                         ],
                         "Fat": [
-                            "51",
+                            "61",
                             "g"
                         ],
                         "Saturated Fat": [
-                            "18",
+                            "15",
                             "g"
                         ],
                         "Carbohydrate": [
-                            "87",
+                            "30",
                             "g"
                         ],
                         "Sugar": [
-                            "14",
+                            "6",
                             "g"
                         ],
                         "Dietary Fiber": [
-                            "12",
+                            "9",
                             "g"
                         ],
                         "Protein": [
-                            "31",
+                            "44",
                             "g"
                         ],
                         "Cholesterol": [
-                            "75",
+                            "155",
                             "mg"
                         ],
                         "Sodium": [
-                            "1370",
+                            "1290",
                             "mg"
                         ]
                     }
@@ -195,10 +181,10 @@
                 "type": "RecipeDetailAPIView",
                 "id": -1,
                 "attributes": {
-                    "title": "Warm Lentil, Kale & Feta Salad",
+                    "title": "One-Pan Tilapia with Red Beans & Kale",
                     "difficulty": "Easy",
-                    "image_card": "/recipe_imagesHF/card/67fcd41fe22258bf02840510-ad99ecad.jpeg",
-                    "image": "/recipe_imagesHF/featured/67fcd41fe22258bf02840510-ad99ecad.jpeg",
+                    "image_card": "/recipe_imagesHF/card/67fcd00e1025888df6f416a0-cbc799c8.jpeg",
+                    "image": "/recipe_imagesHF/featured/67fcd00e1025888df6f416a0-cbc799c8.jpeg",
                     "courses": [
                         "main course"
                     ],
@@ -206,25 +192,25 @@
                         "North America"
                     ],
                     "tags": [
-                        "Veggie",
+                        "Calorie Smart",
+                        "Carb Smart",
+                        "Protein Smart",
                         "Fiber Smart",
-                        "Easy Prep",
-                        "New",
-                        "Pork-free",
-                        "Spring Flavors"
+                        "Easy Cleanup",
+                        "Pork-free"
                     ],
-                    "prep_time": "00:05:00",
+                    "prep_time": "00:10:00",
                     "cook_time": null,
                     "cool_time": null,
-                    "total_time": "00:25:00",
+                    "total_time": "00:30:00",
                     "created": null,
                     "modified": null,
-                    "description": "This salad features tender lentils, hearty kale, crunchy cabbage, and roasted sweet potatoes for variety in every bite. You'll whip up a caramelized onion dressing to add savory sweetness, and sprinkle on feta cheese for delicious tangy flavor. Crunchy cashews and wonton strips add nutty contrast, for a hearty, wholesome meal in just 25 minutes.",
+                    "description": "Simple, streamlined, and packed with veggies, this one-pan tilapia dinner is the perfect dish for busy weeknights. Gently steaming the tilapia over a simmering bed of tomato, kidney beans, and kale ensures the fish stays perfectly flaky and tender. Finish it off with a squeeze of fresh lemon juice to bring out this meal’s bright flavors.",
                     "status": 1,
                     "activate_date": null,
                     "deactivate_date": null,
                     "servings": 2,
-                    "equipment": "Baking Sheet\nFine-mesh Strainer\nZester\nLarge Bowl\nLarge Pan",
+                    "equipment": "Strainer\nPaper Towel\nLarge Pan",
                     "ingredients": [
                         {
                             "ingredient": {
@@ -238,27 +224,7 @@
                         },
                         {
                             "ingredient": {
-                                "name": "Creamy Balsamic Dressing",
-                                "nutrition": null
-                            },
-                            "quantity": 1.5,
-                            "unit": "ounce",
-                            "groupName": null,
-                            "notes": "(Contains:  Eggs)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Feta Cheese",
-                                "nutrition": null
-                            },
-                            "quantity": 0.5,
-                            "unit": "cup",
-                            "groupName": null,
-                            "notes": "(Contains:  Milk)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Lentils",
+                                "name": "Onion",
                                 "nutrition": null
                             },
                             "quantity": 1.0,
@@ -268,31 +234,21 @@
                         },
                         {
                             "ingredient": {
-                                "name": "Cashews",
+                                "name": "Garlic",
                                 "nutrition": null
                             },
-                            "quantity": 0.5,
-                            "unit": "ounce",
+                            "quantity": 2.0,
+                            "unit": "clove",
                             "groupName": null,
-                            "notes": "(Contains:  Tree Nuts)"
+                            "notes": null
                         },
                         {
                             "ingredient": {
-                                "name": "Wonton Strips",
+                                "name": "Tomato",
                                 "nutrition": null
                             },
                             "quantity": 1.0,
                             "unit": "unit",
-                            "groupName": null,
-                            "notes": "(Contains:  Wheat)"
-                        },
-                        {
-                            "ingredient": {
-                                "name": "Roasted Onion & Garlic Spread",
-                                "nutrition": null
-                            },
-                            "quantity": 1.0,
-                            "unit": "ounce",
                             "groupName": null,
                             "notes": null
                         },
@@ -308,7 +264,121 @@
                         },
                         {
                             "ingredient": {
-                                "name": "Sweet Potatoes",
+                                "name": "Tilapia",
+                                "nutrition": null
+                            },
+                            "quantity": 11.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": "(Contains:  Fish)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Veggie Stock Concentrate",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Kidney Beans",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. • Wash and dry produce. • Halve, peel, and thinly slice onion. Peel and mince or grate garlic. Dice tomato into 1⁄2-inch pieces. Drain and rinse beans. Remove and discard any large stems from kale. Quarter lemon.\n2. • Pat tilapia* dry with paper towels; season generously all over with salt and pepper. • Set aside until ready to use.\n3. • Heat a large drizzle of oil in a large pan over medium-high heat. Add onion and cook, stirring occasionally, until softened, 3-5 minutes. Add garlic and cook until fragrant, 30-60 seconds. • Add tomato, beans, stock concentrates, 1⁄4 cup water, and 2 TBSP butter (1⁄2 cup water and 4 TBSP butter for 4 servings). Stir to combine. Bring to a simmer.\n4. • Once beans, veggies, and broth are simmering, add kale. Cover pan with lid. Cook, stirring occasionally, until kale has wilted, 2-3 minutes. • Taste and season with salt and pepper.\n5. • Place tilapia over beans and kale. Reduce heat to medium low. Cover pan with lid; simmer until fish is cooked through and easily flakes with a fork, 8-10 minutes more.\n6. • Squeeze juice from one lemon wedge (two wedges for 4 servings) over tilapia. • Divide tilapia and red beans and kale between plates; serve with remaining lemon wedges on the side.",
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": {
+                        "Calories": [
+                            "610",
+                            "kcal"
+                        ],
+                        "Fat": [
+                            "21",
+                            "g"
+                        ],
+                        "Saturated Fat": [
+                            "9",
+                            "g"
+                        ],
+                        "Carbohydrate": [
+                            "51",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "12",
+                            "g"
+                        ],
+                        "Dietary Fiber": [
+                            "12",
+                            "g"
+                        ],
+                        "Protein": [
+                            "46",
+                            "g"
+                        ],
+                        "Cholesterol": [
+                            "105",
+                            "mg"
+                        ],
+                        "Sodium": [
+                            "990",
+                            "mg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Peruvian-Style Lomo Saltado",
+                    "difficulty": "Medium",
+                    "image_card": "/recipe_imagesHF/card/67fccc45e22258bf0284050d-52335270.jpeg",
+                    "image": "/recipe_imagesHF/featured/67fccc45e22258bf0284050d-52335270.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "South America"
+                    ],
+                    "tags": [
+                        "New",
+                        "specialties",
+                        "Pork-free"
+                    ],
+                    "prep_time": "00:10:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:45:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "This Peruvian-inspired spread is sure to delight. First, there’s lomo saltado, a savory steak stir-fry that combines tomato, onion, and soy sauce, which is served alongside crispy roasted potatoes. Then, you’ll bake up crispy chicken empanadas paired with a creamy, cool chimichurri for dipping. Fluffy, buttery rice completes the feast!",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "Baking Sheet\nSmall pot\nPaper Towel\nMedium Bowl\nLarge Pan\nSmall Bowl\nWhisk",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Tomato",
                                 "nutrition": null
                             },
                             "quantity": 1.0,
@@ -318,21 +388,159 @@
                         },
                         {
                             "ingredient": {
-                                "name": "Shredded Red Cabbage",
+                                "name": "Potatoes",
                                 "nutrition": null
                             },
-                            "quantity": 4.0,
+                            "quantity": 16.0,
                             "unit": "ounce",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Red Onion",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Dried Oregano",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Jasmine Rice",
+                                "nutrition": null
+                            },
+                            "quantity": 0.5,
+                            "unit": "cup",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Soy Sauce",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "tablespoon",
+                            "groupName": null,
+                            "notes": "(Contains:  Soy, Wheat)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Red Wine Vinegar",
+                                "nutrition": null
+                            },
+                            "quantity": 5.0,
+                            "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Bavette Steak",
+                                "nutrition": null
+                            },
+                            "quantity": 10.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Garlic Powder",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Chimichurri",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Chicken Empanadas",
+                                "nutrition": null
+                            },
+                            "quantity": 7.5,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": "(Contains:  Wheat)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Cilantro",
+                                "nutrition": null
+                            },
+                            "quantity": 0.25,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Mayonnaise",
+                                "nutrition": null
+                            },
+                            "quantity": 2.0,
+                            "unit": "tablespoon",
+                            "groupName": null,
+                            "notes": "(Contains:  Eggs)"
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Cornstarch",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "tablespoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Cumin",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "teaspoon",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Sriracha",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "teaspoon",
                             "groupName": null,
                             "notes": null
                         }
                     ],
-                    "instructions": "1. • Adjust rack to top position and preheat oven to450 degrees. Wash and dry produce.• Trim ends of sweet potato and halve lengthwise; thinlyslice crosswise into 1⁄4-inch-thick half-moons.• Toss on a baking sheet with a drizzle of olive oil, salt,and pepper. Roast on top rack until browned andtender, 15-18 minutes.\n2. • While sweet potato roasts, remove and discard any largestems from kale. Drain and rinse lentils. Zest andquarter lemon.• Add kale to a large bowl along with a pinch of salt. Usingyour hands, massage kale (similar to how you wouldknead dough) until leaves begin to tenderize, 30 seconds.• Heat a drizzle of olive oil in a large pan over medium-highheat. Add lentils, salt, and pepper; cook, stirringoccasionally, until lentils are warmed through, 1-2 minutes.\n3. • Transfer warmed lentils to bowl with kale; add cabbage,cashews, onion and garlic spread, dressing, lemonzest, a drizzle of olive oil, and juice from half thelemon. Toss until kale is wilted and everything is evenlycoated in dressing.• Once sweet potato is done, carefully transfer to bowl withsalad; toss to combine. Taste and season with additionallemon juice, salt, and pepper if desired.\n4. • Divide salad between bowls. Top with feta and wontonstrips. Serve.",
+                    "instructions": "1. • Adjust rack to top position (top and middle positions for 4 servings) and preheat oven to 425 degrees. Wash and dry produce. • Cut potatoes into 1⁄2-inch-thick wedges. Toss on one side of a baking sheet with a drizzle of oil, oregano, half the garlic powder (you’ll use the rest later), salt, and pepper (for 4, spread potatoes across entire sheet). Roast on top rack for 10 minutes (you’ll add more to the sheet then). • Once potatoes have roasted 10 minutes, remove sheet from oven. Lightly oil opposite side of baking sheet; add empanadas. Bake on top rack, flipping empanadas halfway through, until empanadas are golden brown and potatoes are browned and tender, 15-18 minutes more. (For 4, leave potatoes roasting; place empanadas on a second lightly oiled baking sheet and bake on middle rack.)\n2. • Halve, peel, and cut half the onion (whole onion for 4 servings) into 1⁄2-inch wedges. Cut tomato into 1⁄2-inch wedges. Roughly chop cilantro. • In a small pot, combine rice, 3⁄4 cup water (1 1⁄2 cups for 4), and a pinch of salt. Bring to a boil, then cover and reduce to a low simmer. Cook until rice is tender, 15-18 minutes. • Keep covered off heat until ready to serve.\n3. • Pat steak* dry with paper towels; slice into 1-by-3-inch strips (the strips don’t need to be perfect—a rough 1 by 3 inches is fine!). • In a medium bowl, combine cornstarch, half the cumin (all for 4 servings), remaining garlic powder, salt, and pepper. • Add steak; toss until thoroughly coated.\n4. • Heat a drizzle of oil in a large pan over medium-high heat. Add steak and cook, tossing occasionally, until a crust forms, 4-6 minutes (the steak will finish cooking in the next step). Turn off heat; transfer to a plate. Wipe out pan.\n5. • Heat another drizzle of oil in pan used for steak over medium heat. Add onion wedges and tomato; cook, stirring occasionally, until slightly tender, 4-6 minutes. • Add steak, soy sauce, Sriracha, 1/3 cup water, 2 tsp vinegar, and 1⁄4 tsp sugar (2/3 cup water, 4 tsp vinegar, and 1⁄2 tsp sugar for 4 servings). (Reserve remaining vinegar for another use.) Cook, stirring, until sauce has thickened and steak is cooked through, 1-3 minutes. Taste and season with salt and pepper if desired.\n6. • In a small bowl, whisk together mayonnaise and chimichurri. Season with salt and pepper if desired.\n7. • Fluff rice with a fork; stir in 1 TBSP butter (2 TBSP for 4 servings). Garnish with half the cilantro. • Place potatoes on a serving dish; top with lomo saltado. Garnish with remaining cilantro. • Serve rice, potatoes and lomo saltado, and empanadas family style. Serve with creamy chimichurri sauce on the side.",
                     "author": "HelloFresh",
                     "source": "Hello Fresh",
-                    "notes": [
-                        "Don’t skip this step—massaging helps the kale leaveswilt slightly, lending a tender texture."
-                    ],
+                    "notes": null,
                     "rating": {
                         "average": null,
                         "count": null
@@ -340,39 +548,565 @@
                     "video_url": null,
                     "nutrition": {
                         "Calories": [
-                            "730",
+                            "1210",
                             "kcal"
                         ],
                         "Fat": [
-                            "27",
+                            "58",
                             "g"
                         ],
                         "Saturated Fat": [
-                            "7",
-                            "g"
-                        ],
-                        "Carbohydrate": [
-                            "87",
-                            "g"
-                        ],
-                        "Sugar": [
-                            "21",
-                            "g"
-                        ],
-                        "Dietary Fiber": [
                             "15",
                             "g"
                         ],
+                        "Carbohydrate": [
+                            "119",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "7",
+                            "g"
+                        ],
+                        "Dietary Fiber": [
+                            "9",
+                            "g"
+                        ],
                         "Protein": [
-                            "24",
+                            "48",
                             "g"
                         ],
                         "Cholesterol": [
-                            "30",
+                            "155",
                             "mg"
                         ],
                         "Sodium": [
-                            "1180",
+                            "2390",
+                            "mg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Ready-Made Meal: Signature Favorites Variety Pack",
+                    "difficulty": "Easy",
+                    "image_card": "/recipe_imagesHF/card/67f68e15f389f8b847c1ef39-016fa062.jpeg",
+                    "image": "/recipe_imagesHF/featured/67f68e15f389f8b847c1ef39-016fa062.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "North American"
+                    ],
+                    "tags": [
+                        "lunch-readymeals"
+                    ],
+                    "prep_time": "00:00:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:03:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Wholesome, quick, and delicious meals that are ready when you need ’em—that’s what our Ready-Made Meals are all about. Can’t decide which one to choose? This variety pack of customer faves has you covered! Try the butter chicken with rice and our savory tomatillo pulled pork. There’s also a creamy alfredo truffle cavatappi pasta and our classic beef bolognese. And the best part? These are all ready to eat after a quick spin in the microwave. (Oh, and no pots or pans to clean!) I 1 tray per serving.\n\n\n*Nutrition values for 1 container of Alfredo Truffle Cavatappi is as follows: Calories 560, Total Fat 29g, Sat. Fat 15g, Cholest. 75mg, Sodium 830mg, Total Carb. 53g, Fiber 4g, Sugar 3g, Protein 22 g.*  \n\n*Nutrition values for 1 container of Butter Chicken with Rice is as follows: Calories 490, Total Fat 13g, Sat. Fat 4.5g, Cholest. 50mg, Sodium 1180mg, Total Carb. 72g, Fiber 4g, Sugar 6g, Protein 21 g.*  \n\n*Nutrition values for 1 container of Tomatillo Pulled Pork with Rice is as follows: Calories 430, Total Fat 13g, Sat. Fat 6g, Cholest. 50mg, Sodium 1070mg, Total Carb. 54g, Fiber 3g, Sugar 6g, Protein 21 g.*  \n\n*Nutrition values for 1 container of Beef Bolognese with Rotini is as follows: Calories 400, Total Fat 14g, Sat. Fat 6g, Cholest. 45mg, Sodium 950mg, Total Carb. 48g, Fiber 5g, Sugar 6g, Protein 17 g.*  ",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Butter Chicken With Rice",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Tomatillo Pulled Pork With Rice",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Alfredo Truffle Cavatappi",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Beef Bolognese With Rotini",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. Follow instructions on package. Enjoy!",
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": null
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Mild Salsa",
+                    "difficulty": "Easy",
+                    "image_card": "/recipe_imagesHF/card/67f58d0e6ec82c7d072f8a4a-9bf0da5f.jpeg",
+                    "image": "/recipe_imagesHF/featured/67f58d0e6ec82c7d072f8a4a-9bf0da5f.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "North American"
+                    ],
+                    "tags": [
+                        "Vegan",
+                        "sides-bites"
+                    ],
+                    "prep_time": "00:00:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:01:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Who doesn’t love salsa? We certainly do! In ours, diced tomatoes and onions help create a flavorful base that’s brightened up with lime juice plus a touch of cilantro and jalapeño for a mild kick. Serve this easy-to-love dip with tortilla chips for a no-effort appetizer at your next gathering, add it to breakfast burritos for an elevated morning meal, or drizzle it over a tray of nachos. The options are endless!\n\n\n*Nutrition values are representative of a 2 TBSP serving.*",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Guacamole",
+                                "nutrition": null
+                            },
+                            "quantity": 8.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Blue Corn Tortilla Chips",
+                                "nutrition": null
+                            },
+                            "quantity": 3.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. Enjoy!",
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": {
+                        "Calories": [
+                            "10",
+                            "kcal"
+                        ],
+                        "Carbohydrate": [
+                            "2",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "1",
+                            "g"
+                        ],
+                        "Sodium": [
+                            "180",
+                            "mg"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Guacamole & Blue Corn Tortilla Chip Combo",
+                    "difficulty": "Easy",
+                    "image_card": "/recipe_imagesHF/card/67f58c9b7ad178e78b2e1a7f-d94aa015.jpeg",
+                    "image": "/recipe_imagesHF/featured/67f58c9b7ad178e78b2e1a7f-d94aa015.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "North American"
+                    ],
+                    "tags": [],
+                    "prep_time": "00:00:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:01:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Who doesn’t love chips and guac? We certainly do! With this duo, you’ll get 8 ounces of our classic guacamole, featuring avocado mashed to creamy perfection, lime juice, diced tomato and onion, and jalapeño purée for a little kick (that’s right, no cilantro!). To complete this easy snack or app, you’ll also get wholesome blue corn tortilla chips—a perfectly crisp and crunchy complement to this cool, creamy dip!",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Guacamole",
+                                "nutrition": null
+                            },
+                            "quantity": 8.0,
+                            "unit": "ounce",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Blue Corn Tortilla Chips",
+                                "nutrition": null
+                            },
+                            "quantity": 3.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. Enjoy!",
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": null
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Mild Salsa & Blue Corn Tortilla Chip Combo",
+                    "difficulty": "Easy",
+                    "image_card": "/recipe_imagesHF/card/67f5617a7ad178e78b2e19e7-2baaeff7.jpeg",
+                    "image": "/recipe_imagesHF/featured/67f5617a7ad178e78b2e19e7-2baaeff7.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "North American"
+                    ],
+                    "tags": [],
+                    "prep_time": "00:00:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:01:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Who doesn’t love salsa? We certainly do! In ours, diced tomatoes and onions help create a flavorful base that’s brightened up with lime juice plus a touch of cilantro and jalapeño for a mild kick. To complete this easy snack or app, you’ll also get wholesome blue corn tortilla chips—a perfectly crisp and crunchy complement to this delicious dip!\n\n\n*Nutrition values for 2 TBSP of Mild Salsa is as follows: Calories 10, Total Fat 0g, Sat. Fat 0g, Cholest. 0mg, Sodium 180mg, Total Carb. 2g, Fiber 0g, Sugar 1g, Protein 0 g.*  \n\n*Nutrition values for 1 package of Blue Corn Tortilla Chips is as follows: Calories 220, Total Fat 10g, Sat. Fat 1g, Cholest. 0mg, Sodium 110mg, Total Carb. 27g, Fiber 4g, Sugar 0g, Protein 3 g.*  ",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Classic Mild Salsa",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Blue Corn Tortilla Chips",
+                                "nutrition": null
+                            },
+                            "quantity": 3.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. Enjoy!",
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": null
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Guacamole, Mild Salsa & Blue Corn Tortilla Chip Combo",
+                    "difficulty": "Easy",
+                    "image_card": "/recipe_imagesHF/card/67f560bc6ec82c7d072f8a24-440ad519.jpeg",
+                    "image": "/recipe_imagesHF/featured/67f560bc6ec82c7d072f8a24-440ad519.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "North American"
+                    ],
+                    "tags": [],
+                    "prep_time": "00:00:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:01:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Who doesn’t love chips and dip? We certainly do! With this trifecta, you’ll get 8 ounces of our classic guacamole—featuring avocado mashed to creamy perfection, lime juice, diced tomato and onion, and jalapeño purée—along with 12 ounces of our mild, tomato-forward salsa. To complete this easy snack or app, you’ll also get wholesome blue corn tortilla chips—a perfectly crisp and crunchy complement to both dips!\n\n\n*Nutrition values for 2 TBSP of Guacamole is as follows: Calories 40, Total Fat 3.5g, Sat. Fat 0.5g, Cholest. 0mg, Sodium 160mg, Total Carb. 2g, Fiber 2g, Sugar 0g, Protein 0 g.* \n*Nutrition values for 2 TBSP of Mild Salsa is as follows: Calories 10, Total Fat 0g, Sat. Fat 0g, Cholest. 0mg, Sodium 180mg, Total Carb. 2g, Fiber 0g, Sugar 1g, Protein 0 g.* \n\n*Nutrition values for 1 package of Blue Corn Tortilla Chips is as follows: Calories 220, Total Fat 10g, Sat. Fat 1g, Cholest. 0mg, Sodium 110mg, Total Carb. 27g, Fiber 4g, Sugar 0g, Protein 3 g.*",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Guacamole",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Classic Mild Salsa",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Blue Corn Tortilla Chips",
+                                "nutrition": null
+                            },
+                            "quantity": 3.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. Enjoy!",
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": null
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Guacamole, Mild Salsa & Blue Corn Tortilla Chip Combo",
+                    "difficulty": "Easy",
+                    "image_card": "/recipe_imagesHF/card/67f560a77ad178e78b2e19e6-3b572bfc.jpeg",
+                    "image": "/recipe_imagesHF/featured/67f560a77ad178e78b2e19e6-3b572bfc.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "North American"
+                    ],
+                    "tags": [],
+                    "prep_time": "00:00:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:01:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Who doesn’t love chips and dip? We certainly do! With this trifecta, you’ll get 8 ounces of our classic guacamole—featuring avocado mashed to creamy perfection, lime juice, diced tomato and onion, and jalapeño purée—along with 12 ounces of our mild, tomato-forward salsa. To complete this easy snack or app, you’ll also get wholesome blue corn tortilla chips—a perfectly crisp and crunchy complement to both dips!",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Guacamole",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Classic Mild Salsa",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        },
+                        {
+                            "ingredient": {
+                                "name": "Blue Corn Tortilla Chips",
+                                "nutrition": null
+                            },
+                            "quantity": 3.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. Enjoy!",
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": null
+                }
+            }
+        },
+        {
+            "data": {
+                "type": "RecipeDetailAPIView",
+                "id": -1,
+                "attributes": {
+                    "title": "Coconut Curry Tofu with Bok Choy",
+                    "difficulty": "Easy",
+                    "image_card": "/recipe_imagesHF/card/67f5554f7ad178e78b2e19e5-ae800651.jpeg",
+                    "image": "/recipe_imagesHF/featured/67f5554f7ad178e78b2e19e5-ae800651.jpeg",
+                    "courses": [
+                        "main course"
+                    ],
+                    "cuisines": [
+                        "North America"
+                    ],
+                    "tags": [],
+                    "prep_time": "00:00:00",
+                    "cook_time": null,
+                    "cool_time": null,
+                    "total_time": "00:03:00",
+                    "created": null,
+                    "modified": null,
+                    "description": "Wholesome, quick, and delicious meals that are ready when you need ’em—that’s what our Ready-Made Meals are all about. For this vegetarian dish, tender pasta is tossed with fire-roasted peppers and onions, earthy kale, bok choy, and tofu, then smothered in a creamy coconut curry sauce. The best part? It’s ready to eat after a quick spin in the microwave (and no pots or pans to clean!). | 1 tray per serving.\n\n\n*Ingredients: cooked enriched spaghetti pasta (WHEAT), Thai-style yellow sauce (COCONUT), fried tofu pieces (SOY), onion and pepper blend, kale, bok choy.*",
+                    "status": 1,
+                    "activate_date": null,
+                    "deactivate_date": null,
+                    "servings": 2,
+                    "equipment": "",
+                    "ingredients": [
+                        {
+                            "ingredient": {
+                                "name": "Coconut Curry Tofu with Bok Choy",
+                                "nutrition": null
+                            },
+                            "quantity": 1.0,
+                            "unit": "unit",
+                            "groupName": null,
+                            "notes": null
+                        }
+                    ],
+                    "instructions": "1. Follow instructions on package. Enjoy!",
+                    "author": "HelloFresh",
+                    "source": "Hello Fresh",
+                    "notes": null,
+                    "rating": {
+                        "average": null,
+                        "count": null
+                    },
+                    "video_url": null,
+                    "nutrition": {
+                        "Calories": [
+                            "420",
+                            "kcal"
+                        ],
+                        "Fat": [
+                            "16",
+                            "g"
+                        ],
+                        "Saturated Fat": [
+                            "8",
+                            "g"
+                        ],
+                        "Carbohydrate": [
+                            "55",
+                            "g"
+                        ],
+                        "Sugar": [
+                            "10",
+                            "g"
+                        ],
+                        "Dietary Fiber": [
+                            "3",
+                            "g"
+                        ],
+                        "Protein": [
+                            "13",
+                            "g"
+                        ],
+                        "Sodium": [
+                            "480",
                             "mg"
                         ]
                     }
